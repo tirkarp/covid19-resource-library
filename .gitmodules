@@ -1,0 +1,3 @@
+[submodule "mobility/midas/dataset"]
+	path = mobility/midas/dataset
+	url = https://github.com/midas-network/COVID-19.git
