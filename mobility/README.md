@@ -16,6 +16,6 @@ This directory contains dataset from the following sources:
 ### Tag description
 - `Official`: data officially reported by authorities
 - `Representative`: data curated from various sources, but not officially reported by authorities
-- `NPI`: related to [non-pharmaceutical intervention](https://www.cdc.gov/nonpharmaceutical-interventions/index.html)s implemented
+- `NPI`: related to [non-pharmaceutical interventions](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) implemented
 - `Capacity`: related to healthcare support facility, such as # of beds, ventilators, etc.
 - `Traffic`: related to vehicular or pedestrian traffic volume and patterns
