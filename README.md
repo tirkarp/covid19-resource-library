@@ -9,8 +9,9 @@ To pull latest changes from all submodules, run:
 ```
 git submodule update --remote --merge
 ```
+---
 
-This repository currently contains data from the following sources:
+General sources of data that may be of interests:
 
 | Owner | Summary | Tags |
 |-|-|-|
