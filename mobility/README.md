@@ -13,7 +13,7 @@ This directory contains dataset from the following sources:
 | WSDOT |  | `Official`, `Traffic` |
 | [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019 | `Representative`, `Traffic` |
 
-### Tag description
+### Tag descriptions
 - `Official`: data officially reported by authorities
 - `Representative`: data curated from various sources, but not officially reported by authorities
 - `NPI`: related to [non-pharmaceutical interventions](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) implemented
