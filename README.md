@@ -9,3 +9,9 @@ To pull latest changes from all submodules, run:
 ```
 git submodule update --remote --merge
 ```
+
+This repository currently contains data from the following sources:
+
+| Owner | Summary | Tags |
+|-|-|-|
+| [Tableau Public](https://public.tableau.com/en-us/s/covid-19-viz-gallery) | Visualization w/ sources |  |
