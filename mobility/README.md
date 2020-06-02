@@ -9,9 +9,9 @@ This directory contains dataset from the following sources:
 | Cuebiq |  |  |
 | SafeGraph |  |  |
 | Oxford |  |  |
-| U of Washington |  |  |
+| University of Washington |  |  |
 | WSDOT |  | `Official`, `Traffic` |
-| [Yahoo! Japan](https://ds.yahoo.co.jp/report/) |  | `Representative`, `Traffic` |
+| [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019 | `Representative`, `Traffic` |
 
 ### Tag description
 - `Official`: data officially reported by authorities
