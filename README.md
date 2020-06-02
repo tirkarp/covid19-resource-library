@@ -11,7 +11,7 @@ git submodule update --remote --merge
 ```
 
 ### Source Index
-General sources of data that may be of interests:
+General sources of data that may be of interest:
 
 | Source | Description | Tags |
 |-|-|-|
