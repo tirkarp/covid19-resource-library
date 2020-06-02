@@ -10,8 +10,8 @@ This directory contains dataset from the following sources:
 | SafeGraph |  |  |
 | Oxford |  |  |
 | U of Washington |  |  |
-| WSDOT |  | `Traffic` |
-| Yahoo! Japan |  |  |
+| WSDOT |  | `Official`, `Traffic` |
+| [Yahoo! Japan](https://ds.yahoo.co.jp/report/) |  | `Representative`, `Traffic` |
 
 ### Tag description
 - `Official`: data officially reported by authorities
