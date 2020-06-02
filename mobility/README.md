@@ -1,8 +1,8 @@
 This directory contains dataset from the following sources:
 
-| Owner | Summary | Tags |
+| Source | Description | Tags |
 |-|-|-|
-| [Jataware](https://github.com/jataware/covid-19-data) |  | `Representative`, `NPI`, `Capacity` |
+| [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity for county, state and country level | `Representative`, `NPI`, `Capacity` |
 | MIDAS |  |  |
 | Google |  |  |
 | Facebook |  |  |
