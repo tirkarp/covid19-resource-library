@@ -18,4 +18,4 @@ General sources of data that may be of interest:
 | [Tableau Public](https://public.tableau.com/en-us/s/covid-19-viz-gallery) | Tableau visualizations on various aspects of COVID, from which we can obtain sources | `Gallery` |
 
 ### Tag Descriptions
-- `Gallery`: a gallery of sources from which we can pull data from
+- `Gallery`: a gallery of sources from which we can pull datasets
