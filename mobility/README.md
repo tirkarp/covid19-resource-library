@@ -2,7 +2,7 @@ This directory contains dataset from the following sources:
 
 | Owner | Summary | Tags |
 |-|-|-|
-| [Jataware](https://github.com/jataware/covid-19-data) |  | NPI |
+| [Jataware](https://github.com/jataware/covid-19-data) |  | `NPI` |
 | MIDAS |  |  |
 | Google |  |  |
 | Facebook |  |  |
@@ -10,5 +10,5 @@ This directory contains dataset from the following sources:
 | SafeGraph |  |  |
 | Oxford |  |  |
 | U of Washington |  |  |
-| WSDOT |  | Traffic |
+| WSDOT |  | `Traffic` |
 | Yahoo! Japan |  |  |
