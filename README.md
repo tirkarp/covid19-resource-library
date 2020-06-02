@@ -13,6 +13,9 @@ git submodule update --remote --merge
 
 General sources of data that may be of interests:
 
-| Owner | Summary | Tags |
+| Source | Description | Tags |
 |-|-|-|
-| [Tableau Public](https://public.tableau.com/en-us/s/covid-19-viz-gallery) | Visualization w/ sources |  |
+| [Tableau Public](https://public.tableau.com/en-us/s/covid-19-viz-gallery) | Tableau visualizations on various aspects of COVID, from which we can obtain sources | `Gallery` |
+
+### Tag descriptions
+- `Gallery`: a gallery of sources from which we can pull data from
