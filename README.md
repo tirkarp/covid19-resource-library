@@ -10,7 +10,7 @@ To pull latest changes from all submodules, run:
 git submodule update --remote --merge
 ```
 
-### Source Index
+## Source Index
 General sources of data that may be of interest:
 
 | Source | Description | Tags |
@@ -18,6 +18,6 @@ General sources of data that may be of interest:
 | [Tableau Public](https://public.tableau.com/en-us/s/covid-19-viz-gallery) | Tableau visualizations on various aspects of COVID, from which we can obtain sources. | `Catalog` |
 | [MIDAS](https://midasnetwork.us/covid-19/#resources) | Catalog of COVID-19 datasets, along with pubished estimates of parameters such as basic reproduction number. | `Catalog`, `Parameters` |
 
-### Tag Descriptions
+## Tag Descriptions
 - `Catalog`: a gallery of sources from which we can pull datasets
 - `Parameters`: contains published estimates of parameters e.g. basic reproduction number
