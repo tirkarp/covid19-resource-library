@@ -3,19 +3,24 @@ This directory contains dataset from the sources below. For more descriptions, c
 
 | Source | Description | Tags | Last Updated |
 |-|-|-|-|
-| [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level. | `Representative`, `NPI`, `Capacity` | - |
+| [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level. | `NPI`, `Capacity`, `Representative`, `General`, `County`, `State`, `Country` | - |
 | Google |  |  |  |
 | Facebook |  |  |  |
 | Cuebiq |  |  |  |
 | SafeGraph |  |  |  |
-| [Oxford](https://github.com/OxCGRT/covid-policy-tracker) | Comprehensive dataset on the record of government policies enacted to limit COVID-19 spread at a country level, indexed in terms of overall response, containment measures, stringency and economic support. | `Official`, `NPI` | - |
-| [University of Washington](https://github.com/COVID19StatePolicy/SocialDistancing) | State-level responses to contain COVID-19 spread in the US. | `Official`, `NPI` | - |
-| [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways around Washington state from Jan 1 to Jun 1. | `Official`, `Traffic` | 06/01/2020 |
-| [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Representative`, `Traffic` | 06/01/2020 |
+| [Oxford](https://github.com/OxCGRT/covid-policy-tracker) | Comprehensive dataset on the record of government policies enacted to limit COVID-19 spread at a country level, indexed in terms of overall response, containment measures, stringency and economic support. | `NPI`, `Official`, `Comprehensive`, `Country` | - |
+| [University of Washington](https://github.com/COVID19StatePolicy/SocialDistancing) | State-level responses to contain COVID-19 spread in the US. | `NPI`, `Official`, `Comprehensive`, `State` | - |
+| [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways around Washington state from Jan 1 to Jun 1. | `Traffic`, `Official`, `General`, `Washington` | 06/01/2020 |
+| [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Traffic`, `Representative`, `General`, `Japan` | 06/01/2020 |
 
 ## Tag Descriptions
 - `Official`: data officially reported by authorities
 - `Representative`: data curated from various sources, but not officially reported by authorities
+- `Comprehensive`: data reported is comprehensive and contains low-level details
+- `General`: data reported is not comprehensive and is meant for a high-level overview
 - `NPI`: related to [non-pharmaceutical interventions](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) implemented
 - `Capacity`: related to healthcare support facility, such as # of beds, ventilators, etc.
 - `Traffic`: related to vehicular or pedestrian traffic volume and patterns
+- `County`: county-level data
+- `State`: state-level data
+- `Country`: country-level data
