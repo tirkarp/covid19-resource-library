@@ -13,7 +13,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways around Washington state from Jan 1 to Jun 1. | `Traffic` | Washington | General | Official | 06/01/2020 |
 | [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Traffic`, `Index` | Japan | General | Aggregate | 06/01/2020 |
 | [Descartes Labs](https://github.com/descarteslabs/DL-COVID-19) | Dataset of the distance a typical member of a given population moves in a day. | `Travel Distance` | County, State | General | Aggregate | - |
-| [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Travel Distance`, `Air Travel`, `Rail Travel`, `Economic` | United States | Comprehensive | Official | - |
+| [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Travel Distance`, `Air Travel`, `Rail Travel`, `Economic` | United States | Comprehensive | Official | 06/03/2020 |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
@@ -26,7 +26,10 @@ This directory contains dataset from the sources below. For more descriptions, c
 - `Trends`: trends (% change) data
 - `NPI`: related to [non-pharmaceutical interventions](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) implemented
 - `Capacity`: related to healthcare support facility, such as # of beds, ventilators, etc.
+- `Economic`: contains economic data, e.g. spending, tax relief
 - `Visits`: related to the # of visits to a particular place
 - `Traffic`: related to vehicular or pedestrian traffic flow, e.g. volume or patterns
 - `Travel Distance`: related to the travel distance of the population
 - `Index`: contains indexing/ranking mechanism
+- `Air Travel`: contains information about air travel
+- `Rail Travel`: contains information about rail travel
