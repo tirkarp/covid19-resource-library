@@ -4,7 +4,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 | Source | Description | Tags | Last Updated |
 |-|-|-|-|
 | [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level. | `NPI`, `Capacity`, `Aggregate`, `General`, `County`, `State`, `Country` | - |
-| [Google](https://www.google.com/covid19/mobility/) | Mobility trends for visits to workplaces, retail stores, parks, etc., compared to a baseline pre-COVID. | `Visits`, `Aggregate`, `General`, `State`, `Country` | 05/25/2020 |
+| [Google](https://www.google.com/covid19/mobility/) | Mobility trends for visits to workplaces, retail stores, parks, etc., compared to a baseline pre-COVID. | `Visits`, `Aggregate`, `General`, `County`, `State`, `Country` | 05/25/2020 |
 | Facebook |  |  |  |
 | Cuebiq |  |  |  |
 | SafeGraph |  |  |  |
