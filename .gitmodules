@@ -4,3 +4,6 @@
 [submodule "mobility/jataware/dataset"]
 	path = mobility/jataware/dataset
 	url = https://github.com/jataware/covid-19-data.git
+[submodule "mobility/oxford/dataset"]
+	path = mobility/oxford/dataset
+	url = https://github.com/OxCGRT/covid-policy-tracker.git
