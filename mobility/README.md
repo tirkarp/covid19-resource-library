@@ -12,6 +12,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [University of Washington](https://github.com/COVID19StatePolicy/SocialDistancing) | State-level responses to contain COVID-19 spread in the US. | `NPI` | State | Compr. | Official | - |
 | [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways around Washington state from Jan 1 to Jun 1. | `Traffic` | Washington | General | Official | 06/01/2020 |
 | [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Traffic`, `Index` | Japan | General | Aggregate | 06/01/2020 |
+| [Descartes Labs](https://github.com/descarteslabs/DL-COVID-19) | Dataset of the distance a typical member of a given population moves in a day. | `Travel Distance` | County, State | General | Aggregate | - |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
@@ -26,4 +27,5 @@ This directory contains dataset from the sources below. For more descriptions, c
 - `Capacity`: related to healthcare support facility, such as # of beds, ventilators, etc.
 - `Visits`: related to the # of visits to a particular place
 - `Traffic`: related to vehicular or pedestrian traffic flow, e.g. volume or patterns
+- `Travel Distance`: related to the travel distance of the population
 - `Index`: contains indexing/ranking mechanism
