@@ -4,3 +4,6 @@
 [submodule "mobility/oxford/dataset"]
 	path = mobility/oxford/dataset
 	url = https://github.com/OxCGRT/covid-policy-tracker.git
+[submodule "mobility/uw/dataset"]
+	path = mobility/uw/dataset
+	url = https://github.com/COVID19StatePolicy/SocialDistancing.git
