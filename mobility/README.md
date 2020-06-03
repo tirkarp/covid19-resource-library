@@ -3,13 +3,13 @@ This directory contains dataset from the sources below. For more descriptions, c
 
 | Source | Description | Tags |
 |-|-|-|
-| [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity for county, state and country level | `Representative`, `NPI`, `Capacity` |
+| [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level | `Representative`, `NPI`, `Capacity` |
 | MIDAS |  |  |
 | Google |  |  |
 | Facebook |  |  |
 | Cuebiq |  |  |
 | SafeGraph |  |  |
-| Oxford |  |  |
+| [Oxford](https://github.com/OxCGRT/covid-policy-tracker) | Comprehensive dataset on the record of government policies enacted to limit COVID-19 spread at a country level, indexed in terms of overall response, containment measures, stringency and economic support. | `Official`, `NPI` |
 | University of Washington |  |  |
 | WSDOT |  | `Official`, `Traffic` |
 | [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019 | `Representative`, `Traffic` |
