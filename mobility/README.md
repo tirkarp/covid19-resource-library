@@ -1,5 +1,5 @@
 ### Source Index
-This directory contains dataset from the following sources:
+This directory contains dataset from the sources below. For more descriptions, click on the link to each source.
 
 | Source | Description | Tags |
 |-|-|-|
