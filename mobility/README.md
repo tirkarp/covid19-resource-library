@@ -1,7 +1,7 @@
 ## Source Index
 This directory contains dataset from the sources below. For more descriptions, click on the link to each source.
 
-| Source | Description | Tags | Reporting Level | Compr-ness* | Source Type | Last Updated |
+| Source | Description | Tags | Granularity | Compr-ness* | Source Type | Last Updated |
 |-|-|-|-|-|-|-|
 | [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level. | `NPI`, `Capacity` | County, State, Country | General | Aggregate | - |
 | [Google](https://www.google.com/covid19/mobility/) | Mobility trends for visits to workplaces, retail stores, parks, etc., compared to a baseline pre-COVID. | `Visits`, `Trends` | County, State, Country | General | Aggregate | 05/25/2020 |
@@ -13,6 +13,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways around Washington state from Jan 1 to Jun 1. | `Traffic` | Washington | General | Official | 06/01/2020 |
 | [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Traffic`, `Index` | Japan | General | Aggregate | 06/01/2020 |
 | [Descartes Labs](https://github.com/descarteslabs/DL-COVID-19) | Dataset of the distance a typical member of a given population moves in a day. | `Travel Distance` | County, State | General | Aggregate | - |
+| [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Travel Distance`, `Air Travel`, `Rail Travel`, `Economic` | United States | Comprehensive | Official | - |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
