@@ -12,6 +12,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [Descartes Labs](https://github.com/descarteslabs/DL-COVID-19) | Dataset of the distance a typical member of a given population moves in a day. | `Travel Distance` | County, State | General | Aggregate | - |
 | [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Travel Distance`, `Air Travel`, `Rail Travel`, `Economic` | United States | Compr. | Official | 06/03/2020 |
 | [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | 05/03/2020 |
+| Facebook | Travel patterns and movement index across the United States. | `Traffic`, `Visits`, `Trends`, `Index` | County, State, Country | General | Aggregate | 06/03/2020 |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
@@ -33,7 +34,6 @@ This directory contains dataset from the sources below. For more descriptions, c
 - `Rail Travel`: contains information about rail travel
 
 ## Additional sources pending response
-- Facebook
 - SafeGraph
 - Cuebiq
 - Streetlight
