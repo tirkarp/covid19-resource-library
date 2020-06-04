@@ -37,3 +37,4 @@ This directory contains dataset from the sources below. For more descriptions, c
 - SafeGraph
 - Cuebiq
 - Streetlight
+- INRIX
