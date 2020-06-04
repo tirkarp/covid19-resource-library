@@ -23,13 +23,15 @@ This directory contains dataset from the sources below. For more descriptions, c
 
 ## Tag Descriptions
 - `Trends`: trends (% change) data
+- `Index`: contains indexing/ranking mechanism
 - `NPI`: related to [non-pharmaceutical interventions](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) implemented
 - `Capacity`: related to healthcare support facility, such as # of beds, ventilators, etc.
 - `Economic`: contains economic data, e.g. spending, tax relief
 - `Visits`: related to the # of visits to a particular venue
 - `Traffic`: related to large-scale vehicular or pedestrian traffic flow, e.g. volume or patterns
 - `Travel Distance`: related to the travel distance of the population
-- `Index`: contains indexing/ranking mechanism
+- `Infrastructure`: contains information about infrastructure that eases or restricts mobility
+- `Population Density`: contains information about population density
 
 ## Additional sources pending response
 - SafeGraph
