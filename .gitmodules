@@ -10,3 +10,6 @@
 [submodule "mobility/descartes/dataset"]
 	path = mobility/descartes/dataset
 	url = https://github.com/descarteslabs/DL-COVID-19.git
+[submodule "mobility/berkeley/dataset"]
+	path = mobility/berkeley/dataset
+	url = https://github.com/covidvis/covid19-vis.git
