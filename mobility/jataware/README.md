@@ -1,7 +1,14 @@
 # Jataware COVID-19 Open Data
 This submodule contains data on nonpharmaceutical interventionst taken at a city, county and country level, as well as data on the healthcare capacity at a state and country level.
 
-## NPI Taxonomy
+## NPI
+
+### Schema
+`city`, `state`, `publish_date`, `url`, `title`, `category`, `population`, `lat`, `lng`
+
+The taxonomy below represent the possible values for the variable `category`.
+
+### Taxonomy
 * `state_of_emergency`: the geography has implemented a state of emergency
 * `shelter_in_place`: the geography has implemented a shelter in place or stay home order
 * `lockdown`: the geography has implemented a curfew or lockdown
@@ -11,7 +18,13 @@ This submodule contains data on nonpharmaceutical interventionst taken at a city
 * `school_business_closure`: the geography has ordered schools or businesses to close
 * `travel`: the geography has implemented travel restrictions
 
-## Healthcare Capacity Taxonomy
+## Healthcare Capacity
+
+### Schema
+* `state`
+* `publush_date`
+* `url`
+* `title`
 * `tests`: number of tests and/or test-kits
 * `ventilators`: number of ventilators or respirators
 * `beds`: number of hospital beds and/or ICU beds
