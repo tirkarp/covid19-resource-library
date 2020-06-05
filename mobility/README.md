@@ -14,6 +14,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | 05/03/2020 |
 | [Facebook](https://dataforgood.fb.com/) | Travel patterns and movement index across the United States. | `Traffic`, `Trends`, `Index` | County, State, Country | General | Aggregate | 06/03/2020 |
 | [Apple](https://www.apple.com/covid19/mobility) | Relative volume of directions requests per region as compared to baseline on Jan 13th, 2020. | `Traffic`, `Trends` | County, State, Country | General | Aggregate | 06/02/2020 |
+| [UC Berkeley](https://covidvis.berkeley.edu/) | Dataset for visualizing the impact of NPIs, more comprehensive than Keystone's or Stanford's. | `NPI`, `Cases` | County, State, Country | Comprehensive | Aggregate | - |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
@@ -27,7 +28,8 @@ This directory contains dataset from the sources below. For more descriptions, c
 - `Index`: contains indexing/ranking mechanism
 - `NPI`: related to [non-pharmaceutical interventions](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) implemented
 - `Capacity`: related to healthcare support facility, such as # of beds, ventilators, etc.
-- `Economic`: contains economic data, e.g. spending, tax relief
+- `Cases`: contains information about positive cases and deaths
+- `Economic`: contains economic data, e.g. government spending, tax relief
 - `Visits`: related to the # of visits to a particular venue
 - `Traffic`: related to large-scale vehicular or pedestrian traffic flow, e.g. volume or patterns
 - `Travel Distance`: related to the travel distance of the population
