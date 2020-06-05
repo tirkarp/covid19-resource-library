@@ -45,3 +45,6 @@ This directory contains dataset from the sources below. For more descriptions, c
 - Unacast
 - University of Maryland's Maryland Transportation Institute
 - Keystone
+
+## Additional Resources
+- [Stanford's crowdsourced NPI data](https://docs.google.com/spreadsheets/d/133Lry-k80-BfdPXhlS0VHsLEUQh5_UutqAt7czZd7ek/edit#gid=0)
