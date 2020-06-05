@@ -48,3 +48,4 @@ This directory contains dataset from the sources below. For more descriptions, c
 
 ## Additional Resources
 - [Stanford's crowdsourced NPI data](http://hci.st/socialdistancing-dataset)
+- [Mapbox's telemetry data for COVID research](https://blog.mapbox.com/support-for-covid-19-apps-497de40fee9c)
