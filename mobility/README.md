@@ -15,7 +15,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [Facebook](https://dataforgood.fb.com/) | Travel patterns and movement index across the United States. | `Traffic`, `Trends`, `Index` | County, State, Country | General | Aggregate | 06/03/2020 |
 | [Apple](https://www.apple.com/covid19/mobility) | Relative volume of directions requests per region as compared to baseline on Jan 13th, 2020. | `Traffic`, `Trends` | County, State, Country | General | Aggregate | 06/02/2020 |
 | [UC Berkeley](https://covidvis.berkeley.edu/) | Dataset for visualizing the impact of NPIs, more comprehensive than Keystone's or Stanford's. | `NPI` | County, State, Country | Compr. | Aggregate | - |
-| [IOM Point-of-Entry Restriction](https://data.humdata.org/dataset/country-point-of-entry-mobility-restriction-covid-19-iom-dtm) | Dataset for restrictions on point-of-entry at a country level. | `NPI`, `Infrastructure` | City, Country | Compr. | Aggregate | 05/28/2020 |
+| [IOM Point-of-Entry Restriction](https://data.humdata.org/dataset/country-point-of-entry-mobility-restriction-covid-19-iom-dtm) | Dataset for restrictions on point-of-entry at a country level. | `NPI`, `Infra.` | City, Country | Compr. | Aggregate | 05/28/2020 |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
@@ -34,7 +34,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 - `Visits`: related to the # of visits to a particular venue
 - `Traffic`: related to large-scale vehicular or pedestrian traffic flow, e.g. volume or patterns
 - `Travel Distance`: related to the travel distance of the population
-- `Infrastructure`: contains information about infrastructure that eases or restricts mobility
+- `Infra.`: contains information about infrastructure that eases or restricts mobility
 - `Population Density`: contains information about population density
 
 ## Additional sources pending response
