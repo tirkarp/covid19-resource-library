@@ -20,6 +20,7 @@ Here you will find resources that may be of interest:
 | [AWS Data Lake](https://aws.amazon.com/blogs/big-data/a-public-data-lake-for-analysis-of-covid-19-data/) | Centralized repository of datasets related to the spread of COVID-19. | `Catalog` |
 | [OCHA HDX](https://data.humdata.org/dataset) | OCHA's Humanitarian Data Exchange is open platform for sharing data across crises and organizations. | `Catalog` |
 | [HBR's "Which Covid-19 Data Can You Trust?"](https://hbr.org/2020/05/which-covid-19-data-can-you-trust) | General caution and common pitfalls when interpreting COVID-19 data. | `Article` |
+| [SafeGraph's COVID-19 Data](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0) | List of all available COVID-19 data available for use from SafeGraph. | `Catalog` |
 
 
 ## Tag Descriptions
