@@ -28,21 +28,56 @@ Now that airline data is not usable, what are movement patterns between countrie
 ### How was Data Gathered?
 Location Services data of Facebook mobile app users (opt-in feature)
 
+---
+
 ## Movement Range
 This data includes movement changes measured by Facebook throughout March, April, and May 2020 starting from a baseline in February.
 
 ### Files
 - `fips0.csv`: U.S.-wide movement
 - `fips1.csv`: U.S. movement, per State
-- `fips2\_{state\_code}.csv`: U.S. State movement, per County
+- `fips2_{state_code}.csv`: U.S. State movement, per County
 - `gadm0.csv`: Movement for selected countries
-- `gadm1\_{iso3\_code}.csv`: Movement for selected countries at regional level
-- `gadm12\_{iso3\_code}.csv`: Movement for selected countries at sub-regional level
+- `gadm1_{iso3_code}.csv`: Movement for selected countries at regional level
+- `gadm12_{iso3_code}.csv`: Movement for selected countries at sub-regional level
 
 ### Schema
 - `state_fips`: Two-digit FIPS code representing a U.S. State, e.g. 06 for California
 - `county_fips`: Five-digit FIPS code representing a U.S. County, e.g. 06001 for Alameda, CA
 - `gadm_code`: Alphanumeric country, region, or sub-region code referencing GADM.org data
+- `metric_date`: date which the data was collected
 - `all_day_bing_tiles_visited_relative_change`: Positive or negative change in movement relative to baseline
 - `all_day_ratio_single_tile_users`: Positive proportion of users staying put within a single location
 
+---
+
+## Disease Prevention Map
+This data is divided into multiple categories:
+- Movement maps (between tiles and administrative region)
+- Population maps (tile level and admin region level)
+- Colocation map
+
+### Movement Maps
+Movement Maps illustrate aggregate patterns of movement of Facebook users with location history turned on over a period of several hours. There are two map options for showing movement. The maps are prepared at two different levels of aggregation. The "movement between tiles" maps show patterns of movement between individual bing tiles. Meanwhile, the "movement between administrative regions" maps show patterns of movement between neighborhoods, cities, or districts.
+
+The following metrics are represented by the movement maps:
+
+- Baseline: the average number of people who moved between these two locations before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off.
+- Crisis: the number of people today that moved from that tile to another tile with location history turned on.
+
+### Population Maps
+Facebook Population Maps show the density of people using Facebook on their mobile phones with location history turned on. Tile level maps show the approximate number of people with location history enabled in a tile, whereas administrative maps show the approximate number of people with location history enabled in an administrative boundary.
+
+The following metrics are represented by the population maps:
+
+- Baseline: the average number of people in this location before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off.
+- Crisis: the number of people that appear today in that tile.
+
+### Colocation Map
+Colocation maps are spatial network datasets, provided as part of Disease Prevention Maps, that estimate how often people from different regions are colocated. In particular, these maps estimate, for each pair of regions x and y, the probability of a randomly chosen person from x and from y being colocated in the same place during a randomly chosen minute for a given week. Same place implies within the same level 16 Bing tile, which roughly corresponds to a 0.6 km by 0.6 km square, depending on the latitude.
+
+As a concrete example: if you choose a random person from Los Angeles County and a random person from San Francisco County, what is the probability that in a random minute they are in the same level 16 Bing tile anywhere in the world during a week? Colocation Maps answer this question. By multiplying by the number of minutes in a week, Colocation Maps provide an estimate of the expected total number of minutes two random people from two regions spend colocated.
+
+The following metrics are represented by the colocation maps:
+
+- Colocation probability: for a pair of regions indicates the probability that two random users assigned to those regions are colocated on a random minute during the week.
