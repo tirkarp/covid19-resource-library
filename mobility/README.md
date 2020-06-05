@@ -47,4 +47,4 @@ This directory contains dataset from the sources below. For more descriptions, c
 - Keystone
 
 ## Additional Resources
-- [Stanford's crowdsourced NPI data](https://docs.google.com/spreadsheets/d/133Lry-k80-BfdPXhlS0VHsLEUQh5_UutqAt7czZd7ek/edit#gid=0)
+- [Stanford's crowdsourced NPI data](http://hci.st/socialdistancing-dataset)
