@@ -14,12 +14,13 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | 05/03/2020 |
 | [Facebook](https://dataforgood.fb.com/) | Travel patterns and movement index across the United States. | `Traffic`, `Trends`, `Index` | County, State, Country | General | Aggregate | 06/03/2020 |
 | [Apple](https://www.apple.com/covid19/mobility) | Relative volume of directions requests per region as compared to baseline on Jan 13th, 2020. | `Traffic`, `Trends` | County, State, Country | General | Aggregate | 06/02/2020 |
-| [UC Berkeley](https://covidvis.berkeley.edu/) | Dataset for visualizing the impact of NPIs, more comprehensive than Keystone's or Stanford's. | `NPI`, `Cases` | County, State, Country | Compr. | Aggregate | - |
+| [UC Berkeley](https://covidvis.berkeley.edu/) | Dataset for visualizing the impact of NPIs, more comprehensive than Keystone's or Stanford's. | `NPI` | County, State, Country | Compr. | Aggregate | - |
+| [IOM Point-of-Entry Restriction](https://data.humdata.org/dataset/country-point-of-entry-mobility-restriction-covid-19-iom-dtm) | Dataset for restrictions on point-of-entry at a country level. | `NPI`, `Infrastructure` | City, Country | Compr. | Aggregate | 05/28/2020 |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
 - `Official`: data officially reported by authorities
-- `Aggregate`: data curated from various sources, but not officially reported by authorities
+- `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
 - `Comprehensive`: data reported is comprehensive and contains low-level details
 - `General`: data reported is not comprehensive and is meant for a high-level overview
 
