@@ -12,7 +12,8 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [Descartes Labs](https://github.com/descarteslabs/DL-COVID-19) | Dataset of the distance a typical member of a given population moves in a day. | `Travel Distance` | County, State | General | Aggregate | - |
 | [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Travel Distance`, `Economic` | United States | Compr. | Official | 06/03/2020 |
 | [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | 05/03/2020 |
-| Facebook | Travel patterns and movement index across the United States. | `Traffic`, `Trends`, `Index` | County, State, Country | General | Aggregate | 06/03/2020 |
+| [Facebook](https://dataforgood.fb.com/) | Travel patterns and movement index across the United States. | `Traffic`, `Trends`, `Index` | County, State, Country | General | Aggregate | 06/03/2020 |
+| [Apple](https://www.apple.com/covid19/mobility) | Relative volume of directions requests per region as compared to baseline on Jan 13th, 2020. | `Traffic`, `Trends` | County, State, Country | General | Aggregate | 06/02/2020 |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
