@@ -39,7 +39,6 @@ This directory contains dataset from the sources below. For more descriptions, c
 - `Population`: contains information about population density
 
 ## Additional sources pending response
-- SafeGraph
 - Cuebiq
 - Streetlight Data (need to indicate if we want updates + bug them for more metrics)
 - INRIX
