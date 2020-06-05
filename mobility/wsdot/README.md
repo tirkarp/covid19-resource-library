@@ -1,4 +1,4 @@
-# State of Washington Department of Transportation's Statistics
+# Washington Department of Transportation's Statistics
 
 The files represent the **volume of traffic per hour** along the highways in the state of washington.
 
