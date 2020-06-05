@@ -41,7 +41,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 ## Additional sources pending response
 - SafeGraph
 - Cuebiq
-- Streetlight Data (need to indicate if we want updates)
+- Streetlight Data (need to indicate if we want updates + bug them for more metrics)
 - INRIX
 - Camber Systems (pending Data Use Agreement)
 - Unacast
