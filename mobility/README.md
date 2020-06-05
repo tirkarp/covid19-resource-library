@@ -17,6 +17,7 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [UC Berkeley](https://covidvis.berkeley.edu/) | Dataset for visualizing the impact of NPIs, more comprehensive than Keystone's or Stanford's. | `NPI` | County, State, Country | Compr. | Aggregate | - |
 | [IOM Point-of-Entry Restriction](https://data.humdata.org/dataset/country-point-of-entry-mobility-restriction-covid-19-iom-dtm) | Dataset for restrictions on point-of-entry at a country level. | `NPI`, `Infra.` | City, Country | Compr. | Aggregate | 05/28/2020 |
 | [Streetlight Data](https://www.streetlightdata.com/covid-transportation-metrics/) | Transportation metrics (which right now only includes VMT) that identify community activities and travel patterns during COVID-19 period. | `Distance` | County | General | Aggregate | 06/04/2020 |
+| [SafeGraph](https://www.safegraph.com/covid-19-data-consortium) | Dataset on social distancing metrics and weekly movement patterns. | `Traffic`, `Distance`, `Trends` | City | Compr. | Aggregate | Sample |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
