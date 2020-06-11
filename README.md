@@ -10,6 +10,16 @@ To pull latest changes from all submodules, run:
 git submodule update --remote --merge
 ```
 
+To move submodules to a different directory:
+```
+git mv path-to-old-submodule path-to-new-submodule
+```
+
+To remove a submodule altogether:
+```
+git rm path-to-submodule
+```
+
 ## Resources
 Here you will find resources that may be of interest:
 
