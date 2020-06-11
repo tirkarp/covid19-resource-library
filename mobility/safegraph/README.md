@@ -1,7 +1,15 @@
-# SafeGraph Mobility Data
+# [SafeGraph Mobility Data](https://docs.safegraph.com/docs)
+
+[SafeGraph](https://safegraph.com) is a company that curates geospatial data. It has built the most comprehensive (commercially available) database in the US for _Places (POI)_ where people spend money (~5M POI). 
+
+Data is sourced from over 1,000 different sources which include: 1st party data, satellite imagery, business listings, store locator, municipal & government data, open source data, hand-drawn cartography etc. SafeGraph then combines them and algorithmically QA's and discards bad data. [[1](https://www.quora.com/How-does-SafeGraph-acquire-data/answer/Jason-Richman-3)]
+
+SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). You will need to sign up with your Purdue email and sign the Data Use Agreement before being granted access to the Slack group of researchers using the data. Alternatively, we have downloaded the datasets for our own use, available on Box.
+
+## Datasets
 
 - Weekly patterns
-- Social distancing metrics (not yet available)
+- Social distancing metrics
 
 
 ## Weekly Patterns
