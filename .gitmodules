@@ -1,15 +1,15 @@
 [submodule "mobility/jataware/dataset"]
-	path = mobility/jataware/dataset
+	path = npi/jataware/dataset
 	url = https://github.com/jataware/covid-19-data.git
 [submodule "mobility/oxford/dataset"]
-	path = mobility/oxford/dataset
+	path = npi/oxford/dataset
 	url = https://github.com/OxCGRT/covid-policy-tracker.git
 [submodule "mobility/uw/dataset"]
-	path = mobility/uw/dataset
+	path = npi/uw/dataset
 	url = https://github.com/COVID19StatePolicy/SocialDistancing.git
 [submodule "mobility/descartes/dataset"]
 	path = mobility/descartes/dataset
 	url = https://github.com/descarteslabs/DL-COVID-19.git
 [submodule "mobility/berkeley/dataset"]
-	path = mobility/berkeley/dataset
+	path = npi/berkeley/dataset
 	url = https://github.com/covidvis/covid19-vis.git
