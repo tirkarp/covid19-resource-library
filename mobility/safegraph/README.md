@@ -164,7 +164,6 @@ The dataset is organized in year, month, and day in successively enclosing direc
     │   │   └── 2020-01-02-social-distancing.csv(.gz)
     │   ...
     ...
-
 ```
 
 Each file represents the _Social Distancing Metrics_ data for one day.
