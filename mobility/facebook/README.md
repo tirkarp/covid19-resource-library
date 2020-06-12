@@ -1,6 +1,6 @@
 # Facebook Mobility Data
 
-Facebook is providing [tools for researchers](https://dataforgood.fb.com) to use aggregated location data of opt-in Facebook users for disaster prevention purposes. Some resources they provide are publicly available (such as population density maps), while some require registration and signing the data use agreement, upon which you will be sent an invitation to a Slack workspace to access more resources.
+Facebook is providing [tools for researchers](https://dataforgood.fb.com) to use aggregated location data of opt-in Facebook users for disaster prevention purposes. Some resources they provide are publicly available (such as population density maps), while some require registering and signing the data use agreement, upon which you will be sent an invitation to a Slack workspace to access more resources.
 
 Purdue has an existing data agreement with Facebook Data for Good, signed by [Ken Sandel](mailto:sandel@purdue.edu). Please reach out to him to request access to Facebook's mobility data. 
 
@@ -10,7 +10,7 @@ Alternatively, we have downloaded some relevant datasets for our own use, availa
 
 ## Datasets
 
-Among the datasets we have downloaded, we found three that provide data related to human mobility data:
+Among the datasets we have downloaded, we found three that provide data related to human mobility:
 
 - [**Travel Pattern**](#travel-pattern): # of users moving from one place to another
 - [**Movement Range**](#movement-range): change in user movement compared to a baseline (publicly available)
