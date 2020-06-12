@@ -1,12 +1,29 @@
 # Facebook Mobility Data
 
-There are 4 sets of data in the `dataset` directory:
-- Travel pattern
-- Movement range
-- Disease prevention map
-- Inclusive Internet index
+Facebook is providing [tools for researchers](https://dataforgood.fb.com) to use aggregated location data of opt-in Facebook users for disaster prevention purposes. Some resources they provide are publicly available (such as population density maps), while some require registration and signing the data use agreement, upon which you will be sent an invitation to a Slack workspace to access more resources.
+
+Purdue has an existing data agreement with Facebook Data for Good, signed by [Ken Sandel](mailto:sandel@purdue.edu). Please reach out to him for instructions for how to access Facebook's mobility data. 
+
+Alternatively, we have downloaded some relevant datasets for our own use, available on Box.
+
+
+
+## Datasets
+
+Among the datasets we have downloaded, we found three that provide data related to human mobility data:
+
+- [**Travel Pattern**](#travel-pattern): # of users moving from one place to another
+- [**Movement Range**](#movement-range): change in user movement compared to a baseline
+- [**Disease Prevention Maps**](#disease-prevention-maps): a set of maps that show mass movement, population, or colocation index
+
+More datasets can be found on [Facebook Data for Good's website](https://dataforgood.fb.com/docs/covid19/).
+
+**Note**: Facebook geospatial data is built on the smallest available tile size of the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system), and [Pittney Bowe's World Boundaries](https://dataguide.precisely.com/world-boundaries-7LP-44WA.html?utm_medium=Redirect-PB&utm_source=Direct-Traffic) for administrative regions. The fields in the datasets will be defined according to these two systems.
+
+
 
 ## Travel Pattern
+
 The Travel Patterns Map shows comparisons of the number of Facebook users moving large distances (think via air or train travel) in order to provide coronavirus epidemiologists data since they no longer can rely on airline rates or baseline census/survey data for accurate counts. This is essentially looking at international travel of Facebook users. We initially are looking exclusively at international travel. The counts of travel patterns are updated daily. A minimum of 1000 unique location services users is required for us to surface the metric in order to minimize re-identification risk. 
 
 ### Problem/Use Case
