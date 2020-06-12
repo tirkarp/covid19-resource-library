@@ -142,4 +142,27 @@ Data is released daily, and is available back till _January 1st, 2019_.
 
 Please see SafeGraph's documentation [here](https://docs.safegraph.com/docs/social-distancing-metrics).
 
-The dataset is organized in year, month, and day successively enclosing directories. Each file represents the _Social Distancing Metrics_ data for one day.
+The dataset is organized in year, month, and day in successively enclosing directories, like this:
+
+```
+├── 2019
+│   ├── 01
+│   │   ├── 01
+│   │   │   └── 2019-01-01-social-distancing.csv(.gz)
+│   │   ├── 02
+│   │   │   └── 2019-01-02-social-distancing.csv(.gz)
+│   │   ...
+│   ├── 02
+│   ...
+└── 2020
+    ├── 01
+    │   ├── 01
+    │   │   └── 2020-01-01-social-distancing.csv(.gz)
+    │   ├── 02
+    │   │   └── 2020-01-02-social-distancing.csv(.gz)
+    │   ...
+    ...
+
+```
+
+Each file represents the _Social Distancing Metrics_ data for one day.
