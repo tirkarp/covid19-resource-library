@@ -28,9 +28,10 @@ Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). Last upda
 This is the official method of accessing SafeGraph datasets, hosted at `s3://sg-c19-response/`.
 
 #### Setting up
-1. Install the AWS CLI v2 according to [this instruction](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+1. Install the AWS CLI v2 according to [this instruction](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
 2. Run `aws configure --profile safegraph`.
 3. Fill in these credentials. Please keep the credentials secret for your own use.  
+
     ```
     Access Key: AKIAWWZ7POZOI2HE24P3
     Secret Access Key: 6NRw5H8XipyQxcTylyerWsQ0TO2VoHi1xYJL04Be
@@ -45,10 +46,12 @@ Different datasets will be located at different AWS S3 paths. **The location of 
 For example, Monthly Patterns dataset is located at `s3://sg-c19-response/monthly-patterns/`.
 
 - To view all the files, run  
+
     ```
     aws s3 ls s3://sg-c19-response/monthly-patterns/ --profile safegraph
     ```
 - To download all files into your desired destination, run  
+
     ```
     aws s3 cp s3://sg-c19-response/monthly-patterns/ ./mylocaldirectory/ --recursive --profile safegraph
     ```
