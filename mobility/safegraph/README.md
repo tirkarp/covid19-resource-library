@@ -16,7 +16,7 @@ Alternatively, we have downloaded the datasets for our own use, available on [Bo
 Among SafeGraph's various datasets, we found three that provide data related to human mobility:
 
 - [**Weekly Patterns**](#weekly-patterns): a dataset of visitor and demographic aggregations available for ~4.1MM POI (~355GB)
-- [**Social Distancing Metrics**](#social-distancing-metrics): a summary of population movement aggregated by home census block groups (~100GB)
+- [**Social Distancing Metrics**](#social-distancing-metrics): a summary of population movement aggregated by home census block groups (~243GB)
 - [**Core Places**](#core-places): a dataset of information about each POI available in the US (~2GB)
 
 More datasets from SafeGraph can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0).
