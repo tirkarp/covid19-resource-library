@@ -4,9 +4,12 @@
 
 Data is sourced from over 1,000 different sources which include: 1st party data, satellite imagery, business listings, store locator, municipal & government data, open source data, hand-drawn cartography etc. SafeGraph then combines them and algorithmically QA's and discards bad data. [[1](https://www.quora.com/How-does-SafeGraph-acquire-data/answer/Jason-Richman-3)]
 
-SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). You will need to sign up with your Purdue email and sign the Data Use Agreement before being granted access to a Slack group, where you will find further instructions and resources. 
+SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). You will need to sign up with your Purdue email and sign the Data Use Agreement before being granted access to a Slack workspace, where you will find further instructions and resources. 
 
 Alternatively, we have downloaded the datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
+
+
+
 
 ## Datasets
 
@@ -18,16 +21,41 @@ Among SafeGraph's various datasets, we found three that provide data related to 
 More datasets from SafeGraph can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0).
 
 
+
+
 ## How to access data
 
-### Box (Recommended)
-Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). Last updated _June 6th, 2020_.
 
-### SafeGraph's AWS S3
+### Box - `csv` files (Recommended)
+
+Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). Last updated _June 6th, 2020_. 
+
+
+### Rill Data - SQL database, API, visualization, analytics dashboard (requires registration)
+
+[Rill Data](https://covid.rilldata.com/) is offering a fully-managed cloud database and dashboard service, hosting a curated, continuously updated data set encompassing SafeGraph’s population movement data, Facteus’s consumer spending data, and US county level COVID-19 data from the New York Times. Read the [announcement](https://safegraphcovid19.slack.com/archives/C0115PHMGM6/p1588316365401800).
+
+#### Tools provided:
+
+- **[Apache Druid](https://druid.apache.org/)**: fast, in-memory cloud database
+- **[Apache Superset](https://superset.incubator.apache.org/)**: create simple charts and tables
+- **[Unfolded](https://www.unfolded.ai/)**: data visualization tool
+
+#### To get started:
+1. Sign up for SafeGraph's [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email and join the Slack workspace. 
+2. Sign up for [Rill Data's service](https://docs.google.com/forms/d/e/1FAIpQLSf1JoBMvvdovqgH4nF-KNMVssddbxkbgx3we27tiH7B68ebIg/viewform) with your personal Gmail address.
+3. (Optional) Sign up for [Unfolded Studio](https://docs.google.com/forms/d/e/1FAIpQLSdnRBTMCasEJTLjABBVV_BOUCOS-ijz5EmO0pjyOdwwjVX3tw/viewform).
+4. Wait for email invitations.
+5. Login [here](https://covid.rilldata.com).
+6. View Apache Druid's schema [here](https://docs.google.com/spreadsheets/d/1gxBKcSjIjwBsJswA3JvjZtqBLFBssus8wO-xpUeLWYw/edit#gid=0).
+
+
+### SafeGraph's AWS S3 - `csv` files
 
 This is the official method of accessing SafeGraph datasets, hosted at `s3://sg-c19-response/`.
 
 #### Setting up
+
 1. Install the AWS CLI v2 according to [this instruction](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
 2. Run `aws configure --profile safegraph`.
 3. Fill in these credentials. Please keep the credentials secret for your own use.  
@@ -41,6 +69,7 @@ This is the official method of accessing SafeGraph datasets, hosted at `s3://sg-
     Last updated _June 6th, 2020_. Credentials are rotated every week.
 
 #### Downloading data
+
 Different datasets will be located at different AWS S3 paths. **The location of each dataset can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0)**.
 
 For example, Monthly Patterns dataset is located at `s3://sg-c19-response/monthly-patterns/`.
@@ -56,9 +85,8 @@ For example, Monthly Patterns dataset is located at `s3://sg-c19-response/monthl
     aws s3 cp s3://sg-c19-response/monthly-patterns/ ./mylocaldirectory/ --recursive --profile safegraph
     ```
 
-### RillData (dashboard)
 
-### BigQuery (planned development)
+### BigQuery - SQL database
 
 
 
