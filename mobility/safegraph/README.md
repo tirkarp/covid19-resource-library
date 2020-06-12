@@ -37,7 +37,7 @@ This is the official method of accessing SafeGraph datasets, hosted at `s3://sg-
     Default region name: us-west-2
     You can leave Default output format blank
     ```
-Last updated _June 6th, 2020_. Credentials are rotated every week.
+    Last updated _June 6th, 2020_. Credentials are rotated every week.
 
 #### Downloading data
 Different datasets will be located at different AWS S3 paths. **The location of each dataset can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0)**.
