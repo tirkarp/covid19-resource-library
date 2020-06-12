@@ -65,12 +65,9 @@ This is the official method of accessing SafeGraph datasets, hosted at `s3://sg-
 3. Fill in these credentials. Please keep the credentials secret for your own use.  
 
     ```
-    Access Key: AKIAWWZ7POZOI2HE24P3
-    Secret Access Key: 6NRw5H8XipyQxcTylyerWsQ0TO2VoHi1xYJL04Be
-    Default region name: us-west-2
-    You can leave Default output format blank
+    Please sign up for SafeGraph's COVID-19 Data Consortium to retrive the credentials.
     ```
-    Last updated _June 6th, 2020_. Credentials are rotated every week.
+    Credentials are available [here](https://safegraphcovid19.slack.com/archives/C0109NPA543/p1585177965017700).
 
 #### Downloading and using data
 
