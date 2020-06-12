@@ -1,15 +1,24 @@
-# [SafeGraph Mobility Data](https://docs.safegraph.com/docs)
+# SafeGraph Mobility Data
 
 [SafeGraph](https://safegraph.com) is a company that curates geospatial data. It has built the most comprehensive (commercially available) database in the US for _Places (POI)_ where people spend money (~5M POI). 
 
 Data is sourced from over 1,000 different sources which include: 1st party data, satellite imagery, business listings, store locator, municipal & government data, open source data, hand-drawn cartography etc. SafeGraph then combines them and algorithmically QA's and discards bad data. [[1](https://www.quora.com/How-does-SafeGraph-acquire-data/answer/Jason-Richman-3)]
 
-SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). You will need to sign up with your Purdue email and sign the Data Use Agreement before being granted access to the Slack group of researchers using the data. Alternatively, we have downloaded the datasets for our own use, available on Box.
+SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). You will need to sign up with your Purdue email and sign the Data Use Agreement before being granted access to the Slack group of researchers using the data. Alternatively, we have downloaded the datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
 
 ## Datasets
 
-- Weekly patterns
-- Social distancing metrics
+Among SafeGraph's various datasets, we found three that provide data related to human mobility:
+
+- **[Weekly Patterns](#weekly-patterns)**: a dataset of visitor and demographic aggregations available for ~4.1MM POI
+- **[Social Distancing Metrics](#social-distancing-metrics)**: a summary of population movement aggregated by home census block groups (CBG)
+
+More datasets from SafeGraph can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0).
+
+
+## How to access data
+
+
 
 
 ## Weekly Patterns
@@ -50,3 +59,6 @@ Patterns is a dataset of visitor and demographic aggregations available for ~4MM
 | state | Lowercase abbreviation of U.S. state or territory | String | ca |
 | census_block_group | FIPS code for this Census block group | String | 530330080012 |
 | number_devices_residing | Number of distinct devices observed with a primary nighttime location in the specified census block group. | Integer | 54481 |
+
+
+## Social Distancing Metrics
