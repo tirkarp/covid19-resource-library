@@ -16,7 +16,7 @@ Among the datasets we have downloaded, we found three that provide data related 
 - [**Movement Range**](#movement-range): change in user movement compared to a baseline (publicly available)
 - [**Disease Prevention Maps**](#disease-prevention-maps): a set of maps that show mass movement, population, or colocation index
 
-More datasets can be found on [Facebook Data for Good](https://dataforgood.fb.com/docs/covid19/)'s website.
+More datasets can be found on [Facebook Data for Good](https://dataforgood.fb.com/docs/covid19)'s website.
 
 **Note**: Facebook geospatial data is built on the smallest available tile size of the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system), and [Pittney Bowe's World Boundaries](https://dataguide.precisely.com/world-boundaries-7LP-44WA.html?utm_medium=Redirect-PB&utm_source=Direct-Traffic) for administrative regions. The fields in the datasets will be defined according to these two systems.
 
@@ -24,7 +24,7 @@ More datasets can be found on [Facebook Data for Good](https://dataforgood.fb.co
 
 ## How to access data
 
-Visit [Facebook Data for Good](https://dataforgood.fb.com/docs/covid19/)'s website for publicly available datasets, and reach out to [Ken Sandel](mailto:sandel@purdue.edu) to request access to non-publicly available datasets.
+Visit [Facebook Data for Good](https://dataforgood.fb.com/docs/covid19)'s website for publicly available datasets, and reach out to [Ken Sandel](mailto:sandel@purdue.edu) to request access to non-publicly available datasets.
 
 Alternatively, please explore the `csv` files we have downloaded in the [`dataset`](dataset/) folder or on Box. (~103 MB)
 
@@ -80,8 +80,8 @@ Each file may contain some of the following fields:
 | `level` | Granularity of data: <ul><li>`0` for country-level</li><li>`1` for 1st administrative level</li><li>`2` for 2nd administrative level</li></ul> | integer | 0 |
 | `polygon_id` | Unique identifier of the administrative unit  | string | 1001 |
 | `polygon_name` | Name of the administrative unit | string | Autauga |
-| `state_fips` | Two-digit [FIPS code] representing a U.S. State, e.g. 06 for California | string | 01001 |
-| `county_fips` | Five-digit [FIPS code] representing a U.S. County, e.g. 06001 for Alameda, CA | string | 937148070010051 |
+| `state_fips` | Two-digit [FIPS code] representing a U.S. State, e.g. 06 for California | string | 01 |
+| `county_fips` | Five-digit [FIPS code] representing a U.S. County, e.g. 06001 for Alameda, CA | string | 01001 |
 | `gadm_code` | Alphanumeric country, region, or sub-region code referencing gadm.org data | string | AUS |
 | `metric_date` | Date which the data was collected | string | 2020-03-01 |
 | `all_day_bing_tiles_visited_relative_change` | Positive or negative change in movement relative to baseline | float | 0.04629090414434283 |
