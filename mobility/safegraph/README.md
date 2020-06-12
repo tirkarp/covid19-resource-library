@@ -98,6 +98,7 @@ For example, Monthly Patterns dataset is located at `s3://sg-c19-response/monthl
 Read the [announcement](https://safegraphcovid19.slack.com/archives/C0115PHMGM6/p1591205322276500). 
 
 
+-----
 
 
 ## [Weekly Patterns](https://docs.safegraph.com/docs/weekly-patterns)
