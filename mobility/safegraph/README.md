@@ -4,7 +4,7 @@
 
 Data is sourced from over 1,000 different sources which include: 1st party data, satellite imagery, business listings, store locator, municipal & government data, open source data, hand-drawn cartography etc. SafeGraph then combines them and algorithmically QA's and discards bad data. [[1](https://www.quora.com/How-does-SafeGraph-acquire-data/answer/Jason-Richman-3)]
 
-SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). You will need to sign up with your Purdue email and sign the Data Use Agreement before being granted access to the Slack group of researchers using the data. Alternatively, we have downloaded the datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
+SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). You will need to sign up with your Purdue email and sign the Data Use Agreement before being granted access to a Slack group, where you will find further instructions and resources. Alternatively, we have downloaded the datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
 
 ## Datasets
 
@@ -18,6 +18,42 @@ More datasets from SafeGraph can be found [here](https://docs.google.com/spreads
 
 ## How to access data
 
+### Box (Recommended)
+Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). Last updated _June 6th, 2020_.
+
+### SafeGraph's AWS S3
+
+This is the official method of accessing SafeGraph datasets, hosted at `s3://sg-c19-response/`.
+
+#### Setting up
+1. Install the AWS CLI v2 according to [this instruction](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+2. Run `aws configure --profile safegraph`
+3. Fill in these credentials. Please keep the credentials secret for our own use.  
+```
+Access Key: AKIAWWZ7POZOI2HE24P3
+Secret Access Key: 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
+Default region name: us-west-2
+You can leave Default output format blank
+```
+Last updated _June 6th, 2020_. Credentials are rotated every week.
+
+#### Downloading data
+Different datasets will be located at different AWS S3 paths. **The location of each dataset can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0)**.
+
+For example, Monthly Patterns dataset is located at `s3://sg-c19-response/monthly-patterns/`.
+
+- To view all the files, run  
+```
+aws s3 ls s3://sg-c19-response/monthly-patterns/ --profile safegraph
+```
+- To copy ALL files into your desired destination, run  
+```
+aws s3 cp s3://sg-c19-response/monthly-patterns/ ./mylocaldirectory/ --recursive --profile safegraph
+```
+
+### RillData (dashboard)
+
+### BigQuery (planned development)
 
 
 
