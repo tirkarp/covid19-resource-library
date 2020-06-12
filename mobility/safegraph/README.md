@@ -6,7 +6,7 @@ Data is sourced from over 1,000 different sources which include: 1st party data,
 
 SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). **You will need to [sign up](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email** and sign the Data Use Agreement before being granted access to a Slack workspace, where you will find further instructions and resources. 
 
-Alternatively, we have downloaded the datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
+Alternatively, we have downloaded some relevant datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
 
 
 
