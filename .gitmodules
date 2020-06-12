@@ -13,3 +13,6 @@
 [submodule "mobility/berkeley/dataset"]
 	path = npi/berkeley/dataset
 	url = https://github.com/covidvis/covid19-vis.git
+[submodule "mobility/placeiq/dataset"]
+	path = mobility/placeiq/dataset
+	url = https://github.com/COVIDExposureIndices/COVIDExposureIndices.git
