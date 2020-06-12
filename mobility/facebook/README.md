@@ -2,9 +2,9 @@
 
 Facebook is providing [tools for researchers](https://dataforgood.fb.com) to use aggregated location data of opt-in Facebook users for disaster prevention purposes. Some resources they provide are publicly available (such as population density maps), while some require registration and signing the data use agreement, upon which you will be sent an invitation to a Slack workspace to access more resources.
 
-Purdue has an existing data agreement with Facebook Data for Good, signed by [Ken Sandel](mailto:sandel@purdue.edu). Please reach out to him for instructions for how to access Facebook's mobility data. 
+Purdue has an existing data agreement with Facebook Data for Good, signed by [Ken Sandel](mailto:sandel@purdue.edu). Please reach out to him request access to Facebook's mobility data. 
 
-Alternatively, we have downloaded some relevant datasets for our own use, available on Box.
+Alternatively, we have downloaded some relevant datasets for our own use, available in the [`dataset`](dataset/) folder or on Box.
 
 
 
@@ -13,34 +13,45 @@ Alternatively, we have downloaded some relevant datasets for our own use, availa
 Among the datasets we have downloaded, we found three that provide data related to human mobility data:
 
 - [**Travel Pattern**](#travel-pattern): # of users moving from one place to another
-- [**Movement Range**](#movement-range): change in user movement compared to a baseline
+- [**Movement Range**](#movement-range): change in user movement compared to a baseline (publicly available)
 - [**Disease Prevention Maps**](#disease-prevention-maps): a set of maps that show mass movement, population, or colocation index
 
-More datasets can be found on [Facebook Data for Good's website](https://dataforgood.fb.com/docs/covid19/).
+More datasets can be found on [Facebook Data for Good](https://dataforgood.fb.com/docs/covid19/)'s website.
 
 **Note**: Facebook geospatial data is built on the smallest available tile size of the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system), and [Pittney Bowe's World Boundaries](https://dataguide.precisely.com/world-boundaries-7LP-44WA.html?utm_medium=Redirect-PB&utm_source=Direct-Traffic) for administrative regions. The fields in the datasets will be defined according to these two systems.
 
 
 
+## How to access data
+
+Visit [Facebook Data for Good](https://dataforgood.fb.com/docs/covid19/)'s website for publicly available datasets, and reach out to [Ken Sandel](mailto:sandel@purdue.edu) to request access to non-publicly available datasets.
+
+Alternatively, please explore the `csv` files we have downloaded in the [`dataset`](dataset/) folder or on Box.
+
+
+
 ## Travel Pattern
 
-The Travel Patterns Map shows comparisons of the number of Facebook users moving large distances (think via air or train travel) in order to provide coronavirus epidemiologists data since they no longer can rely on airline rates or baseline census/survey data for accurate counts. This is essentially looking at international travel of Facebook users. We initially are looking exclusively at international travel. The counts of travel patterns are updated daily. A minimum of 1000 unique location services users is required for us to surface the metric in order to minimize re-identification risk. 
+The Travel Patterns Map shows comparisons of the number of Facebook users moving large distances (think via air or train travel) in order to provide coronavirus epidemiologists data since they no longer can rely on airline rates or baseline census/survey data for accurate counts. This is essentially looking at international travel of Facebook users. The counts of travel patterns are updated daily. A minimum of 1000 unique location services users is required for us to surface the metric in order to minimize re-identification risk. 
 
 ### Problem/Use Case
 Now that airline data is not usable, what are movement patterns between countries compared to pre-crisis levels?  This helps both epidemiologists and public health policy makers understand the rate at which pathogens are likely to be introduced to a population from outside. Also this data is useful for understanding the economic impact and recovery of the travel and tourism industries. 
 
-### Schema
-- `ds`: date which the data was collected defined by UTC time zone.	
-- `polygon1_id`: The unique identifier of the origin location of the travel.
-- `polygon1_name`: The name of the origin location (usually country name).	
-- `latitude1`: The latitude of the center point of the origin polygon.	
-- `longitude1`: The longitude of the center point of the origin polygon.
-- `polygon2_id`: The unique identifier of the destination location of the travel. 
-- `polygon2_name`: The name of the destination location (usually country name).	
-- `latitude2`: The latitude of the center point of the destination polygon.
-- `longitude2`: The longitude of the center point of the destination polygon.
-- `metric_value`: The count of the unique number of Facebook users with Location Services enabled that traveled from the origin to the destination during the DS time period. 
-- `metric_name`: Description of the metric value for visualization purposes. In this case always “travel counts”
+### Structure
+| Field | Description | Type | Example |
+|---|---|---|---|
+| `ds` | Date which the data was collected defined by UTC time zone | string | 2020-02-28 |
+| `polygon1_id` | Unique identifier of the origin location of the travel | string | 937148070010051 |
+| `polygon1_name` | Name of the origin location (usually country name) | string | united states |
+| `latitude1` | Latitude of the center point of the origin polygon | float | 40.0 |
+| `longitude1` | Longitude of the center point of the origin polygon | float | -100.0 |
+| `polygon2_id` | Unique identifier of the destination location of the travel | string | 381900512398634 |
+| `polygon2_name` | Name of the destination location (usually country name) | string | ecuador |
+| `latitude2` | Latitude of the center point of the destination polygon | float | -1.4666666666667 |
+| `longitude2` | Longitude of the center point of the destination polygon | float | -78.816666666667 |
+| `metric_value` | Count of the unique number of Facebook users with Location Services enabled that traveled from the origin to the destination during the `ds` time period | integer | 1995 |
+| `metric_name` | Description of the metric value for visualization purposes, in this case always `travel counts` | string | travel counts |
+
 
 ### How was Data Gathered?
 Location Services data of Facebook mobile app users (opt-in feature)
