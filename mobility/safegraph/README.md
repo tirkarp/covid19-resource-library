@@ -13,10 +13,11 @@ Alternatively, we have downloaded the datasets for our own use, available on [Bo
 
 ## Datasets
 
-Among SafeGraph's various datasets, we found two that provide data related to human mobility:
+Among SafeGraph's various datasets, we found three that provide data related to human mobility:
 
-- **[Weekly Patterns](#weekly-patterns)**: a dataset of visitor and demographic aggregations available for ~4.1MM POI
-- **[Social Distancing Metrics](#social-distancing-metrics)**: a summary of population movement aggregated by home census block groups
+- [**Weekly Patterns**](#weekly-patterns): a dataset of visitor and demographic aggregations available for ~4.1MM POI
+- [**Social Distancing Metrics**](#social-distancing-metrics): a summary of population movement aggregated by home census block groups
+- [**Core Places**](#core-places): a dataset of information about each POI available in the US
 
 More datasets from SafeGraph can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0).
 
@@ -39,9 +40,9 @@ Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). Last upda
 
 #### Tools provided:
 
-- **[Apache Druid](https://druid.apache.org/)**: fast, in-memory cloud database
-- **[Apache Superset](https://superset.incubator.apache.org/)**: create simple charts and tables
-- **[Unfolded](https://www.unfolded.ai/)**: data visualization tool
+- [**Apache Druid**](https://druid.apache.org/): fast, in-memory cloud database
+- [**Apache Superset**](https://superset.incubator.apache.org/): create simple charts and tables
+- [**Unfolded**](https://www.unfolded.ai/): data visualization tool
 
 #### To get started:
 
@@ -117,10 +118,10 @@ Please see SafeGraph's documentation [here](https://docs.safegraph.com/docs/week
 
 The dataset is organized into 4 directories:
 
-- **[main-file](https://docs.safegraph.com/docs/weekly-patterns#section-schema)**: each file contains patterns data for each week 
-- **[home-summary-file](https://docs.safegraph.com/docs/weekly-patterns#section-home-location-distributions-by-state-census-block-group)**: breakdown of the home origin of the devices in each _weekly patterns_
-- **[normalization-stats](https://docs.safegraph.com/docs/weekly-patterns#section-normalization-stats)**: information such as _total visits_ or _total devices seen_ each week for normalization
-- **[release-metadata](https://docs.safegraph.com/docs/weekly-patterns#section-release-metadata)**: metadata about each week, such as _total POI_
+- [**main-file**](https://docs.safegraph.com/docs/weekly-patterns#section-schema): each file contains patterns data for each week 
+- [**home-summary-file**](https://docs.safegraph.com/docs/weekly-patterns#section-home-location-distributions-by-state-census-block-group): breakdown of the home origin of the devices in each _weekly patterns_
+- [**normalization-stats**](https://docs.safegraph.com/docs/weekly-patterns#section-normalization-stats): information such as _total visits_ or _total devices seen_ each week for normalization
+- [**release-metadata**](https://docs.safegraph.com/docs/weekly-patterns#section-release-metadata): metadata about each week, such as _total POI_
 
 **Note**: all `safegraph_place_id`s and `safegraph_brand_id`s in _Weekly Patterns_ data should be found in SafeGraph's [_Core Places_](https://docs.safegraph.com/docs#section-core-places) dataset, should you need any cross-referencing or more details about each place.
 
@@ -128,7 +129,7 @@ The dataset is organized into 4 directories:
 
 ## [Social Distancing Metrics](https://docs.safegraph.com/docs/social-distancing-metrics)
 
-Social Distancing Metrics is a dataset that summarizes the population movement aggregated by home census block groups (CBG), as opposed to individual POI in _Weekly Patterns_. It contains information _such as (non-exhaustive)_:
+Social Distancing Metrics is a dataset that summarizes the population movement aggregated by home census block groups, as opposed to individual POI in _Weekly Patterns_. It contains information _such as (non-exhaustive)_:
 
 - distance traveled from home
 - amount of time a device is at home
@@ -166,3 +167,30 @@ The dataset is organized in year, month, and day in successively enclosing direc
 ```
 
 Each file represents the _Social Distancing Metrics_ data for one day.
+
+
+
+
+## [Core Places](https://docs.safegraph.com/docs#section-core-places)
+
+Core Places is a dataset that contains information about each place in SafeGraph's database. It can be used with SafeGraph's [_Geometry_ dataset](https://docs.safegraph.com/docs/places-schema#section-geometry) to obtain spatial information about a place, such as area or polygonal shapes.
+
+Core Places contains information _such as (non-exhaustive)_:
+
+- category of the place
+- location, latitude/longitude, address
+- brand
+- phone number
+- operating hours
+
+
+### Structure 
+
+Please see SafeGraph's documentation [here](https://docs.safegraph.com/docs#section-core-places).
+
+The dataset is organized into 2 files:
+
+- [**core-poi**](https://docs.safegraph.com/docs#section-core-places): base information about SafeGraph POI
+- [**brand-info**](https://docs.safegraph.com/docs#section-brand-info): base information associated with a brand referenced in _Core Places_ data
+
+**Note**: `core-poi` files on Box are divided into 5 `csv` files.
