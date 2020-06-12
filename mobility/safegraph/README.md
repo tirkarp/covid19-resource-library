@@ -1,6 +1,6 @@
 # SafeGraph Mobility Data
 
-[SafeGraph](https://safegraph.com) is a company that curates geospatial data. It has built the most comprehensive (commercially available) database in the US for _Places (POI)_ where people spend money (~5M POI). 
+[SafeGraph](https://safegraph.com) is a company that curates geospatial data. It has built the most comprehensive (commercially available) database in the US for **Places (POI)** where people spend money (~5M POI). 
 
 Data is sourced from over 1,000 different sources which include: 1st party data, satellite imagery, business listings, store locator, municipal & government data, open source data, hand-drawn cartography etc. SafeGraph then combines them and algorithmically QA's and discards bad data. [[1](https://www.quora.com/How-does-SafeGraph-acquire-data/answer/Jason-Richman-3)]
 
@@ -16,7 +16,7 @@ Alternatively, we have downloaded the datasets for our own use, available on [Bo
 Among SafeGraph's various datasets, we found two that provide data related to human mobility:
 
 - **[Weekly Patterns](#weekly-patterns)**: a dataset of visitor and demographic aggregations available for ~4.1MM POI
-- **[Social Distancing Metrics](#social-distancing-metrics)**: a summary of population movement aggregated by home census block groups (CBG)
+- **[Social Distancing Metrics](#social-distancing-metrics)**: a summary of population movement aggregated by home census block groups
 
 More datasets from SafeGraph can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0).
 
@@ -101,11 +101,14 @@ Read the [announcement](https://safegraphcovid19.slack.com/archives/C0115PHMGM6/
 
 ## [Weekly Patterns](https://docs.safegraph.com/docs/weekly-patterns)
 
-Patterns is a dataset of visitor and demographic aggregations available for ~4.1MM POI in the United States. It contains fields such as (non-exhaustive):
+Patterns is a dataset of visitor and demographic aggregations available for ~4.1MM POI in the United States. It contains information _such as (non-exhaustive)_:
+
 - visitor count to a POI (per hour or day)
 - distance from home travelled by visitors
 - duration of the visits 
 - other brands that visitors to a particular POI also visit
+
+Data is released weekly, and is available back till _January 1st, 2019_.
 
 
 ### Structure
@@ -113,10 +116,30 @@ Patterns is a dataset of visitor and demographic aggregations available for ~4.1
 Please see SafeGraph's documentation [here](https://docs.safegraph.com/docs/weekly-patterns).
 
 The dataset is organized into 4 directories:
+
 - **[main-file](https://docs.safegraph.com/docs/weekly-patterns#section-schema)**: each file contains patterns data for each week 
-- **[home-summary-file](https://docs.safegraph.com/docs/weekly-patterns#section-home-location-distributions-by-state-census-block-group)**: breakdown of the home origin of the devices in each weekly patterns
+- **[home-summary-file](https://docs.safegraph.com/docs/weekly-patterns#section-home-location-distributions-by-state-census-block-group)**: breakdown of the home origin of the devices in each _weekly patterns_
 - **[normalization-stats](https://docs.safegraph.com/docs/weekly-patterns#section-normalization-stats)**: information such as _total visits_ or _total devices seen_ each week for normalization
-- **[release-metadata](https://docs.safegraph.com/docs/weekly-patterns#section-release-metadata)**: metadata about each week, such as _total POI_.
+- **[release-metadata](https://docs.safegraph.com/docs/weekly-patterns#section-release-metadata)**: metadata about each week, such as _total POI_
+
+**Note**: all `safegraph_place_id`s and `safegraph_brand_id`s in _Weekly Patterns_ data should be found in SafeGraph's [_Core Places_](https://docs.safegraph.com/docs#section-core-places) dataset, should you need any cross-referencing or more details about each place.
 
 
-## Social Distancing Metrics
+
+## [Social Distancing Metrics](https://docs.safegraph.com/docs/social-distancing-metrics)
+
+Social Distancing Metrics is a dataset that summarizes the population movement aggregated by home census block groups (CBG), as opposed to individual POI in _Weekly Patterns_. It contains information _such as (non-exhaustive)_:
+
+- distance traveled from home
+- amount of time a device is at home
+- the number of devices used for delivery
+- the number of devices used for part-time or full-time work
+
+Data is released daily, and is available back till _January 1st, 2019_.
+
+
+### Structure
+
+Please see SafeGraph's documentation [here](https://docs.safegraph.com/docs/social-distancing-metrics).
+
+The dataset is organized in year, month, and day successively enclosing directories. Each file represents the _Social Distancing Metrics_ data for one day.
