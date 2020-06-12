@@ -102,7 +102,7 @@ Read the [announcement](https://safegraphcovid19.slack.com/archives/C0115PHMGM6/
 
 ## [Weekly Patterns](https://docs.safegraph.com/docs/weekly-patterns)
 
-Patterns is a dataset of visitor and demographic aggregations available for ~4.1MM POI in the United States. It contains information _such as (non-exhaustive)_:
+Patterns is a dataset of visitor and demographic aggregations available for ~4.1MM POI that answer how often people visit, where they came from, where else they go, and more. It contains information _such as (non-exhaustive)_:
 
 - visitor count to a POI (per hour or day)
 - distance from home travelled by visitors
