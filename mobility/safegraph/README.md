@@ -31,7 +31,7 @@ Sign up for SafeGraph's [COVID-19 Data Consortium](https://www.safegraph.com/cov
 
 ### Box - `csv` files (Recommended)
 
-Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). ~Last updated _June 6th, 2020_. 
+Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). ~600GB. Last updated _June 6th, 2020_. 
 
 
 ### Rill Data - SQL database, API, visualization, analytics dashboard (requires registration)
