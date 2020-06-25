@@ -101,12 +101,12 @@ Each file may contain some of the following fields:
 
 Disease Prevention Maps is a dataset designed to help organizations close gaps in understanding where people live, how people are moving, and the state of their cellular connectivity, in order to improve the effectiveness of health campaigns and epidemic response. 
 
-This dataset is only crisis-specific and region-specific. e.g. it only provides information for the US Midwest, or the US Eastern time zone region for COVID-19 purposes starting and ending on specific dates (such as May 29 - June 23). How Facebook determines these categorization seems arbitrary to me at the moment, but it seems like individual researchers can request for a specific data on Slack.
+This dataset is only crisis-specific and region-specific. e.g. it only provides information for the _US Midwest_, or the _US Eastern time zone_ region for COVID-19 purposes starting and ending on specific dates (such as May 29 - June 23). How Facebook determines these categorization seems arbitrary to me at the moment, but it seems like individual researchers can request for a specific data on Slack.
 
 Within each region, a few maps are provided:
-- Movement Map (between tiles and administrative region)
-- Population Map (tile level and administrative region level)
-- Colocation Map
+- [Movement Maps](#movement-maps) (between tiles and administrative region)
+- [Population Maps](#population-maps) (tile level and administrative region level)
+- [Colocation Maps](#colocation-maps)
 
 In addition, there is an interactive map that you can launch on [GeoInsights Portal](https://www.facebook.com/geoinsights-portal) that shows the dataset in action.
 
@@ -115,7 +115,7 @@ You can search for all available Disease Prevention Maps on the [GeoInsights Por
 
 ### Movement Maps
 
-Movement Maps illustrate aggregate patterns of movement of Facebook users with location history turned on over a period of several hours. There are two map options for showing movement. The maps are prepared at two different levels of aggregation. The "movement between tiles" maps show patterns of movement between individual bing tiles. Meanwhile, the "movement between administrative regions" maps show patterns of movement between neighborhoods, cities, or districts.
+Movement Maps illustrate aggregate patterns of movement of Facebook users with location history turned on over a period of several hours. There are two map options for showing movement. The maps are prepared at two different levels of aggregation. The _movement between tiles_ maps show patterns of movement between individual bing tiles. Meanwhile, the _movement between administrative regions_ maps show patterns of movement between neighborhoods, cities, or districts.
 
 The following [metrics](https://www.facebook.com/help/geoinsights/591245441383373/?helpref=hc_fnav&bc[0]=SPACO%20Help%20Center&bc[1]=Disease%20Prevention%20Maps) are represented by the movement maps:
 
@@ -125,14 +125,14 @@ The following [metrics](https://www.facebook.com/help/geoinsights/59124544138337
 
 
 ### Population Maps
-Facebook Population Maps show the density of people using Facebook on their mobile phones with location history turned on. Tile level maps show the approximate number of people with location history enabled in a tile, whereas administrative maps show the approximate number of people with location history enabled in an administrative boundary.
+Facebook Population Maps show the density of people using Facebook on their mobile phones with location history turned on. _Tile level maps_ show the approximate number of people with location history enabled in a tile, whereas _administrative maps_ show the approximate number of people with location history enabled in an administrative boundary.
 
 The following metrics are represented by the population maps:
 
 - Baseline: the average number of people in this location before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off.
 - Crisis: the number of people that appear today in that tile.
 
-### Colocation Map
+### Colocation Maps
 Colocation maps are spatial network datasets, provided as part of Disease Prevention Maps, that estimate how often people from different regions are colocated. In particular, these maps estimate, for each pair of regions x and y, the probability of a randomly chosen person from x and from y being colocated in the same place during a randomly chosen minute for a given week. Same place implies within the same level 16 Bing tile, which roughly corresponds to a 0.6 km by 0.6 km square, depending on the latitude.
 
 As a concrete example: if you choose a random person from Los Angeles County and a random person from San Francisco County, what is the probability that in a random minute they are in the same level 16 Bing tile anywhere in the world during a week? Colocation Maps answer this question. By multiplying by the number of minutes in a week, Colocation Maps provide an estimate of the expected total number of minutes two random people from two regions spend colocated.
