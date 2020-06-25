@@ -1,6 +1,6 @@
 # Facebook Mobility Data
 
-Facebook is providing [tools for researchers](https://dataforgood.fb.com) to use aggregated location data of opt-in Facebook users for disaster prevention purposes. Some resources they provide are publicly available (such as population density maps), while some require registering and signing the data use agreement, upon which you will be sent an invitation to a Slack workspace to access more resources.
+Facebook is providing [tools for researchers](https://dataforgood.fb.com) to use aggregated location data of opt-in Facebook users for disaster prevention purposes. Some resources they provide are publicly available (such as population density maps), while some require registering and signing the data use agreement, upon which you will be sent an invitation to a Slack workspace and the [GeoInsights Portal](https://www.facebook.com/geoinsights-portal).
 
 Purdue has an existing data agreement with Facebook Data for Good, signed by [Ken Sandel](mailto:sandel@purdue.edu). Please reach out to him to request access to Facebook's mobility data. 
 
@@ -56,11 +56,16 @@ Data is released daily, and is available back till _February 28th, 2020_.
 
 ## Movement Range
 
-Movement Range Maps is a dataset that answers how populations are responding to physical distancing measures. It includes movement changes throughout March, April, and May 2020 starting from a baseline in February.
+_Update: Facebook has released a new version of the Movement Range Maps. Information below will be updated to match the new version soon._
 
-This dataset have two different metrics: _Change in Movement_ and _Stay Put_. The _Change in Movement_ metric looks at how much people are moving around and compares it to a baseline period that predates most social distancing measures. The _Stay Put_ metric looks at the fraction of the population that appears to stay within a small area surrounding their home for an entire day.
+Movement Range Maps is a dataset that answers how populations are responding to physical distancing measures. It includes movement changes throughout March, April, and May 2020 starting from a baseline in February. 
 
-This dataset is publicly available [here](https://dataforgood.fb.com/docs/covid19). Data is released daily, and is available back till _March 1st, 2020_.
+This dataset shows two different metrics: 
+
+- **Change in Movement**: looks at how much people are moving around and compares it to a baseline period that predates most social distancing measures
+- **Stay Put**: looks at the fraction of the population that appears to stay within a small area surrounding their home for an entire day
+
+This dataset is publicly available on [Facebook Data for Good website](https://dataforgood.fb.com/docs/covid19). Data is released daily, and is available back till _March 1st, 2020_.
 
 ### Structure
 
@@ -92,19 +97,32 @@ Each file may contain some of the following fields:
 
 ---
 
-## Disease Prevention Map
-This data is divided into multiple categories:
-- Movement maps (between tiles and administrative region)
-- Population maps (tile level and admin region level)
-- Colocation map
+## Disease Prevention Maps
+
+Disease Prevention Maps is a dataset designed to help organizations close gaps in understanding where people live, how people are moving, and the state of their cellular connectivity, in order to improve the effectiveness of health campaigns and epidemic response. 
+
+This dataset is only crisis-specific and region-specific. e.g. it only provides information for the US Midwest, or the US Eastern time zone region for COVID-19 purposes starting and ending on specific dates (such as May 29 - June 23). How Facebook determines these categorization seems arbitrary to me at the moment, but it seems like individual researchers can request for a specific data on Slack.
+
+Within each region, a few maps are provided:
+- Movement Map (between tiles and administrative region)
+- Population Map (tile level and administrative region level)
+- Colocation Map
+
+In addition, there is an interactive map that you can launch on [GeoInsights Portal](https://www.facebook.com/geoinsights-portal) that shows the dataset in action.
+
+You can search for all available Disease Prevention Maps on the [GeoInsights Portal](https://www.facebook.com/geoinsights-portal).
+
 
 ### Movement Maps
+
 Movement Maps illustrate aggregate patterns of movement of Facebook users with location history turned on over a period of several hours. There are two map options for showing movement. The maps are prepared at two different levels of aggregation. The "movement between tiles" maps show patterns of movement between individual bing tiles. Meanwhile, the "movement between administrative regions" maps show patterns of movement between neighborhoods, cities, or districts.
 
-The following metrics are represented by the movement maps:
+The following [metrics](https://www.facebook.com/help/geoinsights/591245441383373/?helpref=hc_fnav&bc[0]=SPACO%20Help%20Center&bc[1]=Disease%20Prevention%20Maps) are represented by the movement maps:
 
-- Baseline: the average number of people who moved between these two locations before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off.
-- Crisis: the number of people today that moved from that tile to another tile with location history turned on.
+- **Baseline**: the average number of people who moved between two locations before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off
+- **Crisis**: the number of people on a given day that moved from that tile to another tile with location history turned on
+
+
 
 ### Population Maps
 Facebook Population Maps show the density of people using Facebook on their mobile phones with location history turned on. Tile level maps show the approximate number of people with location history enabled in a tile, whereas administrative maps show the approximate number of people with location history enabled in an administrative boundary.
