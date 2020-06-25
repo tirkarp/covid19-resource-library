@@ -101,7 +101,7 @@ Each file may contain some of the following fields:
 
 Disease Prevention Maps is a dataset designed to help organizations close gaps in understanding where people live, how people are moving, and the state of their cellular connectivity, in order to improve the effectiveness of health campaigns and epidemic response. 
 
-This dataset is only crisis-specific and region-specific. e.g. it only provides information for the _US Midwest_, or the _US Eastern time zone_ region for COVID-19 purposes starting and ending on specific dates (such as May 29 - June 23). How Facebook determines these categorization seems arbitrary to me at the moment, but it seems like individual researchers can request for a specific data on Slack.
+This dataset is only crisis-specific and region-specific. e.g. it only provides information for the _US Midwest_, or the _US Eastern time zone_ region for COVID-19 purposes starting and ending on specific dates (such as _May 29 - June 23_). How Facebook determines these categorization seems arbitrary to me at the moment, but it seems like individual researchers can request for a specific data on Slack.
 
 Within each region, a few maps are provided:
 - [Movement Maps](#movement-maps) (between tiles and administrative region)
