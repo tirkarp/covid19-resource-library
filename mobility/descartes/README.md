@@ -98,11 +98,11 @@ This data is licensed under a [Creative Commons Attribution 4.0
 International License](https://creativecommons.org/licenses/by/4.0/), which requires attribution to "Descartes
 Labs."  
 
-Scientific publications may cite,
+Scientific publications may cite
 
 > Warren, Michael S. & Skillman, Samuel W. "Mobility Changes in Response to COVID-19". _arXiv:2003.14228 [cs.SI]_, Mar. 2020. [arxiv.org/abs/2003.14228](https://arxiv.org/abs/2003.14228)
 
 For online use, please link to Descartes Labs' website at
-[descarteslabs.com/mobility/](https://descarteslabs.com/mobility/).
+[descarteslabs.com/mobility](https://descarteslabs.com/mobility/).
 
 See the [LICENSE](https://github.com/descarteslabs/DL-COVID-19/blob/master/LICENSE) for the terms of use for this data.
