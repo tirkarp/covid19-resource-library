@@ -15,6 +15,7 @@ Among the datasets we have downloaded, we found three that provide data related 
 - [**Travel Pattern**](#travel-pattern): # of users moving from one place to another
 - [**Movement Range**](#movement-range): change in user movement compared to a baseline (publicly available)
 - [**Disease Prevention Maps**](#disease-prevention-maps): a set of maps that show mass movement, population, or colocation index
+- [**Social Connectedness Index**](#social-connectedness-index): _coming soon!_
 
 More datasets can be found on [Facebook Data for Good](https://dataforgood.fb.com/docs/covid19)'s website.
 
@@ -223,6 +224,10 @@ They also described what `n_crisis` actually represents:
 > This means that start and end location can be the same for users who did not leave, or also for those users who left but for not long enough to change the most common location during either 8 hour window.
 
 Read more in the [Slack thread][3].
+
+---
+
+## Social Connectedness Index
 
 
 [1]: https://www.facebook.com/geoinsights-portal
