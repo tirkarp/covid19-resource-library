@@ -13,7 +13,7 @@ Alternatively, we have downloaded some relevant datasets for our own use, availa
 Among the datasets we have downloaded, we found three that provide data related to human mobility:
 
 - [**Travel Pattern**](#travel-pattern): # of users moving from one place to another
-- [**Movement Range**](#movement-range): change in user movement compared to a baseline (publicly available)
+- [**Movement Range Trends**](#movement-range-trends): change in user movement compared to a baseline (publicly available)
 - [**Disease Prevention Maps**](#disease-prevention-maps): a set of maps that show mass movement, population, or colocation index
 - [**Social Connectedness Index**](#social-connectedness-index): _coming soon!_
 
@@ -35,6 +35,8 @@ Alternatively, please explore the `csv` files we have downloaded in the [`datase
 
 The Travel Patterns Map shows comparisons of the number of Facebook users moving large distances (think air or train travel). This is essentially looking at international travel of Facebook users. This data comes in useful because airline data is no longer accurate amidst the disruptions. 
 
+Read the official summary [here](https://www.facebook.com/help/geoinsights/355838765392401?helpref=hc_fnav).
+
 Data is released daily, and is available back till _February 28th, 2020_.
 
 ### Structure
@@ -44,27 +46,29 @@ Data is released daily, and is available back till _February 28th, 2020_.
 | `ds` | Date which the data was collected, in the form `YYYY-MM-DD` | string | 2020-02-28 |
 | `polygon1_id` | Unique identifier of the [origin location][2] of the travel | string | 937148070010051 |
 | `polygon1_name` | Name of the [origin location][2] (usually country name in lowercase) | string | united states |
-| `latitude1` | Latitude of the center point of the origin polygon | float | 40.0 |
-| `longitude1` | Longitude of the center point of the origin polygon | float | -100.0 |
+| `latitude1` | Latitude of the center point of the origin polygon | string | 40.0 |
+| `longitude1` | Longitude of the center point of the origin polygon | string | -100.0 |
 | `polygon2_id` | Unique identifier of the [destination location][2] of the travel | string | 381900512398634 |
 | `polygon2_name` | Name of the [destination location][2] (usually country name in lowercase) | string | ecuador |
-| `latitude2` | Latitude of the center point of the destination polygon | float | -1.4666666666667 |
-| `longitude2` | Longitude of the center point of the destination polygon | float | -78.816666666667 |
+| `latitude2` | Latitude of the center point of the destination polygon | string | -1.4666666666667 |
+| `longitude2` | Longitude of the center point of the destination polygon | string | -78.816666666667 |
 | `metric_value` | Count of the unique number of Facebook users with location services enabled, that traveled from the origin to the destination during the `ds` time period | integer | 1995 |
 | `metric_name` | Description of the metric value for visualization purposes, in this case always `travel counts` | string | travel counts |
 
 
 
-## Movement Range
+## Movement Range Trends
 
 _**Update**: Facebook has released a new version of the Movement Range Maps. Information below will be updated to match the new version soon._
 
 Movement Range Maps is a dataset that answers how populations are responding to physical distancing measures. It includes movement changes throughout March, April, and May 2020 starting from a baseline in February. 
 
-This dataset shows two different metrics: 
+This dataset shows two different [metrics](https://www.facebook.com/help/geoinsights/245171903384733?helpref=hc_fnav): 
 
 - **Change in Movement**: looks at how much people are moving around and compares it to a baseline period that predates most social distancing measures
 - **Stay Put**: looks at the fraction of the population that appears to stay within a small area surrounding their home for an entire day
+
+Methodology on how Movement Range Maps is calculated can be found on the [GeoInsights Portal](https://www.facebook.com/help/geoinsights/245171903384733?helpref=hc_fnav).
 
 This dataset is publicly available on [Facebook Data for Good website](https://dataforgood.fb.com/docs/covid19). Data is released daily, and is available back till _March 1st, 2020_.
 
@@ -96,7 +100,7 @@ Each file may contain some of the following fields:
 
 [FIPS code]: https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt
 
----
+-----
 
 ## Disease Prevention Maps
 
@@ -114,12 +118,14 @@ Some regions provide more types of maps than listed here. In addition, there is 
 
 Each map (at a specific data at a specific time) will be its own `.csv` file. You can search for all available Disease Prevention Maps on the [GeoInsights Portal][1]. Data for coronavirus maps are usually updated three times a day at 0000hr, 0800hr and 1600hr.
 
+Unofficial quick start guide on how to understand Disease Prevention Maps data can be found on [this GitHub repo](https://github.com/syjia/fbcolocation). (cr. Shenyue Jia from Chapman University)
+
 
 ### Movement Maps
 
 Movement Maps illustrate aggregate patterns of movement of Facebook users with location history turned on over a period of several hours. There are two map options for showing movement. The maps are prepared at two different levels of aggregation. The _Movement between tiles_ maps show patterns of movement between individual Bing tiles. Meanwhile, the _Movement between administrative regions_ maps show patterns of movement between neighborhoods, cities, or districts.
 
-The following [metrics](https://www.facebook.com/help/geoinsights/591245441383373/?helpref=hc_fnav&bc[0]=SPACO%20Help%20Center&bc[1]=Disease%20Prevention%20Maps) are represented by the movement maps:
+The following [metrics](https://www.facebook.com/help/geoinsights/2047779415523224?helpref=hc_fnav) are represented by the movement maps:
 
 - **Baseline**: the average number of people who moved between two locations before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off. Read more in this [Slack thread][3].
 - **Crisis**: the number of people on a given day that moved from a location to another location with location history turned on
@@ -128,11 +134,14 @@ Some regions also provide an _Interactive Movement Map_, which is almost exactly
 
 #### Structure
 
+Unofficial quick start guide on how to understand Movement Maps data can be found on [this GitHub page](
+https://github.com/syjia/fbcolocation/blob/master/FB_Disease_Prevention_Map_Quick_Start_Guide.pdf). (cr. Shenyue Jia from Chapman University)
+
 Each movement map may contain some of the following fields:
 
 | Field | Description | Type | Example |
 |-|-|-|-|
-| `geometry` | Type of geometrical object represented, typically a [`LINESTRING`](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/linestring?view=sql-server-ver15) | LINESTRING array | `LINESTRING (-73.98193359374999 40.363286261845936, -73.98193359374999 40.363286261845936)` |
+| `geometry` | Type of geometrical object represented, typically a [`LINESTRING`](https://en.wikipedia.org/wiki/Polygonal_chain), `POLYGON` or `MULTIPOLYGON`. [Read more](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry). | [WKT geometric object](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) | `LINESTRING (-73.98193359374999 40.363286261845936, -73.98193359374999 40.363286261845936)` |
 | `date_time` | Date and time at which the data was collected in UTC, in the format `YYYY-MM-DD HHMM` (24-hour format) | string | 2020-04-28 1600 |
 | `start_polygon_id` | Unique identifier of the [starting location][2] | string | 1206879 |
 | `start_polygon_name` | Name of the [starting location][2] | string | Rumson |
@@ -163,7 +172,7 @@ Each movement map may contain some of the following fields:
 Facebook Popoulation Maps are heat maps, which show where people are located before, during and after a disaster and where populations have increased or decreased.
 They highlight the density of people using Facebook on their mobile phones with location history turned on. Like the Movement Maps, Population Maps are available at two different levels of aggregation: _Tile level_ maps show the approximate number of people with location history enabled in a Bing tile, whereas _Administrative region_ maps show the approximate number of people with location history enabled in an administrative boundary.
 
-The following [metrics](https://www.facebook.com/help/geoinsights/591245441383373/?helpref=hc_fnav&bc[0]=SPACO%20Help%20Center&bc[1]=Disease%20Prevention%20Maps) are represented by the population maps:
+The following [metrics](https://www.facebook.com/help/geoinsights/1234002170091538?helpref=hc_fnav) are represented by the population maps:
 
 - **Baseline**: the average number of people in this location before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off. Read more in this [Slack thread][3].
 - **Crisis**: the number of people that appear on a given day at a given location
@@ -195,16 +204,42 @@ Each population map may contain some of the following fields:
 
 
 ### Colocation Maps
-Colocation maps are spatial network datasets, provided as part of Disease Prevention Maps, that estimate how often people from different regions are colocated. In particular, these maps estimate, for each pair of regions x and y, the probability of a randomly chosen person from x and from y being colocated in the same place during a randomly chosen minute for a given week. Same place implies within the same level 16 Bing tile, which roughly corresponds to a 0.6 km by 0.6 km square, depending on the latitude.
 
-As a concrete example: if you choose a random person from Los Angeles County and a random person from San Francisco County, what is the probability that in a random minute they are in the same level 16 Bing tile anywhere in the world during a week? Colocation Maps answer this question. By multiplying by the number of minutes in a week, Colocation Maps provide an estimate of the expected total number of minutes two random people from two regions spend colocated.
+Colocation maps are spatial network dataset that estimate how often people from different regions are colocated. In particular, these maps estimate, for each pair of regions `x` and `y`, the probability of a randomly chosen person from `x` and from `y` being colocated in the same place during a randomly chosen minute for a given week. Same place implies within the same level 16 Bing tile, which roughly corresponds to a 0.6 km by 0.6 km square, depending on the latitude.
 
-The following metrics are represented by the colocation maps:
+As a concrete example: if you choose a random person from _Los Angeles County_ and a random person from _San Francisco County_, what is the probability that in a random minute they are in the same level 16 Bing tile anywhere in the world during a week? Colocation Maps answer this question. By multiplying by the number of minutes in a week, Colocation Maps provide an estimate of the expected total number of minutes two random people from two regions spend colocated.
 
-- Colocation probability: for a pair of regions indicates the probability that two random users assigned to those regions are colocated on a random minute during the week.
+The following [metric](https://www.facebook.com/help/geoinsights/229628411485334?helpref=hc_fnav) are represented by the colocation maps:
+
+- **Colocation probability**: indicates the probability that two random users assigned to two regions are colocated on a random minute during the week.
+
+Methodology on how Colocation Maps are calculated can be found on the [GeoInsights Portal](https://www.facebook.com/help/geoinsights/229628411485334?helpref=hc_fnav).
+
+#### Structure
+
+Unofficial quick start guide on how to understand colocation data can be found on [this GitHub page](https://github.com/syjia/fbcolocation/blob/master/Quick_Start_Guide_FB_Colocation_v0315_2020.pdf). (cr. Shenyue Jia from Chapman University)
+
+| Field | Description | Type | Example |
+|-|-|-|-|
+| `polygon1_id` | Unique identifier of the [origin location][2] | string | 1427137 |
+| `polygon1_name` | Name of the [origin location][2] | string | Morgan |
+| `lon_1` | Longitude of the center point of the origin polygon | string | -78.257776042858 |
+| `lat_1` | Latitude of the center point of the origin polygon | string | 39.560418983168 |
+| `name_stack_1` | _Name stack_ of the location, typically consisting of the upper administrative unit followed by `//` then `polygon1_name`. e.g. `West Viriginia // Morgan`. | string | West Virginia // Morgan |
+| `fb_population_1` | Number of completed trajectories starting at polygon 1 | integer | 222 |
+| `name_stack_1` | _Name stack_ of the location, typically consisting of the upper administrative unit followed by `//` then `polygon1_name`. e.g. `West Viriginia // Morgan`. | string | West Virginia // Morgan |
+| `polygon2_id` | Unique identifier of the [contrasting location][2] | string | 1407660 |
+| `polygon2_name` | Name of the [contrasting location][2] | string | Blair |
+| `lon_2` | Longitude of the center point of the contrasting polygon | string | -78.348599856132 |
+| `lat_2` | Latitude of the center point of the contrasting polygon | string | 40.481147955527 |
+| `name_stack_2` | _Name stack_ of the location, typically consisting of the upper administrative region followed by `//` then `polygon2_name`. e.g. `West Viriginia // Morgan`. | string | Pennsylvania // Blair |
+| `fb_population_2` | Number of completed trajectories ending at polygon 2 | integer | 1455 |
+| `link_value` | Probability of meeting two random persons from two different locations, may be given in E-notation. [Read more](https://www.facebook.com/help/geoinsights/229628411485334?helpref=hc_fnav). | float | 7.98540317440661E-08 |
+| `country` | Name of the country in which the data is collected | string | USA |
+| `ds` | Date which the data was collected, in the form `M/D/YYYY` | string | 4/28/2020 |
 
 
----
+-----
 
 
 #### Notes about `n_baseline` and `n_crisis`
@@ -225,9 +260,11 @@ They also described what `n_crisis` actually represents:
 
 Read more in the [Slack thread][3].
 
----
+-----
 
 ## Social Connectedness Index
+
+Social Connectedness Index information will be updated soon.
 
 
 [1]: https://www.facebook.com/geoinsights-portal
