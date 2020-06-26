@@ -26,7 +26,7 @@ More datasets from SafeGraph can be found [here](https://docs.google.com/spreads
 
 ## How to access data
 
-Sign up for SafeGraph's [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email and join the Slack workspace. 
+Sign up for SafeGraph's [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email and join the Slack workspace. Read the [FAQ](https://docs.google.com/document/d/1h-pkpIZWeynF3_BcylRmgeWS7282kIUGoM0TSSIUhgM).
 
 
 ### Box - `csv` files (Recommended)
@@ -192,3 +192,11 @@ The dataset is organized into 2 files:
 - [**brand-info**](https://docs.safegraph.com/docs#section-brand-info): base information associated with a brand referenced in _Core Places_ data
 
 **Note**: `core-poi` files on Box are divided into 5 `csv` files.
+
+
+
+## Attribution
+
+Please do not publish the raw SafeGraph data. To attribute SafeGraph in your publications, please include the following:
+
+> SafeGraph, a data company that aggregates anonymized location data from numerous applications in order to provide insights about physical places. To enhance privacy, SafeGraph excludes census block group information if fewer than five devices visited an establishment in a month from a given census block group.
