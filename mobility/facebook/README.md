@@ -273,9 +273,3 @@ Social Connectedness Index information will be updated soon.
 [2]: https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-api/polygon-class
 [3]: https://fbdataforgood.slack.com/archives/CBHC1BHAS/p1592319586456400
 [4]: #notes-about-n_baseline-and-n_crisis
-
-
-
-### Inclusive Internet Index
-
-The Inclusive Internet Index, commissioned by Facebook and conducted by The Economist Intelligence Unit, seeks to measure the extent to which the Internet is not only accessible and affordable, but also relevant to all, allowing usage that enables positive social and economic outcomes at the individual and group level.
