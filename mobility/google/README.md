@@ -33,7 +33,7 @@ Google Community Mobility Reports is updated every week, and is available back t
 
 ## How to access data
 
-You can download the global `.csv` file used to generate every report on the [Google Mobility Reports website](https://www.google.com/covid19/mobility/), at this [download link](https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv) or find it in the [`datasets`](datasets/) directory. 28.5 MB. Last updated _May 25th, 2020_. 
+You can download the global `.csv` file used to generate every report on the [Google Mobility Reports website](https://www.google.com/covid19/mobility/), at this [download link](https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv) or find it in the [`datasets`](datasets/) directory (28.5 MB). Last updated _May 25th, 2020_. 
 
 
 ## Structure
