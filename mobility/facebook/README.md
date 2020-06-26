@@ -160,7 +160,7 @@ Each movement map may contain some of the following fields:
 ### Population Maps
 
 Facebook Popoulation Maps are heat maps, which show where people are located before, during and after a disaster and where populations have increased or decreased.
-They highlight the density of people using Facebook on their mobile phones with location history turned on. Like the Movement Maps, Population Maps are available at two different levels of aggregation: _Tile level_ maps show the approximate number of people with location history enabled in a Bing tile, whereas _Administrative region maps show the approximate number of people with location history enabled in an administrative boundary.
+They highlight the density of people using Facebook on their mobile phones with location history turned on. Like the Movement Maps, Population Maps are available at two different levels of aggregation: _Tile level_ maps show the approximate number of people with location history enabled in a Bing tile, whereas _Administrative region_ maps show the approximate number of people with location history enabled in an administrative boundary.
 
 The following [metrics](https://www.facebook.com/help/geoinsights/591245441383373/?helpref=hc_fnav&bc[0]=SPACO%20Help%20Center&bc[1]=Disease%20Prevention%20Maps) are represented by the population maps:
 
