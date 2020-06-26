@@ -118,7 +118,9 @@ Some regions provide more types of maps than listed here. In addition, there is 
 
 Each map (at a specific data at a specific time) will be its own `.csv` file. You can search for all available Disease Prevention Maps on the [GeoInsights Portal][1]. Data for coronavirus maps are usually updated three times a day at 0000hr, 0800hr and 1600hr.
 
-Unofficial quick start guide on how to understand Disease Prevention Maps data can be found on [this GitHub repo](https://github.com/syjia/fbcolocation). (cr. Shenyue Jia from Chapman University)
+[Unofficial quick start guide](https://github.com/syjia/fbcolocation) on how to understand Disease Prevention Maps data is available. (cr. Shenyue Jia from Chapman University)
+
+Read the [paper](https://research.fb.com/wp-content/uploads/2019/04/iscram19_camera_ready.pdf) underlying this Disease Prevention Maps.
 
 
 ### Movement Maps
@@ -134,8 +136,7 @@ Some regions also provide an _Interactive Movement Map_, which is almost exactly
 
 #### Structure
 
-Unofficial quick start guide on how to understand Movement Maps data can be found on [this GitHub page](
-https://github.com/syjia/fbcolocation/blob/master/FB_Disease_Prevention_Map_Quick_Start_Guide.pdf). (cr. Shenyue Jia from Chapman University)
+[Unofficial quick start guide](https://github.com/syjia/fbcolocation/blob/master/FB_Disease_Prevention_Map_Quick_Start_Guide.pdf) on how to understand Movement Maps data is available. (cr. Shenyue Jia from Chapman University)
 
 Each movement map may contain some of the following fields:
 
@@ -217,7 +218,7 @@ Methodology on how Colocation Maps are calculated can be found on the [GeoInsigh
 
 #### Structure
 
-Unofficial quick start guide on how to understand colocation data can be found on [this GitHub page](https://github.com/syjia/fbcolocation/blob/master/Quick_Start_Guide_FB_Colocation_v0315_2020.pdf). (cr. Shenyue Jia from Chapman University)
+[Unofficial quick start guide](https://github.com/syjia/fbcolocation/blob/master/Quick_Start_Guide_FB_Colocation_v0315_2020.pdf) on how to understand colocation data is available. (cr. Shenyue Jia from Chapman University)
 
 | Field | Description | Type | Example |
 |-|-|-|-|
