@@ -59,6 +59,9 @@ This dataset is available in `csv` and [`ndjson`](https://github.com/ndjson/ndjs
 | `m50` | Median of the max-distance mobility for all samples in the specified region | float | 8.331 |
 | `m50_index` | Percent of normal `m50` in the region, with normal `m50` defined during `2020-02-17` to `2020-03-07` | integer | 79 |
 
+**Note**: Data for 2020-04-20 and 2020-05-29 did not meet quality control standards, and was not released.
+
+
 [administrative unit]: https://en.wikipedia.org/wiki/Administrative_division#:~:text=For%20clarity%20and%20convenience%20the,or%20%22second%20administrative%20level%22.
 [GeoNames]: https://www.geonames.org/
 
