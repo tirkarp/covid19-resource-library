@@ -4,7 +4,7 @@
 
 Data is sourced from over 1,000 different sources which include: 1st party data, satellite imagery, business listings, store locator, municipal & government data, open source data, hand-drawn cartography etc. SafeGraph then combines them and algorithmically QA's and discards bad data. [[1](https://www.quora.com/How-does-SafeGraph-acquire-data/answer/Jason-Richman-3)]
 
-SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). **You will need to [sign up](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email** and sign the Data Use Agreement before being granted access to a Slack workspace, where you will find further instructions and resources. 
+SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). **You will need to [sign up](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email** and sign the [Data Use Agreement](data-use-agreement.pdf) before being granted access to a Slack workspace, where you will find further instructions and resources. 
 
 Alternatively, we have downloaded the relevant datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
 
@@ -149,18 +149,18 @@ The dataset is organized in year, month, and day in successively enclosing direc
 │   │   ├── 01
 │   │   │   └── 2019-01-01-social-distancing.csv(.gz)
 │   │   ├── 02
-│   │   │   └── 2019-01-02-social-distancing.csv(.gz)
-│   │   ...
+│   │   :   └── 2019-01-02-social-distancing.csv(.gz)
+│   │   :
 │   ├── 02
-│   ...
+│   :
 └── 2020
     ├── 01
     │   ├── 01
     │   │   └── 2020-01-01-social-distancing.csv(.gz)
     │   ├── 02
-    │   │   └── 2020-01-02-social-distancing.csv(.gz)
-    │   ...
-    ...
+    │   :   └── 2020-01-02-social-distancing.csv(.gz)
+    :   :
+    :
 ```
 
 Each file represents the _Social Distancing Metrics_ data for one day.
