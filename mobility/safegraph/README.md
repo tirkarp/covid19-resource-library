@@ -68,6 +68,7 @@ This is the official method of accessing SafeGraph datasets, hosted at `s3://sg-
     Please sign up for SafeGraph's COVID-19 Data Consortium to retrive the credentials.
     ```
     Credentials are available [here](https://safegraphcovid19.slack.com/archives/C0109NPA543/p1585177965017700).
+    _**Update**: method for accessing SafeGraph data has changed. I will be updating this section soon._
 
 #### Downloading and using data
 
