@@ -35,7 +35,7 @@ Alternatively, please explore the `csv` files we have downloaded in the [`datase
 
 The Travel Patterns Map shows comparisons of the number of Facebook users moving large distances (think air or train travel). This is essentially looking at international travel of Facebook users. This data comes in useful because airline data is no longer accurate amidst the disruptions. 
 
-Read the official summary [here](https://www.facebook.com/help/geoinsights/355838765392401?helpref=hc_fnav).
+Read the [official summary](https://www.facebook.com/help/geoinsights/355838765392401?helpref=hc_fnav).
 
 Data is released daily, and is available back till _February 28th, 2020_.
 
