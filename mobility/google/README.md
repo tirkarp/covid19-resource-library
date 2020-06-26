@@ -1,4 +1,4 @@
-# Google Mobility Report
+# Google Mobility Reports
 
 [Google is publishing datasets](https://www.google.com/covid19/mobility/) that provide insights what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.
 
@@ -28,7 +28,7 @@ According to [Google's documentation](https://www.google.com/covid19/mobility/da
 
 Please read the [help section](https://support.google.com/covid19-mobility?hl=en#topic=9822927) to understand how to interpret the mobility data.
 
-Google Community Mobility Reports is updated every week.
+Google Community Mobility Reports is updated every week, and is available back till _February 15th, 2020_.
 
 
 ## How to access data
