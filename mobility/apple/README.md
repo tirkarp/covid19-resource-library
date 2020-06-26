@@ -20,7 +20,7 @@ Data is updated every day, and is available back till the baseline date on _Janu
 
 You can view the mobility trends graphically on [Apple's website](https://www.apple.com/covid19/mobility). 
 
-Alternatively, download the global `.csv` file (3.4 MB) from [their website](https://www.apple.com/covid19/mobility) or find it in the [`datasets`](datasets/) directory. Last updated _June 6th, 2020_.
+Alternatively, download the global `.csv` file (3.4 MB) from [their website](https://www.apple.com/covid19/mobility) or find it in the [`dataset`](dataset/) directory. Last updated _June 6th, 2020_.
 
 
 ## Structure
