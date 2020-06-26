@@ -25,7 +25,7 @@ Alternatively, download the global `.csv` file (3.4 MB) from [their website](htt
 
 ## Structure
 
-Apple Mobility Trends are organized in a time series format, where the 7th column onwards contain the relative volume on the date starting from January 13th, 2020.
+Apple Mobility Trends are organized in a time series format, where the 7th column onwards contain the relative volume on the dates starting from January 13th, 2020.
 
 | Column | Description | Type | Example |
 |-|-|-|-|
