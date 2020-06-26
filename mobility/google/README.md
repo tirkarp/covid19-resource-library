@@ -1,6 +1,6 @@
 # Google Mobility Reports
 
-[Google is publishing datasets](https://www.google.com/covid19/mobility/) that provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.
+Google is [publishing datasets](https://www.google.com/covid19/mobility/) that provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.
 
 These metrics are sourced from users who have enabled location history on their Google Account — same data used to show [popular times](https://support.google.com/business/answer/6263531?hl=en) for places in Google Maps. 
 
