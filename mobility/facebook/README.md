@@ -78,10 +78,10 @@ Files in this dataset is organized under the naming system described below.
 
 - `fips0.csv`: U.S.-wide movement
 - `fips1.csv`: U.S. movement, per State
-- `fips2_##.csv`: U.S. State movement, per County, where `##` represents a state code
+- `fips2_##.csv`: U.S. State movement, per County, where `##` represents a state [FIPS code]
 - `gadm0.csv`: Movement for selected countries
-- `gadm1_###.csv`: Movement for selected countries at regional level, where `###` represents an ISO-3 code
-- `gadm12_###.csv`: Movement for selected countries at sub-regional level, where `###` represents an ISO-3 code
+- `gadm1_###.csv`: Movement for selected countries at regional level, where `###` represents an [ISO-3 code].
+- `gadm12_###.csv`: Movement for selected countries at sub-regional level, where `###` represents an [ISO-3 code].
 
 Each file may contain some of the following fields:
 
@@ -99,6 +99,7 @@ Each file may contain some of the following fields:
 
 
 [FIPS code]: https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt
+[ISO-3 code]:https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#:~:text=ISO%203166%2D1%20alpha%2D3%20codes%20are%20three%2Dletter,special%20areas%20of%20geographical%20interest
 
 -----
 
