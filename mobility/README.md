@@ -10,7 +10,7 @@ For more descriptions, click on the link to each source.
 |-|-|-|-|-|-|-|
 | [SafeGraph](safegraph/) | Dataset on social distancing metrics and weekly movement patterns. | `Traffic`, `Distance` | City | Compr. | Aggregate | 06/01/2020 |
 | [Facebook](facebook/) | Travel patterns, movement range trends, colocation index, and population data. | `Traffic`, `Trends`, `Index` | County, State, Country | General | Aggregate | 06/03/2020 |
-| [Google](https://www.google.com/covid19/mobility/) | Mobility trends for visits to workplaces, retail stores, parks, etc., compared to a baseline pre-COVID. | `Traffic`, `Visits`, `Trends` | County, State, Country | General | Aggregate | 05/25/2020 |
+| [Google](google/) | Mobility trends for visits to workplaces, retail stores, parks, etc., compared to a baseline pre-COVID. | `Traffic`, `Visits`, `Trends` | County, State, Country | General | Aggregate | 05/25/2020 |
 | [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways in the state of Washington from Jan 1 to Jun 1. | `Traffic` | Washington | General | Official | 06/01/2020 |
 | [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Traffic`, `Index` | Japan | General | Aggregate | 06/01/2020 |
 | [Descartes Labs](https://github.com/descarteslabs/DL-COVID-19) | Dataset of the distance a typical member of a given population moves in a day. | `Distance` | County, State | General | Aggregate | - |
