@@ -135,17 +135,17 @@ Each movement map may contain some of the following fields:
 | `date_time` | Date and time at which the data was collected in UTC, in the format `YYYY-MM-DD HHMM` (24-hour format) | string | 2020-04-28 1600 |
 | `start_polygon_id` | Unique identifier of the [starting location][2] | string | 1206879 |
 | `start_polygon_name` | Name of the [starting location][2] | string | Rumson |
-| `end_polygon_id` | Unique identifier of the [ending lcation][2] | string | 1206854 |
+| `end_polygon_id` | Unique identifier of the [ending lcation][2] | string | 1206879 |
 | `end_polygon_name` | Name of the [ending location][2] | string | Rumson |
 | `length_km` | Total distance of movement in kilometers | float | 0 |
 | `tile_size` | Level of the region represented by the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system#ground-resolution-and-map-scale) | integer | 13 |
 | `country` | Name of the country in which the data is collected | string | US |
 | `level` | Level of administrative region represented, usually in the form `LEVEL#`, where `#` is the level number | string | LEVEL4 |
-| `n_crisis` | Total number of people who moved from starting location to ending location. [Read more][4] | integer | 189 |
+| `n_crisis` | Total number of people who moved from starting location to ending location. [Read more][4] | float | 189 |
 | `n_baseline` | Average total number of people who moved from starting location to ending location on average during the weeks before the crisis began. [Read more][4]. | float | 125.8 |
 | `n_difference` | `n_crisis` - `n_baseline`, i.e. difference between the number of people moving from starting location to ending location during the crisis compared to before the crisis | float | 63.2 |
 | `percent_change` | `n_difference` divided by `n_baseline`, in percentage. i.e. percentage difference between the number of people moving from starting location to ending location during the crisis compared to before the crisis | float | 49.842271293375 |
-| `is_statistically_significant` | Number indicating if the metric is statistically significant. `0` if no and `1` if yes. | integer | 0 |
+| `is_statistically_significant` | Number indicating if the metric is statistically significant. `0` if no and `1` if yes (needs verification). | integer | 0 |
 | `z_score` | Number of standard deviations by which the count of people moving during the crisis differs from the number of people moving during the baseline. Any z-value greater than `4` or smaller than `-4` is clipped at `4` or `-4`. | float | 4 |
 | `start_lat` | Latitude of the starting location | string | 40.362226449936 |
 | `start_lon` | Longitude of the starting location | string | -74.00448748566 |
@@ -154,15 +154,44 @@ Each movement map may contain some of the following fields:
 | `start_quadkey` | Unique identification of the starting tile at a particular level of detail (_quad key_ according to the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system#tile-coordinates-and-quadkeys)) | string | 320101121120 |
 | `end_quadkey` | Unique identification of the ending tile at a particular level of detail (_quad key_ according to the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system#tile-coordinates-and-quadkeys)) | string | 320101121120 |
 
+**Note**: any missing value is represented with a `\N`.
 
 
 ### Population Maps
-Facebook Population Maps show the density of people using Facebook on their mobile phones with location history turned on. _Tile level maps_ show the approximate number of people with location history enabled in a tile, whereas _maps_ show the approximate number of people with location history enabled in an administrative boundary.
 
-The following metrics are represented by the population maps:
+Facebook Popoulation Maps are heat maps, which show where people are located before, during and after a disaster and where populations have increased or decreased.
+They highlight the density of people using Facebook on their mobile phones with location history turned on. Like the Movement Maps, Population Maps are available at two different levels of aggregation: _Tile level_ maps show the approximate number of people with location history enabled in a Bing tile, whereas _Administrative region maps show the approximate number of people with location history enabled in an administrative boundary.
 
-- Baseline: the average number of people in this location before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off.
-- Crisis: the number of people that appear today in that tile.
+The following [metrics](https://www.facebook.com/help/geoinsights/591245441383373/?helpref=hc_fnav&bc[0]=SPACO%20Help%20Center&bc[1]=Disease%20Prevention%20Maps) are represented by the population maps:
+
+- **Baseline**: the average number of people in this location before the maps were generated, typically from 7-40 days preceding the first day for which the maps were kicked off. Read more in this [Slack thread][3].
+- **Crisis**: the number of people that appear on a given day at a given location
+
+#### Structure
+
+Each population map may contain some of the following fields:
+
+| Field | Description | Type | Example |
+|-|-|-|-|
+| `spaco_id` | Unique identification for a boundary in [Pittney Bowe's World Boundaries](https://dataguide.precisely.com/world-boundaries-7LP-44WA.html?utm_medium=Redirect-PB&utm_source=Direct-Traffic) | string | 50857 |
+| `lat` | Latitude of the location | string | 39.064025405394 |
+| `lon` | Longitude of the location | string | -75.599111953732 |
+| `quadkey` | Unique identification of a tile at a particular level of detail (_quad key_ according to the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system#tile-coordinates-and-quadkeys)) | string | 3201010333103 |
+| `country` | Name of the country in which the data is collected | string | US |
+| `polygon_name` | Name of the location in which data is collected | string | Central Kent |
+| `level` | Level of administrative region represented, usually in the form `LEVEL#`, where `#` is the level number | string | LEVEL4 |
+| `date_time` | Date and time at which the data was collected in UTC, in the format `YYYY-MM-DD HHMM` (24-hour format) | string | 2020-04-28 1600 |
+| `n_baseline` | Average total number of people that was expect to be in the area based on pre-disaster estimates. [Read more][4]. | float | 1863.5277871879 |
+| `n_crisis` | Total number of people observed at a given location. [Read more][4] | integer | 2252 |
+| `n_difference` | `n_crisis` - `n_baseline`, i.e. difference between the population at the time of the crisis and the population during the baseline | float | 28.6263067187692 |
+| `density_baseline` | Ratio of users in the given area over the sum of all users in the entire dataset (i.e. all other tiles in the boundary box) based on pre-disaster estimates | float | 0.0000386134397106904 |
+| `density_crisis` | Ratio of users in the given area over the sum of all users in the entire dataset (i.e. all other tiles in the boundary box) during the crisis | float | 0.0000241786401705555 |
+| `percent_change` | `n_difference` divided by `n_baseline`, in percentage. i.e. percentage difference between the population at the time of the crisis and the population during the baseline | float | -37.0096374211798 |
+| `clipped_z_score` | Number of standard deviations by which the crisis population count in the location differs from the baseline count. Any z-value greater than `4` or smaller than `-4` is clipped at `4` or `-4`. | float | 3.9523934544576 |
+| `ds` | Date in the form `M/D/YYYY`. What it represents is unknown and should be asked on Slack. | string | 6/3/2020 |
+
+**Note**: any missing value is represented with a `\N`.
+
 
 ### Colocation Maps
 Colocation maps are spatial network datasets, provided as part of Disease Prevention Maps, that estimate how often people from different regions are colocated. In particular, these maps estimate, for each pair of regions x and y, the probability of a randomly chosen person from x and from y being colocated in the same place during a randomly chosen minute for a given week. Same place implies within the same level 16 Bing tile, which roughly corresponds to a 0.6 km by 0.6 km square, depending on the latitude.
@@ -172,6 +201,7 @@ As a concrete example: if you choose a random person from Los Angeles County and
 The following metrics are represented by the colocation maps:
 
 - Colocation probability: for a pair of regions indicates the probability that two random users assigned to those regions are colocated on a random minute during the week.
+
 
 ---
 
