@@ -33,7 +33,7 @@ Where is the data stored? How can you find it?
 
 > Alternatively, we have downloaded the relevant datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
 
-## Datasets
+## Dataset(s)
 
 List what datasets are available from the source. Provide a high-level overview of what information each dataset contains, and size of each dataset. Define any terminology or information which could be useful at a glance. Provide link to methodologies on how data was obtained, or more info on wha the data means.
 
@@ -62,3 +62,27 @@ List down all possible ways by which you can retrieve data in any format. Provid
 > A [script](https://github.com/descarteslabs/DL-COVID-19/tree/master/scripts) is available to plot mobility index.
 
 Visit this repo's SafeGraph [data access instructions](mobility/safegraph/README.md#how-to-access) for an example.
+
+## Name of dataset (_e.g. Weekly Patterns_)
+
+Provide more detailed description about the dataset than what is written in the [Dataset(s)](#datasets) section.
+
+List how often the dataset is updated, when it is last updated, when it was first updated. 
+
+> Patterns is a dataset of visitor and demographic aggregations available for ~4.1MM POI that answer how often people visit, where they came from, where else they go, and more. It contains information _such as (non-exhaustive)_:
+> 
+> - visitor count to a POI (per hour or day)
+> - distance from home travelled by visitors
+> - duration of the visits 
+> - other brands that visitors to a particular POI also visit
+> 
+> Data is released weekly, and is available back till _January 1st, 2019_. 
+
+You should also provide links that users can access to read more about the dataset, the methodology, the motivation. 
+
+> Read the [blog post](https://medium.com/descarteslabs-team/covid-19-the-road-to-economic-and-social-recovery-6638866e3e4c) to understand more about the dataset, or read [the paper](https://arxiv.org/pdf/2003.14228.pdf) that describes the motivation behind the methodology.
+
+Repeat this section for all the datasets, and include the following subsection below each one:
+
+### Structure
+
