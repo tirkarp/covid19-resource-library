@@ -14,11 +14,11 @@ For more descriptions, click on the link to each source.
 | [Apple](apple/) | Relative volume of directions requests per region as compared to baseline on Jan 13th, 2020. | `Traffic`, `Trends` | City, County, State, Country | General | Aggregate | 06/02/2020 |
 | [Descartes Labs](descartes/) | Dataset of the distance a typical member of a given population moves in a day. | `Distance` | County, State | General | Aggregate | - |
 | [Streetlight Data](streetlight/) | Transportation metrics (which right now only includes VMT) that identify community activities and travel patterns during COVID-19 period. | `Distance` | County, State | General | Aggregate | 06/04/2020 |
+| [Place IQ](placeiq/) | Indices describing exposure on the basis of smartphone movements. | `Index` | County, State | General | Aggregate | - |
 | [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways in the state of Washington from Jan 1 to Jun 1. | `Traffic` | Washington | General | Official | 06/01/2020 |
 | [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Traffic`, `Index` | Japan | General | Aggregate | 06/01/2020 |
 | [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Distance`, `Economic` | United States | Compr. | Official | 06/03/2020 |
 | [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | 05/03/2020 |
-| [Place IQ](https://github.com/COVIDExposureIndices/COVIDExposureIndices) | Indices describing exposure on the basis of smartphone movements. | `Index` | County, State | General | Aggregate | - |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
@@ -37,7 +37,7 @@ For more descriptions, click on the link to each source.
 
 ## Additional sources pending response
 - Cuebiq
-- Streetlight Data (need to indicate if we want updates + bug them for more metrics)
+- Streetlight Data (waiting for full transportation metrics)
 - INRIX
 - Camber Systems (pending Data Use Agreement)
 - Unacast
