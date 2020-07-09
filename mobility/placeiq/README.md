@@ -29,14 +29,14 @@ LEX data is organized at a county-level and state-level, each having its own fil
 
 | `STATE_PRE` | AK | AL | AR | AZ | CA | CO | CT | ... |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **AK** | ... | ... | ... |  |  |  |  |  |
-| **AL** | ... | ... | ... |  |  |  |  |  |
-| **AR** | ... | ... | ... |  |  |  |  |  |
-| **AZ** | : | : | : |  |  |  |  |  |
+| **AK** | ... | ... | ... | ... |  |  |  |  |
+| **AL** | ... | ... | ... | ... |  |  |  |  |
+| **AR** | ... | ... | ... | ... |  |  |  |  |
+| **AZ** | ︙ | ︙ | ︙ | ⋱ |  |  |  |  |
 | **CA** |  |  |  |  |  |  |  |  |
 | **CO** |  |  |  |  |  |  |  |  |
 | **CT** |  |  |  |  |  |  |  |  |
-| **:** |  |  |  |  |  |  |  |  |
+| **︙** |  |  |  |  |  |  |  |  |
 
 where the geographic identifiers for state-level data are two-letter [postal abbreviations](https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations). The geographic identifiers for county-level data are five-digit [FIPS code](https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt). 
 
