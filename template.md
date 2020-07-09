@@ -1,6 +1,6 @@
 Please use the template below to write a high-level description of data sources. You don't need to follow it exactly, but it should act as a guide on how you can describe a data source.
 
-# Name of source (e.g. SafeGraph Moblity Data)
+# Name of source (_e.g. SafeGraph Moblity Data_)
 
 Beginning paragraphs should be short and succinct.
 
@@ -31,3 +31,19 @@ _e.g. SafeGraph is providing free access to COVID-19 datasets for researchers th
 Where is the data stored? How can you find it? 
 
 _e.g. Alternatively, we have downloaded the relevant datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u)._
+
+## Datasets
+
+List what datasets are available from the source. Provide a high-level overview of what information each dataset contains, and size of each dataset. Define any terminology or information which could be useful at a glance.
+
+If there is only one dataset, also list down how often it is updated and the time period in which the dataset is recorded. 
+
+If only a select dataset is pulled from other available datasets, provide a link to those datasets as well.
+
+_e.g. Among SafeGraph's various datasets, we found three that provide data related to human mobility:
+
+- [**Weekly Patterns**](#weekly-patterns): a dataset of visitor and demographic aggregations available for ~4.1MM POI (~355GB)
+- [**Social Distancing Metrics**](#social-distancing-metrics): a summary of population movement aggregated by home census block groups (~243GB)
+- [**Core Places**](#core-places): a dataset of information about each POI available in the US (~2GB)
+
+More datasets from SafeGraph can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0)._
