@@ -99,7 +99,6 @@ If the structure is too long to list, you may provide a link to a documentation 
 > - [**normalization-stats**](https://docs.safegraph.com/docs/weekly-patterns#section-normalization-stats): information such as _total visits_ or _total devices seen_ each week for normalization
 > - [**release-metadata**](https://docs.safegraph.com/docs/weekly-patterns#section-release-metadata): metadata about each week, such as _total POI_
 
-or
 
 > Please read Descartes Labs' [documentation](https://github.com/descarteslabs/DL-COVID-19/blob/master/README.md).
 > 
@@ -111,7 +110,6 @@ or
 > - [**`DL-us-m50_index.csv`**](https://github.com/descarteslabs/DL-COVID-19/blob/master/DL-us-m50_index.csv): same data as `DL-us-mobility-daterow.csv`, but only with the `m50_index` field in time series format
 > - [**`DL-us-samples.csv`**](https://github.com/descarteslabs/DL-COVID-19/blob/master/DL-us-samples.csv): same data as `DL-us-mobility-daterow.csv`, but only with the `samples` field in time series format
 
-or 
 
 > The dataset is organized in year, month, and day in successively enclosing directories, like this:
 > 
@@ -140,11 +138,42 @@ or
 
 #### Field Description
 
+Describe all the fields, variables, rows, and columns the dataset contains. You should try to follow this structure:
+
+> | Column | Description | Type | Example |
+> |-|-|-|-|
+> | `geo_type` | Type of geometric region represented. Possible values are: <ul><li>`country/region`</li><li>`city`</li><li>`sub-region`</li><li>`county`</li></ul> | string | country/region |
+> | `region` | Name of the `geo_type` in which data was collected | string | Albania |
+> | `transportation_type` | Type of transportation of the direction request. Possible values are: <ul><li>`driving`</li><li>`walking`</li><li>`transit`</li></ul>  | string | driving |
+> | `...` | ... | ... | ... |
+
+> | Field | Description | Type | Example |
+> |-|-|-|-|
+> | `date` | Date on which the data was collected, in the format `M/D/YYYY` | string | 3/1/2020 |
+> | `country_code` | [ISO-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) representing the country in which data was collected | string | US |
+> | `admin_level` | Level of [administrative unit] represented. Possible values are: <ul><li>`0` for country level</li><li>`1` for first-order [administrative unit]</li><li>`2` for second-order [administrative unit]</li></ul> | integer | 1 |
+> | `admin1` | Name of the first-order [administrative unit], sourced from [GeoNames]. Represents a state in the US. | string | Alabama |
+
+[administrative unit]: https://en.wikipedia.org/wiki/Administrative_division#:~:text=For%20clarity%20and%20convenience%20the,or%20%22second%20administrative%20level%22.
+[GeoNames]: https://www.geonames.org/
+
+Provide links to terminologies users may find unfamiliar. 
+
+If the dataset is in `json` format, or will need to be requested via an API, you may provide a sample code block to illustrate the structure.
+
+> ```json
+> {"cc": "US", "admin_level": 2, 
+> "admin1": "New Mexico", "admin2": "Santa Fe County", "fips": "35049", 
+> "date": ["2020-03-24", "2020-03-25", "2020-03-26"], 
+> "samples": [1337, 1292, 1331], 
+> "m50": [0.155, 0.278, 0.095], 
+> "m50_index": [2, 4, 1]}
+> ...
+> ```
 
 Write down notes that may be of interest, or useful to the user.
 
 > **Notes**: data for May 11-12 is not available and will appear as blank columns in the data set. Fields may be empty.
 
-or 
-
 > **Note**: all `safegraph_place_id`s and `safegraph_brand_id`s in _Weekly Patterns_ data should be found in SafeGraph's [_Core Places_](https://docs.safegraph.com/docs#section-core-places) dataset, should you need any cross-referencing or more details about each place.
+
