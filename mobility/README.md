@@ -2,7 +2,7 @@
 
 This directory contains datasets related to human mobility during COVID-19 period, focusing primarily on the United States.
 
-## Source Index
+## Source index
 
 For more descriptions, click on the link to each source.
 
@@ -20,14 +20,14 @@ For more descriptions, click on the link to each source.
 | [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Distance`, `Economic` | United States | Compr. | Official | - | 06/03/2020 |
 | [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | - | 05/03/2020 |
 
-## Metadata Descriptions
+## Field description
 - Compr-ness*: Comprehensiveness
 - `Official`: data officially reported by authorities
 - `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
 - `Comprehensive`: data reported is comprehensive and contains low-level details
 - `General`: data reported is not comprehensive and is meant for a high-level overview
 
-## Tag Descriptions
+## Tag description
 - `Trends`: trends (% change) data
 - `Index`: contains indexing/ranking mechanism
 - `Economic`: contains economic data, e.g. government spending, tax relief
@@ -44,7 +44,7 @@ For more descriptions, click on the link to each source.
 - University of Maryland's Maryland Transportation Institute
 - Keystone
 
-## Additional Resources
+## Additional resources
 - [Stanford's crowdsourced NPI data](http://hci.st/socialdistancing-dataset)
 - [Mapbox's telemetry data for COVID research](https://blog.mapbox.com/support-for-covid-19-apps-497de40fee9c)
 - [UCSF's library of COVID data, categorized by types](https://guides.ucsf.edu/COVID19/data)
