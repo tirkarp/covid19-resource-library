@@ -177,3 +177,18 @@ Write down notes that may be of interest, or useful to the user.
 
 > **Note**: all `safegraph_place_id`s and `safegraph_brand_id`s in _Weekly Patterns_ data should be found in SafeGraph's [_Core Places_](https://docs.safegraph.com/docs#section-core-places) dataset, should you need any cross-referencing or more details about each place.
 
+## Attribution
+
+State how to cite the dataset when used in a publication. Provide link to terms-of-use or data use agreement.
+
+> This data is licensed under a [Creative Commons Attribution 4.0
+International License](https://creativecommons.org/licenses/by/4.0/), which requires attribution to "Descartes
+Labs."  
+> 
+> Scientific publications may cite
+> 
+> > Warren, Michael S. & Skillman, Samuel W. "Mobility Changes in Response to COVID-19". _arXiv:2003.14228 [cs.SI]_, Mar. 2020. [arxiv.org/abs/2003.14228](https://arxiv.org/abs/2003.14228)
+> 
+> For online use, please link to Descartes Labs' website at [descarteslabs.com/mobility](https://descarteslabs.com/mobility/).
+> 
+> See the [LICENSE](https://github.com/descarteslabs/DL-COVID-19/blob/master/LICENSE) for the terms of use for this data.
