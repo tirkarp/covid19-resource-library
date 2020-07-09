@@ -1,6 +1,6 @@
 # Facebook Mobility Data
 
-Facebook is providing [tools for researchers](https://dataforgood.fb.com) to use aggregated location data of opt-in Facebook users for disaster prevention purposes. Some resources they provide are publicly available (such as population density maps), while some require registering and signing the data use agreement, upon which you will be sent an invitation to a Slack workspace and the [GeoInsights Portal][1].
+Facebook is providing [tools for researchers](https://dataforgood.fb.com) to use aggregated location data of opt-in Facebook users for disaster prevention purposes. Some resources they provide are publicly available (such as population density maps), while some require registering and signing the [data use agreement](data-sharing-agreement.pdf), upon which you will be sent an invitation to a Slack workspace and the [GeoInsights Portal][1].
 
 Purdue has an existing data agreement with Facebook Data for Good, signed by [Ken Sandel](mailto:sandel@purdue.edu). Please reach out to him to request access to Facebook's mobility data. 
 
@@ -268,14 +268,13 @@ Read more in the [Slack thread][3].
 
 Social Connectedness Index information will be updated soon.
 
+-----
+
+## Attribution
+
+Please cite [this paper](https://research.fb.com/publications/facebook-disaster-maps-aggregate-insights-for-crisis-response-recovery/) if you used Facebook's mobility data.
 
 [1]: https://www.facebook.com/geoinsights-portal
 [2]: https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-api/polygon-class
 [3]: https://fbdataforgood.slack.com/archives/CBHC1BHAS/p1592319586456400
 [4]: #notes-about-n_baseline-and-n_crisis
-
-
-
-### Inclusive Internet Index
-
-The Inclusive Internet Index, commissioned by Facebook and conducted by The Economist Intelligence Unit, seeks to measure the extent to which the Internet is not only accessible and affordable, but also relevant to all, allowing usage that enables positive social and economic outcomes at the individual and group level.

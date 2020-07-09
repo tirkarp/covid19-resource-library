@@ -4,7 +4,7 @@
 
 Data is sourced from over 1,000 different sources which include: 1st party data, satellite imagery, business listings, store locator, municipal & government data, open source data, hand-drawn cartography etc. SafeGraph then combines them and algorithmically QA's and discards bad data. [[1](https://www.quora.com/How-does-SafeGraph-acquire-data/answer/Jason-Richman-3)]
 
-SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). **You will need to [sign up](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email** and sign the Data Use Agreement before being granted access to a Slack workspace, where you will find further instructions and resources. 
+SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). **You will need to [sign up](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email** and sign the [Data Use Agreement](data-use-agreement.pdf) before being granted access to a Slack workspace, where you will find further instructions and resources. 
 
 Alternatively, we have downloaded the relevant datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
 
@@ -26,7 +26,7 @@ More datasets from SafeGraph can be found [here](https://docs.google.com/spreads
 
 ## How to access data
 
-Sign up for SafeGraph's [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email and join the Slack workspace. 
+Sign up for SafeGraph's [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email and join the Slack workspace. Read the [FAQ](https://docs.google.com/document/d/1h-pkpIZWeynF3_BcylRmgeWS7282kIUGoM0TSSIUhgM).
 
 
 ### Box - `csv` files (Recommended)
@@ -68,6 +68,7 @@ This is the official method of accessing SafeGraph datasets, hosted at `s3://sg-
     Please sign up for SafeGraph's COVID-19 Data Consortium to retrive the credentials.
     ```
     Credentials are available [here](https://safegraphcovid19.slack.com/archives/C0109NPA543/p1585177965017700).
+    _**Update**: method for accessing SafeGraph data has changed. I will be updating this section soon._
 
 #### Downloading and using data
 
@@ -149,18 +150,18 @@ The dataset is organized in year, month, and day in successively enclosing direc
 │   │   ├── 01
 │   │   │   └── 2019-01-01-social-distancing.csv(.gz)
 │   │   ├── 02
-│   │   │   └── 2019-01-02-social-distancing.csv(.gz)
-│   │   ...
+│   │   :   └── 2019-01-02-social-distancing.csv(.gz)
+│   │   :
 │   ├── 02
-│   ...
+│   :
 └── 2020
     ├── 01
     │   ├── 01
     │   │   └── 2020-01-01-social-distancing.csv(.gz)
     │   ├── 02
-    │   │   └── 2020-01-02-social-distancing.csv(.gz)
-    │   ...
-    ...
+    │   :   └── 2020-01-02-social-distancing.csv(.gz)
+    :   :
+    :
 ```
 
 Each file represents the _Social Distancing Metrics_ data for one day.
@@ -191,3 +192,11 @@ The dataset is organized into 2 files:
 - [**brand-info**](https://docs.safegraph.com/docs#section-brand-info): base information associated with a brand referenced in _Core Places_ data
 
 **Note**: `core-poi` files on Box are divided into 5 `csv` files.
+
+
+
+## Attribution
+
+Please do not publish the raw SafeGraph data. To attribute SafeGraph in your publications, please include the following:
+
+> SafeGraph, a data company that aggregates anonymized location data from numerous applications in order to provide insights about physical places. To enhance privacy, SafeGraph excludes census block group information if fewer than five devices visited an establishment in a month from a given census block group.
