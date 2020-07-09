@@ -35,7 +35,7 @@ Where is the data stored? How can you find it?
 
 ## Datasets
 
-List what datasets are available from the source. Provide a high-level overview of what information each dataset contains, and size of each dataset. Define any terminology or information which could be useful at a glance.
+List what datasets are available from the source. Provide a high-level overview of what information each dataset contains, and size of each dataset. Define any terminology or information which could be useful at a glance. Provide link to methodologies on how data was obtained, or more info on wha the data means.
 
 > Among SafeGraph's various datasets, we found three that provide data related to human mobility:
 > 
@@ -50,3 +50,15 @@ If there is only one dataset, also list down how often it is updated and the tim
 If only a select dataset is pulled from other available datasets, provide a link to those datasets as well.
 
 > More datasets from SafeGraph can be found in [this document](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0).
+
+## Accessing Data
+
+Describe how you can access the data. If you need to sign up, provide the link. 
+
+List down all possible ways by which you can retrieve data in any format. Provide step-by-step, detailed instructions. If there is a recommend method for retrieving data, be sure to note that. 
+
+> You can view a visualization of the changes in US mobility on [Descartes Labs' website](https://www.descarteslabs.com/mobility/). Or, download the dataset through Descartes Labs' [GitHub repo](https://github.com/descarteslabs/DL-COVID-19), or throuh our [`dataset/`](dataset/) directory.
+> 
+> A [script](https://github.com/descarteslabs/DL-COVID-19/tree/master/scripts) is available to plot mobility index.
+
+Visit this repo's SafeGraph [data access instructions](mobility/safegraph/README.md#how-to-access) for an example.
