@@ -8,10 +8,11 @@ StreetLight Data is providing a [full suite of transportation metrics](https://w
 
 It seems like StreetLight data is providing [statistics on the total _vehicle miles traveled (VMT)_ in a county](https://learn.streetlightdata.com/vmt-data-counties) separately. If you are in need of that data, it would be helpful to mention this to them in your conversation.
 
+The dataset is available in the [`dataset/`](dataset/) directory.
 
 ## Datasets
 
-Within StreetLight Data's transportation metrics, I only have access to the VMT data (13.5 MB) for the moment, available in the `dataset` folder. I have requested access to the full suite of transportation metrics and will put out more information once I receive them.
+Within StreetLight Data's transportation metrics, I only have access to the VMT data (13.5 MB) for the moment, available in the [`dataset` folder](dataset/). I have requested access to the full suite of transportation metrics and will put out more information once I receive them.
 
 The VMT data contains the average and total **vehicle miles traveled** in 3,000+ U.S. counties. It fuses Cuebiq’s near-real time Mobility Index with StreetLight’s algorithms that transform location data into contextualized, aggregated, and normalized travel patterns, as well as deep repositories of data depicting historical VMT. Read the [methodology](https://www.streetlightdata.com/VMT-monitor-by-county/#methodology).
 
