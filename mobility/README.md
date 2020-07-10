@@ -36,6 +36,7 @@ For more descriptions, click on the link to each source.
 - `Distance`: related to the travel distance of the population
 
 ## Additional sources pending response
+- Yelp (will add later)
 - Cuebiq
 - Streetlight Data (waiting for full transportation metrics)
 - INRIX
