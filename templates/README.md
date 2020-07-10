@@ -26,7 +26,7 @@ Every directory should contain a `README.md` file for instructions and easier vi
 base repository (top-level)
 ├── category
 │   ├── data source
-│   │   └── dataset
+:   :   └── dataset
 ```
 
 #### `README` in top-level directory
