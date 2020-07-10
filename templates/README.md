@@ -8,9 +8,11 @@ Yes, I'm quoting [Hamlet](https://myshakespeare.com/hamlet/act-2-scene-2-popup-n
 
 And no, I don't mean irony. You **_will_** be brief and you **_must_** be brief.
 
-**This repository is geared toward researchers looking to explore the possible datasets to use**. Think of it as buying a car. You'll need to study the specs carefully, maybe do a test drive before you decide to purchase it. If you have 100 cars in the market, ideally you'd want to study them all to decide which to buy.
+**This repository is geared toward researchers looking to explore the possible datasets to use**. It describes each dataset in detail, so researchers don't have to find them all on their own. The datasets will be those which the majority of the industry and academic community are using, that are known to be reliable.
 
-Except you don't have kind of time. You probably want to look at reviews, except those reviews are long-winded. You want a summary of all of those details which, at a glance, you could look at them and know what each one is about, what are the specs that are important.
+Think of it as buying a car. You'll need to study the specs carefully, maybe do a test drive before you decide to purchase it. If you have 100 cars in the market, ideally you'd want to study them all to decide which to buy.
+
+Except you don't have that kind of time. You probably want to look at reviews, except those reviews are long-winded. You want a summary of all of those details which, at a glance, you can look at them and know what each one is about, what are the specs that are important.
 
 You want more matter, with less art.
 
@@ -31,7 +33,7 @@ base repository (top-level)
 
 should be about the repository (i.e. COVID-19). It should tell you what the repository is about, how to use the it, what are some resources that may complement the resources in this repository, that may be useful.
 
-View the [template](#) for top-level `README`.
+View the [template](top-level-readme-template) for top-level `README`.
 
 #### `README` in each category
 
@@ -39,7 +41,7 @@ should define the category. It should have an index (table of contents) that tel
 
 For clarity, the `README` should also contain field descriptions and tag descriptions from the table. Additional resources may be provided here.
 
-View the [template](#) for category-level `README`.
+View the [template](category-readme-template) for category-level `README`.
 
 #### `README` in each data source
 
@@ -51,7 +53,7 @@ View the [template](data-source-readme-template) for data source-level `README`.
 
 should tell you what the dataset contains, and the structure of each. Some information may be repeated from the data source `README`. 
 
-View the [template](#).
+View the [template](dataset-readme-template) for dataset-level `README`.
 
 ## Writing Considerations
 
