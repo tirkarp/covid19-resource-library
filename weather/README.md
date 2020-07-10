@@ -9,10 +9,10 @@ For more descriptions, click on the link to each source.
 | Source | Description | Tags | Location | Frequency | Source Type | First Updated | Last Updated |
 |-|-|-|-|-|-|-|-|
 | [GHCN](ghcn/) | Daily summary of temperature, precipitation, wind, and general climate data worldwide. | `Basic`, `Compr.` | Worldwide | Daily | Official | 01/01/1849 | - |
-| [ClimaCell](climacell/) | API for minute-by-minute advanced weather information (paid addon for longer historical data)| `Basic`, `Extended`, `Hazard`, `API` |  Worldwide | Every minute | Aggregate | 4 weeks back | - | - |
-| [Aeris Weather](aeris/) | API for hourly advanced weather information complete with geographical weather mapping (paid addon for longer historical data) | `Basic`, `Extended`, `Hazard`, `Water` | Hourly | Aggregate | 1 month back | - | - |
-| [Weather Source](weathersource/) | API for long-range hyperlocal weather and climatology datas | `Basic`, `Extended`, `API` | Hourly | Aggregate | 2000 | - | - |
-| [NCEI](ncei/) | API for comprehensive official weather information from the NOAA | `Basic`, `Extended`, `Compr.`, `API` | Vary | Official | 01/01/1849 | - | - |
+| [ClimaCell](climacell/) | API for minute-by-minute advanced weather information (paid addon for longer historical data)| `Basic`, `Extended`, `Hazard`, `API` |  Worldwide | Every minute | Aggregate | 4 weeks back | - |
+| [Aeris Weather](aeris/) | API for hourly advanced weather information complete with geographical weather mapping (paid addon for longer historical data) | `Basic`, `Extended`, `Hazard`, `Water` | Worldwide | Hourly | Aggregate | 1 month back | - | - |
+| [Weather Source](weathersource/) | API for long-range hyperlocal weather and climatology datas | `Basic`, `Extended`, `API` | Worldwide | Hourly | Aggregate | 2000 | - |
+| [NCEI](ncei/) | API for comprehensive official weather information from the NOAA | `Basic`, `Extended`, `Compr.`, `API` | Worldwide | Vary | Official | 01/01/1849 | - |
 
 ## Field description
 - Compr-ness*: Comprehensiveness
