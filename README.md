@@ -32,4 +32,4 @@ Here you will find resources that may be of interest:
 
 ## Contributions
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md)
+Contributions are always welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
