@@ -11,6 +11,7 @@ git submodule update --remote --merge
 ```
 
 ## Resources
+
 Here you will find resources that may be of interest:
 
 | Resource | Description | Tags |
@@ -24,10 +25,11 @@ Here you will find resources that may be of interest:
 | [COVID-19 Healthcare Coalition Resource Library](https://c19hcc.org/resource-library) | Resource library from C19hcc, an industry-led coalition whose goal is to coordinate expertise, capabilities, data and insights to provide data-driven, real-time insights to improve clinical outcomes. | `Catalog` |
 
 ## Tag Descriptions
+
 - `Catalog`: a gallery of sources from which we can pull datasets
 - `Parameters`: contains published estimates of parameters e.g. basic reproduction number
 - `Article`: an article
 
 ## Contributions
 
-Contributions are always welcome. Please fork, read the [contributions `README`](templates/), and make a pull request when you are ready. 
+See [`CONTRIBUTING.md`](CONTRIBUTING.md)
