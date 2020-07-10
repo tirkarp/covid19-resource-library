@@ -33,7 +33,7 @@ base repository (top-level)
 
 should be about the repository (i.e. COVID-19). It should tell you what the repository is about, how to use the it, what are some resources that may complement the resources in this repository, that may be useful.
 
-View the [template](top-level-readme-template) for top-level `README`.
+View the [template](top-level-readme-template.md) for top-level `README`.
 
 #### `README` in each category
 
@@ -41,19 +41,19 @@ should define the category. It should have an index (table of contents) that tel
 
 For clarity, the `README` should also contain field descriptions and tag descriptions from the table. Additional resources may be provided here.
 
-View the [template](category-readme-template) for category-level `README`.
+View the [template](category-readme-template.md) for category-level `README`.
 
 #### `README` in each data source
 
 should describe (non-exhaustively) what the data source is, how data is collected, what datasets are available, how to access each dataset, how to cite it, any data use agreement, the structure of each dataset, among other things. This is the crux of the repository, where users will derive the most value from. The majority of your work will be done here.
 
-View the [template](data-source-readme-template) for data source-level `README`.
+View the [template](data-source-readme-template.md) for data source-level `README`.
 
 #### `README` in each dataset
 
 should tell you what the dataset contains, and the structure of each. Some information may be repeated from the data source `README`. 
 
-View the [template](dataset-readme-template) for dataset-level `README`.
+View the [template](dataset-readme-template.md) for dataset-level `README`.
 
 ## Writing Considerations
 
