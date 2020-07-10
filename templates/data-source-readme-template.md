@@ -21,7 +21,11 @@ How is data obtained?
 
 #### Third paragraph, if applicable
 
-State who the datasets are intended to be used by, and what it should be used for. If the user has to sign up to use it, provide a link to the sign up page and write what happens after the user signs up. If there is a data use agreement, provide a link. 
+State who the datasets are intended to be used by, and what it should be used for. 
+
+If the user has to sign up to use it, provide a link to the sign up page and write what happens after the user signs up. 
+
+If there is a data use agreement, provide a link. 
 
 > SafeGraph is providing free access to COVID-19 datasets for researchers through the [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). **You will need to [sign up](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email** and sign the [Data Use Agreement](data-use-agreement.pdf) before being granted access to a Slack workspace, where you will find further instructions and resources.
 
@@ -33,7 +37,13 @@ Where is the data stored? How can you find it?
 
 ## Dataset(s)
 
-List what datasets are available from the source. Provide a high-level overview of what information each dataset contains, and size of each dataset. Define any terminology or information which could be useful at a glance. Provide link to methodologies on how data was obtained, or more info on wha the data means.
+List what datasets are available from the source. 
+
+Provide a high-level overview of what information each dataset contains, and size of each dataset. 
+
+Define any terminology or information which could be useful at a glance. 
+
+Provide link to methodologies on how data was obtained, or more info on wha the data means.
 
 > Among SafeGraph's various datasets, we found three that provide data related to human mobility:
 > 
@@ -53,7 +63,11 @@ If only a select dataset is pulled from other available datasets, provide a link
 
 Describe how you can access the data. If you need to sign up, provide the link. 
 
-List down all possible ways by which you can retrieve data in any format. Provide step-by-step, detailed instructions. If there is a recommend method for retrieving data, be sure to note that. 
+List down all possible ways by which you can retrieve data in any format. 
+
+Provide step-by-step, detailed instructions. 
+
+If there is a recommend method for retrieving data, be sure to note that. 
 
 > You can view a visualization of the changes in US mobility on [Descartes Labs' website](https://www.descarteslabs.com/mobility/). Or, download the dataset through Descartes Labs' [GitHub repo](https://github.com/descarteslabs/DL-COVID-19), or throuh our [`dataset/`](dataset/) directory.
 > 
