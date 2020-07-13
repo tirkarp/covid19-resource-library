@@ -17,7 +17,13 @@ Alternatively, the [NOAA](https://www.ncdc.noaa.gov/data-access) also offers a s
 
 ## Accessing Data
 
-Full dataset of GHCN-Daily can be downloaded from the NOAA's FTP server (ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/). (~100GB when uncompressed)
+Full dataset of GHCN-Daily can be downloaded from the [NOAA's FTP server](https://bit.ly/2CqbbPA). (~100GB when uncompressed)
+
+## Structure
+
+Read [GHCN's Readme](https://bit.ly/32b4R9l) for more information.
+
+For more guidance, Spatial Reasoning wrote an [excellent blog](http://spatialreasoning.com/wp/20170307_1244_r-reading-filtering-weather-data-from-the-global-historical-climatology-network-ghcn) on how to read and filter GHCN data in R. Consider using it as a step-by-step walkthrough.
 
 ## Attribution
 
