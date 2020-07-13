@@ -73,7 +73,7 @@ If there is a recommend method for retrieving data, be sure to note that.
 > 
 > A [script](https://github.com/descarteslabs/DL-COVID-19/tree/master/scripts) is available to plot mobility index.
 
-**Visit this repo's SafeGraph [data access instructions](mobility/safegraph/README.md#how-to-access) for an example.**
+**Important:** Visit this repo's SafeGraph [data access instructions](mobility/safegraph/README.md#how-to-access) for an example.
 
 ## \<Name of dataset\> (_e.g. Weekly Patterns_)
 
