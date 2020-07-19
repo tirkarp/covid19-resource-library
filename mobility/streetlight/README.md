@@ -23,6 +23,8 @@ Data is updated three times a week, and is available back till _March 1st, 2020_
 
 You can explore a [map showing VMT data](https://www.streetlightdata.com/VMT-monitor-by-county/#emergency-map-response) on StreetLight Data's website.
 
+Full VMT dataset is also publicly available in [data.world](https://data.world/associatedpress/vehicle-miles-traveled).
+
 Please contact [StreetLight Data](https://learn.streetlightdata.com/contact) to request access. Alternatively, explore the VMT dataset in the [`dataset`](dataset/) directory. Last updated _June 4th, 2020_.
 
 
