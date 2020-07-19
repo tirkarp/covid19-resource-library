@@ -1,3 +1,6 @@
+- WHO
+- [HGHI Hospital Capacity](https://globalepidemics.org/hospital-capacity/)
+- USA Facts
 - Corona Data Scraper
 - CDC
 	- Daily Updates (https://www.cdc.gov/nchs/nvss/vsrr/COVID19/index.htm)
