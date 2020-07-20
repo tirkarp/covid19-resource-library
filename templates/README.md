@@ -91,6 +91,7 @@ I'm opinionated, so bear with me.
 - **Bullet heading**: bold it. And don't bold the `:`
 - Style links with `[**title**](link)`, not `**[title](link)**`
 - When a link is at the end of a sentence, put the period after the link, not inside of it. e.g. `[title](link).` not `[title.](link)`
+- Use three dashes `---` for a divider line
 
 Now for the more menial rules:
 
@@ -102,7 +103,6 @@ Now for the more menial rules:
 - Follow the [quotation rules](https://www.grammarly.com/blog/quotation-marks/)
 - Use the [Oxford comma](https://annhandley.com/oxford-comma/). Yes, do it.
 - Use [reference-style links](https://www.markdownguide.org/basic-syntax/#reference-style-links) for repeated links
-- Use three dashes `---` for a divider line
 
 ## Useful Resources
 - [Markdown Guide](https://www.markdownguide.org/)
