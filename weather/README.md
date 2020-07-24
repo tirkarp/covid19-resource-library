@@ -15,6 +15,7 @@ For more descriptions, click on the link to each source.
 | [NCEI](ncei/) | API for comprehensive official weather information from the NOAA | `Basic`, `Extended`, `Compr.`, `API` | Worldwide | Vary | Official | 01/01/1849 | - |
 
 - CO2 Emission https://figshare.com/articles/dataset/Global_near-real-time_CO2_emission/12200390
+- PM2.5 https://projects.iq.harvard.edu/covid-pm/home
 
 ## Field description
 - `Official`: data officially reported by authorities
