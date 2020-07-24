@@ -23,7 +23,8 @@ Here you will find resources that may be of interest:
 | [HBR's "Which Covid-19 Data Can You Trust?"](https://hbr.org/2020/05/which-covid-19-data-can-you-trust) | General caution and common pitfalls when interpreting COVID-19 data | `Article` |
 | [SafeGraph's COVID-19 Data](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0) | List of all available COVID-19 data available for use from SafeGraph | `Catalog` |
 | [COVID-19 Healthcare Coalition Resource Library](https://c19hcc.org/resource-library) | Resource library from C19hcc, an industry-led coalition whose goal is to coordinate expertise, capabilities, data and insights to provide data-driven, real-time insights to improve clinical outcomes | `Catalog` |
-| [Elsevier Coronavirus Information Center](https://www.elsevier.com/connect/coronavirus-information-center) | Free articles, biomedical tools and other resources for COVID-19 | `Catalog` | 
+| [Elsevier Coronavirus Information Center](https://www.elsevier.com/connect/coronavirus-information-center) | Free articles, biomedical tools and other resources for COVID-19 | `Catalog` |
+| [Springer Coronavirus Campaign](https://www.springernature.com/gp/researchers/campaigns/coronavirus) | Free access to Springer articles and their Research Data Support. | `Catalog` |
 
 ## Tag Descriptions
 
