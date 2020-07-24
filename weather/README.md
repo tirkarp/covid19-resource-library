@@ -14,6 +14,8 @@ For more descriptions, click on the link to each source.
 | [Weather Source](weathersource/) | API for long-range hyperlocal weather and climatology data | `Basic`, `Extended`, `API` | Worldwide | Hourly | Aggregate | 2000 | - |
 | [NCEI](ncei/) | API for comprehensive official weather information from the NOAA | `Basic`, `Extended`, `Compr.`, `API` | Worldwide | Vary | Official | 01/01/1849 | - |
 
+- CO2 Emission https://figshare.com/articles/dataset/Global_near-real-time_CO2_emission/12200390
+
 ## Field description
 - `Official`: data officially reported by authorities
 - `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
