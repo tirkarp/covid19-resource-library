@@ -20,6 +20,8 @@ For more descriptions, click on the link to each source.
 | [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Distance`, `Economic` | United States | Compr. | Official | - | 06/03/2020 |
 | [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | - | 05/03/2020 |
 
+- IOM Migration Data https://migrationdataportal.org/themes/iom-data-overview
+
 ## Field description
 - Compr-ness*: Comprehensiveness
 - `Official`: data officially reported by authorities
