@@ -10,7 +10,7 @@ population moves in a day) at the state and county level. It is publicly availab
 Alternatively, you can access Descartes Labs' data through our `dataset` directory.
 
 
-## Datasets
+## Dataset
 
 [Descartes Labs' dataset](https://github.com/descarteslabs/DL-COVID-19) features the distance a typical member of a given population moves in a day, along with the number of samples collected and the percentage of the normal distance in a region.
 
@@ -25,7 +25,7 @@ Read the [blog post](https://medium.com/descarteslabs-team/covid-19-the-road-to-
 Data is updated daily, and is available back till _March 1st, 2020_.
 
 
-## How to access data
+## Accessing Data
 
 You can view a visualization of the changes in US mobility on [Descartes Labs' website](https://www.descarteslabs.com/mobility/). Or, download the dataset through Descartes Labs' [GitHub repo](https://github.com/descarteslabs/DL-COVID-19), or throuh our `dataset` directory.
 
@@ -45,7 +45,7 @@ This dataset is available in `csv` and [`ndjson`](https://github.com/ndjson/ndjs
 - [**`DL-us-samples.csv`**](https://github.com/descarteslabs/DL-COVID-19/blob/master/DL-us-samples.csv): same data as `DL-us-mobility-daterow.csv`, but only with the `samples` field in time series format
 
 
-### Field description
+### Field Description
 
 | Field | Description | Type | Example |
 |-|-|-|-|
