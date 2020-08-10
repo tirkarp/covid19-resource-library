@@ -8,9 +8,6 @@ SafeGraph is providing free access to COVID-19 datasets for researchers through 
 
 Alternatively, we have downloaded the relevant datasets for our own use, available on [Box](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u).
 
-
-
-
 ## Datasets
 
 Among SafeGraph's various datasets, we found three that provide data related to human mobility:
@@ -21,18 +18,13 @@ Among SafeGraph's various datasets, we found three that provide data related to 
 
 More datasets from SafeGraph can be found [here](https://docs.google.com/spreadsheets/d/1UNWvPzkUTTlXBZ6M6iGhM_7sr8h-MxsZdE7iOszkAmk/edit#gid=0).
 
-
-
-
-## How to access data
+## Accessing Data
 
 Sign up for SafeGraph's [COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium) with your Purdue email and join the Slack workspace. Read the [FAQ](https://docs.google.com/document/d/1h-pkpIZWeynF3_BcylRmgeWS7282kIUGoM0TSSIUhgM).
-
 
 ### Box - `csv` files (Recommended)
 
 Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). ~600GB. Last updated _June 6th, 2020_. 
-
 
 ### Rill Data - SQL database, API, visualization, analytics dashboard (requires registration)
 
@@ -52,7 +44,6 @@ Access [here](https://app.box.com/s/s4wafbxi3hfv3vdwc1pj05kuiuy5p93u). ~600GB. L
 4. Wait for email invitations.
 5. Login [here](https://covid.rilldata.com).
 6. View Apache Druid's schema [here](https://docs.google.com/spreadsheets/d/1gxBKcSjIjwBsJswA3JvjZtqBLFBssus8wO-xpUeLWYw/edit#gid=0).
-
 
 ### SafeGraph's AWS S3 - `csv` files
 
@@ -95,9 +86,7 @@ For example, Monthly Patterns dataset is located at `s3://sg-c19-response/monthl
 
 Read the [announcement](https://safegraphcovid19.slack.com/archives/C0115PHMGM6/p1591205322276500). 
 
-
 -----
-
 
 ## [Weekly Patterns](https://docs.safegraph.com/docs/weekly-patterns)
 
@@ -109,7 +98,6 @@ Patterns is a dataset of visitor and demographic aggregations available for ~4.1
 - other brands that visitors to a particular POI also visit
 
 Data is released weekly, and is available back till _January 1st, 2019_. 
-
 
 ### Structure
 
@@ -124,8 +112,6 @@ The dataset is organized into 4 directories:
 
 **Note**: all `safegraph_place_id`s and `safegraph_brand_id`s in _Weekly Patterns_ data should be found in SafeGraph's [_Core Places_](https://docs.safegraph.com/docs#section-core-places) dataset, should you need any cross-referencing or more details about each place.
 
-
-
 ## [Social Distancing Metrics](https://docs.safegraph.com/docs/social-distancing-metrics)
 
 Social Distancing Metrics is a dataset that summarizes the population movement aggregated by home census block groups, as opposed to individual POI in _Weekly Patterns_. It contains information _such as (non-exhaustive)_:
@@ -136,7 +122,6 @@ Social Distancing Metrics is a dataset that summarizes the population movement a
 - the number of devices used for part-time or full-time work
 
 Data is released daily, and is available back till _January 1st, 2019_.
-
 
 ### Structure
 
@@ -166,9 +151,6 @@ The dataset is organized in year, month, and day in successively enclosing direc
 
 Each file represents the _Social Distancing Metrics_ data for one day.
 
-
-
-
 ## [Core Places](https://docs.safegraph.com/docs#section-core-places)
 
 Core Places is a dataset that contains information about each place in SafeGraph's database. It can be used with SafeGraph's [_Geometry_ dataset](https://docs.safegraph.com/docs/places-schema#section-geometry) to obtain spatial information about a place, such as area or polygonal shapes.
@@ -181,7 +163,6 @@ Core Places contains information _such as (non-exhaustive)_:
 - phone number
 - operating hours
 
-
 ### Structure 
 
 Please see SafeGraph's documentation [here](https://docs.safegraph.com/docs#section-core-places).
@@ -192,8 +173,6 @@ The dataset is organized into 2 files:
 - [**brand-info**](https://docs.safegraph.com/docs#section-brand-info): base information associated with a brand referenced in _Core Places_ data
 
 **Note**: `core-poi` files on Box are divided into 5 `csv` files.
-
-
 
 ## Attribution
 
