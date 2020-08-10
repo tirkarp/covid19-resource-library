@@ -17,6 +17,7 @@ For more descriptions, click on the link to each source.
 | [Place IQ](placeiq/) | Indices describing exposure on the basis of smartphone movements. | `Index` | County, State | General | Aggregate | 01/20/2020 | - |
 
 ## Field description
+
 - Compr-ness*: Comprehensiveness
 - `Official`: data officially reported by authorities
 - `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
@@ -24,12 +25,19 @@ For more descriptions, click on the link to each source.
 - `General`: data reported is not comprehensive and is meant for a high-level overview
 
 ## Tag description
+
 - `Trends`: trends (% change) data
 - `Index`: contains indexing/ranking mechanism
 - `Economic`: contains economic data, e.g. government spending, tax relief
 - `Visits`: related to the # of visits to a particular venue
 - `Traffic`: related to large-scale vehicular or pedestrian traffic flow, e.g. volume or patterns
 - `Distance`: related to the travel distance of the population
+
+## Additional resources
+
+- [Stanford's crowdsourced NPI data](http://hci.st/socialdistancing-dataset)
+- [Mapbox's telemetry data for COVID research](https://blog.mapbox.com/support-for-covid-19-apps-497de40fee9c)
+- [UCSF's library of COVID data, categorized by types](https://guides.ucsf.edu/COVID19/data)
 
 ## Additional sources
 
@@ -51,8 +59,3 @@ There remains sources we would like to add, but has not had the opportunity to d
 - INRIX
 - University of Maryland's Maryland Transportation Institute
 - Keystone
-
-## Additional resources
-- [Stanford's crowdsourced NPI data](http://hci.st/socialdistancing-dataset)
-- [Mapbox's telemetry data for COVID research](https://blog.mapbox.com/support-for-covid-19-apps-497de40fee9c)
-- [UCSF's library of COVID data, categorized by types](https://guides.ucsf.edu/COVID19/data)
