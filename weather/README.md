@@ -2,7 +2,7 @@
 
 This directory contains datasets related to weather information during COVID-19 period, focusing primarily on the United States.
 
-## Source index
+## Source Index
 
 For more descriptions, click on the link to each source.
 
@@ -14,21 +14,26 @@ For more descriptions, click on the link to each source.
 | [Weather Source](weathersource/) | API for long-range hyperlocal weather and climatology data | `Basic`, `Extended`, `API` | Worldwide | Hourly | Aggregate | 2000 | - |
 | [NCEI](ncei/) | API for comprehensive official weather information from the NOAA | `Basic`, `Extended`, `Compr.`, `API` | Worldwide | Vary | Official | 01/01/1849 | - |
 
-- CO2 Emission https://figshare.com/articles/dataset/Global_near-real-time_CO2_emission/12200390
-- PM2.5 https://projects.iq.harvard.edu/covid-pm/home
-
-## Field description
+## Field Description
 - `Official`: data officially reported by authorities
 - `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
 
-## Tag description
+## Tag Description
 - `Basic`: Basic weather information, namely `Temperature`, `Precipitation`, `Humidity` and `Wind`.
 - `Extended`: Extended weather information, namely `Pressure`, `Cloud`, `Air`.
 - `Compr.`: covers a detailed and wide-range, low-level information
 - `Trends`: trends (% change) data
 - `Index`: contains indexing/ranking mechanism
 
-## Additional paid sources
+## Additional Sources
+
+### Free
+
+- CO2 Emission https://figshare.com/articles/dataset/Global_near-real-time_CO2_emission/12200390
+- PM2.5 https://projects.iq.harvard.edu/covid-pm/home
+
+### Paid 
+
 - [The Weather Company](https://www.ibm.com/products/weather-company-data-packages)
 - [AccuWeather](https://enterprisesolutions.accuweather.com/current-historical-weather/historical-weather)
 - [OpenWeather](https://openweathermap.org/history)
