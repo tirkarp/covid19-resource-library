@@ -4,7 +4,6 @@
 - NY Times
 - OWID
 - WHO
-- [HGHI Hospital Capacity](https://globalepidemics.org/hospital-capacity/)
 - USA Facts
 - Corona Data Scraper
 - CDC
