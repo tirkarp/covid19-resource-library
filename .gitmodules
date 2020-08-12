@@ -25,3 +25,6 @@
 [submodule "testing/nytimes/dataset"]
 	path = testing/nytimes/dataset
 	url = https://github.com/nytimes/covid-19-data.git
+[submodule "testing/owid/dataset"]
+	path = testing/owid/dataset
+	url = https://github.com/owid/covid-19-data.git
