@@ -15,14 +15,9 @@ For more descriptions, click on the link to each source.
 | [Descartes Labs](descartes/) | Dataset of the distance a typical member of a given population moves in a day. | `Distance` | County, State | General | Aggregate | 03/01/2020 | - |
 | [Streetlight Data](streetlight/) | Transportation metrics (which right now only includes VMT) that identify community activities and travel patterns during COVID-19 period. | `Distance` | County, State | General | Aggregate | 03/01/2020 | 06/04/2020 |
 | [Place IQ](placeiq/) | Indices describing exposure on the basis of smartphone movements. | `Index` | County, State | General | Aggregate | 01/20/2020 | - |
-| [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways in the state of Washington from Jan 1 to Jun 1. | `Traffic` | Washington | General | Official | - | 06/01/2020 |
-| [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Traffic`, `Index` | Japan | General | Aggregate | - | 06/01/2020 |
-| [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Distance`, `Economic` | United States | Compr. | Official | - | 06/03/2020 |
-| [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | - | 05/03/2020 |
-
-- IOM Migration Data https://migrationdataportal.org/themes/iom-data-overview
 
 ## Field description
+
 - Compr-ness*: Comprehensiveness
 - `Official`: data officially reported by authorities
 - `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
@@ -30,6 +25,7 @@ For more descriptions, click on the link to each source.
 - `General`: data reported is not comprehensive and is meant for a high-level overview
 
 ## Tag description
+
 - `Trends`: trends (% change) data
 - `Index`: contains indexing/ranking mechanism
 - `Economic`: contains economic data, e.g. government spending, tax relief
@@ -37,17 +33,29 @@ For more descriptions, click on the link to each source.
 - `Traffic`: related to large-scale vehicular or pedestrian traffic flow, e.g. volume or patterns
 - `Distance`: related to the travel distance of the population
 
-## Additional sources pending response
-- Yelp (will add later)
+## Additional resources
+
+- [Stanford's crowdsourced NPI data](http://hci.st/socialdistancing-dataset)
+- [Mapbox's telemetry data for COVID research](https://blog.mapbox.com/support-for-covid-19-apps-497de40fee9c)
+- [UCSF's library of COVID data, categorized by types](https://guides.ucsf.edu/COVID19/data)
+
+## Additional sources
+
+Sources that have not yet been described, but whose data is already procured in this repository:
+
+| Source | Description | Tags | Granularity | Compr-ness* | Source Type | First Updated | Last Updated |
+|-|-|-|-|-|-|-|-|
+| [WSDOT](https://tracflow.wsdot.wa.gov/contourdata/brainscan) | Volume of traffic per hour along highways in the state of Washington from Jan 1 to Jun 1. | `Traffic` | Washington | General | Official | - | 06/01/2020 |
+| [Yahoo! Japan](https://ds.yahoo.co.jp/report/) | Index of the # of people visiting and leaving each prefecture in Japan each day and month in 2020 as compared to 2019. | `Traffic`, `Index` | Japan | General | Aggregate | - | 06/01/2020 |
+| [USDOT](https://datahub.transportation.gov/Research-and-Statistics/Monthly-Transportation-Statistics/crem-w557) | Full monthly transportation statistics across the federal government. | `Traffic`, `Distance`, `Economic` | United States | Compr. | Official | - | 06/03/2020 |
+| [Baidu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FAEZIO&version=16.1) | Percentage change in # of people entering and leaving a city in China. | `Traffic`, `Trends`, `Index` | China | General | Aggregate | - | 05/03/2020 |
+
+There remains sources we would like to add, but has not had the opportunity to do so:
+
+- Yelp
 - Unacast
 - Cuebiq
 - Streetlight Data (waiting for full transportation metrics)
 - INRIX
-- Camber Systems (pending Data Use Agreement)
 - University of Maryland's Maryland Transportation Institute
 - Keystone
-
-## Additional resources
-- [Stanford's crowdsourced NPI data](http://hci.st/socialdistancing-dataset)
-- [Mapbox's telemetry data for COVID research](https://blog.mapbox.com/support-for-covid-19-apps-497de40fee9c)
-- [UCSF's library of COVID data, categorized by types](https://guides.ucsf.edu/COVID19/data)
