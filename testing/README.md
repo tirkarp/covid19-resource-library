@@ -1,6 +1,22 @@
 # Testing
 
-- JHU
+This directory contains datasets related to COVID-19 testing and results, including positive cases, negative cases, fatality, testing rate.
+
+## Source Index
+
+For more descriptions, click on the link to each source.
+
+| Source | Description | Tags | Granularity | Compr-ness* | Source Type | First Updated | Last Updated |
+|-|-|-|-|-|-|-|-|
+| [John Hopkins](jhu/) | Centralized repository of cases around the world | `Confirmed`, `Deaths`, `Recovered` | City/County, State, Country, Worldwide | General | Aggregate | 01/22/2020 | - |
+
+## Field Description
+- Compr-ness*: Comprehensiveness
+- `Official`: data officially reported by authorities
+- `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
+
+## Additional Sources 
+
 - NY Times
 - OWID
 - WHO
