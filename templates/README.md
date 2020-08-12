@@ -6,9 +6,9 @@ and tediousness the limbs and outward flourishes, **you** will be brief.
 
 Yes, I'm quoting [Hamlet](https://myshakespeare.com/hamlet/act-2-scene-2-popup-note-index-item-brevity-the-soul-of-wit#toggle-menu). 
 
-And no, I don't mean irony. You **_will_** be brief and you **_must_** be brief.
+And no, I don't mean irony. You **_will_** be brief and you **_must_** be brief. If there's an essence in this document at all, this would be it.
 
-**This repository is geared toward researchers looking to explore the possible datasets to use**. It describes each dataset in detail, so researchers don't have to find them all on their own. The datasets will be those which the majority of the industry and academic community are using, that are known to be reliable.
+**This repository is geared toward researchers looking to explore possible datasets to use**. It describes each dataset in detail, so researchers don't have to find them all on their own.
 
 Think of it as buying a car. You'll need to study the specs carefully, maybe do a test drive before you decide to purchase it. If you have 100 cars in the market, ideally you'd want to study them all to decide which to buy.
 
