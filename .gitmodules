@@ -22,3 +22,6 @@
 [submodule "testing/jhu/dataset"]
 	path = testing/jhu/dataset
 	url = https://github.com/CSSEGISandData/COVID-19.git
+[submodule "testing/nytimes/dataset"]
+	path = testing/nytimes/dataset
+	url = https://github.com/nytimes/covid-19-data.git
