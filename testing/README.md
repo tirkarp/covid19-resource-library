@@ -19,6 +19,7 @@ For more descriptions, click on the link to each source.
 
 - NY Times
 - OWID
+- COVID Tracking Project
 - WHO
 - USA Facts
 - Corona Data Scraper
