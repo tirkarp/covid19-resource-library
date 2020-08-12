@@ -10,6 +10,7 @@ For more descriptions, click on the link to each source.
 |-|-|-|-|-|-|-|-|
 | [John Hopkins](jhu/) | Centralized repository of cases around the world | `Confirmed`, `Deaths`, `Recovered` | City/County, State, Country, Worldwide | General | Aggregate | 01/22/2020 | - |
 | [New York Times](nytimes/) | Cases, deaths, excess deaths, mask usage from official figures | `Confirmed`, `Deaths`, `Excess Deaths` | County, State, Country | General | Aggregate | 01/21/2020 | - |
+| [Our World in Data](owid/) | `Cases`, `Testing`, `Infra.`, `Medical Condition`, `Economic`, `Demographics` | Country | Compr. | Aggregate | 03/13/2020 | - |
 
 ## Field Description
 - Compr-ness*: Comprehensiveness
@@ -18,7 +19,6 @@ For more descriptions, click on the link to each source.
 
 ## Additional Sources 
 
-- OWID
 - COVID Tracking Project
 - WHO
 - USA Facts
