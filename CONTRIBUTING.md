@@ -15,6 +15,10 @@ When you are ready,
 2. create your _awesomeness_
 3. submit a pull request 
 
+To add a data source to this repository, create a folder with the name of the source followed by a `README.md` file inside that folder. 
+
+Add a `dataset/` folder if you wish to include datasets from the source. If the dataset is a GitHub repository, add it as a submodule by running `git submodule add <Git URL> dataset`.
+
 Expect reviews within a week of submission.
 
 We always welcome any contributions. Thanks for being a part of this repository!
