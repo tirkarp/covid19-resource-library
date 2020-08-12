@@ -31,7 +31,7 @@ base repository (top-level)
 
 #### `README` in top-level directory
 
-should be about the repository (i.e. COVID-19). It should tell you what the repository is about, how to use the it, what are some resources that may complement the resources in this repository, that may be useful.
+should be about the repository (i.e. COVID-19). It should tell you what the repository is about, how to use it, what are some resources that may complement what is in this repository, that may be useful.
 
 View the [template](top-level-readme-template.md) for top-level `README`.
 
