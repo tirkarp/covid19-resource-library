@@ -28,3 +28,6 @@
 [submodule "testing/owid/dataset"]
 	path = testing/owid/dataset
 	url = https://github.com/owid/covid-19-data.git
+[submodule "economic/opportunity-insights/dataset"]
+	path = economic/opportunity-insights/dataset
+	url = https://github.com/OpportunityInsights/EconomicTracker.git
