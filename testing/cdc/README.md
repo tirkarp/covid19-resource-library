@@ -67,6 +67,8 @@ Excess deaths are typically defined as the **difference between the observed num
 
 Read the official [methodology](https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm).
 
+Data is updated periodically, and is available back till _January 14th, 2020_.
+
 ### Structure
 
 See the [official documentation](https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm).
