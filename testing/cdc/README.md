@@ -1,4 +1,4 @@
-# Centers for Disease Control and Prevention (CDC)'s Vulnerability Data
+# Centers for Disease Control and Prevention (CDC)'s Deaths Data
 
 CDC centralizes reporting data from nearly every state and related government agencies to form official figures for deaths, vulnerability, and disparities. 
 
