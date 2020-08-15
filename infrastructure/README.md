@@ -10,6 +10,7 @@ For more descriptions, click on the link to each source.
 |-|-|-|-|-|-|-|-|
 | [CDC](cdc/) | Centralized reporting data on cases, testing, census, vulnerability, disparity from states and related government agencies | `Cases`, `Demographics`, `Surveillance`, `Capacity` | United States | General | Official | 02/01/2020 | - |
 | [FEMA](fema/) | Distribution of personal protective equipments (PPEs) to different states | `PPE` | State | General | Official | 07/19/2020 | 07/19/2020 |
+| [HHS](hhs/) | Estimated patient impact and hospital capacity | `Capacity` | State | General | Official | 03/23/2020 | 08/12/2020 |
 
 ## Field Description
 - Compr-ness*: Comprehensiveness
