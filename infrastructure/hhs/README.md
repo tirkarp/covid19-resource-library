@@ -45,6 +45,24 @@ HHS provides [state-aggregated data](https://healthdata.gov/dataset/covid-19-est
 
 Projection is divided into three different files (in the [`dataset/`](dataset/):
 
-- [**`inpatient-beds.csv`**](dataset/inpatient-beds.csv): timeseries number and percentage of inpatient beds occupied in each state
-- [**`covid19-beds.csv`**](dataset/covid19-beds.csv): number and percentage of inpatient beds occupied by COVID-19 patients
-- [**`icu-beds.csv`**](dataset/icu-beds.csv): number and percentage of ICU beds occupied in each state
+- [**`inpatient-beds.csv`**](dataset/estimated/inpatient-beds.csv): timeseries number and percentage of inpatient beds occupied in each state
+- [**`covid19-beds.csv`**](dataset/estimated/covid19-beds.csv): number and percentage of inpatient beds occupied by COVID-19 patients
+- [**`icu-beds.csv`**](dataset/estimated/icu-beds.csv): number and percentage of ICU beds occupied in each state
+
+For field descriptions, please see the [official documentation](https://healthdata.gov/dataset/covid-19-estimated-patient-impact-and-hospital-capacity-state).
+
+## Attribution
+
+The datasets are attributed under the [Open Data Commons (ODbL)license](https://opendatacommons.org/licenses/odbl/1-0/).
+
+You are free:
+
+- **to share**: to copy, distribute and use the database
+- **to create**: to produce works from the database
+- **to adapt**: to modify, transform and build upon the database
+
+As long as you:
+
+- **attribute**: you must attribute any public use of the database, or works produced from the database, in the manner specified in the ODbL. For any use or redistribution of the database, or works produced from it, you must make clear to others the license of the database and keep intact any notices on the original database
+- **share-alike**: if you publicly use any adapted version of this database, or works produced from an adapted database, you must also offer that adapted database under the [_ODbL_](https://opendatacommons.org/licenses/odbl/1-0/)
+- **keep open**: if you redistribute the database, or an adapted version of it, then you may use technological measures that restrict the work (such as DRM) as long as you also redistribute a version without such measures
