@@ -7,7 +7,7 @@ git clone --recursive https://github.com/tirkarp/covid19-resource-library.git
 
 To pull latest changes from all submodules, run:
 ```
-git submodule update --remote --merge
+git pull --recurse-submodules
 ```
 
 ## Resources
