@@ -16,7 +16,7 @@ More datasets related to COVID-19 from ECDC can be found on the [ECDC website](h
 
 ## Accessing Data
 
-You can access ECDC datasets by visit the [ECDC website](https://www.ecdc.europa.eu/en/covid-19/data). Alternatively, look into the [`dataset/`](dataset/) directory.
+You can access ECDC datasets by visit the [ECDC website](https://www.ecdc.europa.eu/en/covid-19/data). Alternatively, look into the [`dataset/`](dataset/) directory. Last updated _August 16th, 2020_.
 
 ## [Geographic Distribution of Daily Cases](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide)
 
