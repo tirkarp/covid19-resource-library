@@ -26,6 +26,7 @@ For more descriptions, click on the link to each source.
 Sources we would like to add, but lack the resources to do so. Contributions are welcome.
 
 - WHO
+- [Corona Data Scraper](https://coronadatascraper.com/)
 - [USA Facts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)
 - Covid Care Map
 - testandtrace.com
