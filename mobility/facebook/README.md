@@ -6,8 +6,6 @@ Purdue has an existing data agreement with Facebook Data for Good, signed by [Ke
 
 Alternatively, we have downloaded some relevant datasets for our own use, available in the [`dataset`](dataset) directory or on Box.
 
-
-
 ## Datasets
 
 Among the datasets we have downloaded, we found three that provide data related to human mobility:
@@ -21,15 +19,13 @@ More datasets can be found on [Facebook Data for Good](https://dataforgood.fb.co
 
 **Note**: Facebook geospatial data is built on the smallest available tile size of the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system#ground-resolution-and-map-scale), and [Pittney Bowe's World Boundaries](https://dataguide.precisely.com/world-boundaries-7LP-44WA.html?utm_medium=Redirect-PB&utm_source=Direct-Traffic) for administrative regions. The fields in the datasets will be defined according to these two systems.
 
-
-
-## How to access data
+## Accessing Data
 
 Visit [Facebook Data for Good](https://dataforgood.fb.com/docs/covid19)'s website for publicly available datasets, and reach out to [Ken Sandel](mailto:sandel@purdue.edu) to request access to non-publicly available datasets.
 
 Alternatively, please explore the `csv` files we have downloaded in the [`dataset`](dataset/) folder or on Box. (~103 MB)
 
------
+---
 
 ## Travel Pattern
 
@@ -54,8 +50,6 @@ Data is released daily, and is available back till _February 28th, 2020_.
 | `longitude2` | Longitude of the center point of the destination polygon | string | -78.816666666667 |
 | `metric_value` | Count of the unique number of Facebook users with location services enabled, that traveled from the origin to the destination during the `ds` time period | integer | 1995 |
 | `metric_name` | Description of the metric value for visualization purposes, in this case always `travel counts` | string | travel counts |
-
-
 
 ## Movement Range Trends
 
@@ -101,7 +95,7 @@ Each file may contain some of the following fields:
 [FIPS code]: https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt
 [ISO-3 code]:https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#:~:text=ISO%203166%2D1%20alpha%2D3%20codes%20are%20three%2Dletter,special%20areas%20of%20geographical%20interest
 
------
+---
 
 ## Disease Prevention Maps
 
@@ -122,7 +116,6 @@ Each map (at a specific data at a specific time) will be its own `.csv` file. Yo
 [Unofficial quick start guide](https://github.com/syjia/fbcolocation) on how to understand Disease Prevention Maps data is available. (cr. Shenyue Jia from Chapman University)
 
 Read the [paper](https://research.fb.com/wp-content/uploads/2019/04/iscram19_camera_ready.pdf) underlying this Disease Prevention Maps.
-
 
 ### Movement Maps
 
@@ -167,7 +160,6 @@ Each movement map may contain some of the following fields:
 | `end_quadkey` | Unique identification of the ending tile at a particular level of detail (_quad key_ according to the [Bing Maps Tile System](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system#tile-coordinates-and-quadkeys)) | string | 320101121120 |
 
 **Note**: any missing value is represented with a `\N`.
-
 
 ### Population Maps
 
@@ -240,9 +232,7 @@ Methodology on how Colocation Maps are calculated can be found on the [GeoInsigh
 | `country` | Name of the country in which the data is collected | string | USA |
 | `ds` | Date which the data was collected, in the form `M/D/YYYY` | string | 4/28/2020 |
 
-
------
-
+---
 
 #### Notes about `n_baseline` and `n_crisis`
 
@@ -262,13 +252,13 @@ They also described what `n_crisis` actually represents:
 
 Read more in the [Slack thread][3].
 
------
+---
 
 ## Social Connectedness Index
 
 Social Connectedness Index information will be updated soon.
 
------
+---
 
 ## Attribution
 

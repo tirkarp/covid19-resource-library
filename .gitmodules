@@ -19,3 +19,15 @@
 [submodule "vulnerability/nychealth/dataset"]
 	path = vulnerability/nychealth/dataset
 	url = https://github.com/nychealth/coronavirus-data.git
+[submodule "testing/jhu/dataset"]
+	path = testing/jhu/dataset
+	url = https://github.com/CSSEGISandData/COVID-19.git
+[submodule "testing/nytimes/dataset"]
+	path = testing/nytimes/dataset
+	url = https://github.com/nytimes/covid-19-data.git
+[submodule "testing/owid/dataset"]
+	path = testing/owid/dataset
+	url = https://github.com/owid/covid-19-data.git
+[submodule "economic/opportunity-insights/dataset"]
+	path = economic/opportunity-insights/dataset
+	url = https://github.com/OpportunityInsights/EconomicTracker.git
