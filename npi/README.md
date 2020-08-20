@@ -1,4 +1,9 @@
 # Non-pharmaceutical Interventions and Mobility Infrastructure
+
+[Non-pharmaceutical Interventions (NPIs)](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) are measures apart from healthcare interventions like getting vaccinated or taking medicine, that helps slow the spread of illnesses. 
+
+This directory contains datasets related to NPIs implemented by authorities at multiple levels, as well as infrastructure that is put in place to help facilitate or slow down the population mobility.
+
 ## Source Index
 This directory contains dataset from the sources below. For more descriptions, click on the link to each source.
 
@@ -9,8 +14,6 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [University of Washington](https://github.com/COVID19StatePolicy/SocialDistancing) | State-level responses to contain COVID-19 spread in the US. | `NPI` | State | Compr. | Official | - |
 | [UC Berkeley](https://covidvis.berkeley.edu/) | Dataset for visualizing the impact of NPIs, more comprehensive than Keystone's or Stanford's. | `NPI` | County, State, Country | Compr. | Aggregate | - |
 | [IOM Point-of-Entry Restriction](https://data.humdata.org/dataset/country-point-of-entry-mobility-restriction-covid-19-iom-dtm) | Dataset for restrictions on point-of-entry at a country level. | `NPI`, `Infra.` | City, Country | Compr. | Aggregate | 05/28/2020 |
-
-- CoronaNet https://github.com/saudiwin/corona_tscs
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
@@ -27,3 +30,9 @@ This directory contains dataset from the sources below. For more descriptions, c
 - `Cases`: contains information about positive cases and deaths
 - `Economic`: contains economic data, e.g. government spending, tax relief
 - `Infra.`: contains information about infrastructure that eases or restricts mobility
+
+## Additional Sources
+
+Sources we would like to add, but lack the resources to do so. Contributions are welcome.
+
+- [CoronaNet](https://github.com/saudiwin/corona_tscs)
