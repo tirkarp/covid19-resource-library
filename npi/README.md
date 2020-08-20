@@ -1,6 +1,6 @@
 # Non-pharmaceutical Interventions and Mobility Infrastructure
 
-[Non-pharmaceutical Interventions (NPIs)](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) are measures apart from healthcare interventions like getting vaccinated or taking medicine, that helps slow the spread of illnesses. 
+[Non-pharmaceutical Interventions (NPIs)](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) are policy measures, **apart from** healthcare interventions like getting vaccinated or taking medicine, that helps slow the spread of illnesses. 
 
 This directory contains datasets related to NPIs implemented by authorities at multiple levels, as well as infrastructure that is put in place to help facilitate or slow down the population mobility.
 
