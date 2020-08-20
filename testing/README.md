@@ -13,6 +13,7 @@ For more descriptions, click on the link to each source.
 | [Our World in Data](owid/) | Detailed case counts and metadata associated with each country | `Cases`, `Testing`, `Infra.`, `Medical`, `Economic`, `Demographics` | Country | Compr. | Aggregate | 03/13/2020 | - |
 | [COVID Tracking Project](covid-tracking-project/) | Detailed case counts compiled from official sources in each state | `Cases`, `Testing`, `Infra.`, `Demographics` | State | Compr. | Official | 01/22/2020 | - |
 | [CDC](cdc/) | Weekly deaths and excess deaths | `Deaths`, `Excess` | State | Compr. | Official | 01/14/2020 | 08/01/2020 |
+| [European CDC](ecdc/) | Daily case counts, testing volumes and hospital admission rates | `Cases`, `Testing`, `Admission` | Country | General | Official | 01/01/2020 | 08/16/2020 |
 
 
 ## Field Description
