@@ -8,7 +8,7 @@ This directory contains datasets related to NPIs implemented by authorities at m
 This directory contains dataset from the sources below. For more descriptions, click on the link to each source.
 
 | Source | Description | Tags | Granularity | Compr-ness* | Source Type | First Updated | Last Updated |
-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|-|-| 
 | [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level. | `NPI`, `Capacity` | County, State, Country | General | Aggregate | - | - |
 | [Oxford](https://github.com/OxCGRT/covid-policy-tracker) | Comprehensive dataset on the record of government policies enacted to limit COVID-19 spread at a country level, indexed in terms of overall response, containment measures, stringency and economic support. | `NPI`, `Index` | Country | Compr. | Official | - | - |
 | [University of Washington](https://github.com/COVID19StatePolicy/SocialDistancing) | State-level responses to contain COVID-19 spread in the US. | `NPI` | State | Compr. | Official | - | - |
