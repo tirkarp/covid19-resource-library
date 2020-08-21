@@ -1,31 +1,47 @@
 # Jataware COVID-19 Open Data
-This submodule contains data on nonpharmaceutical interventionst taken at a city, county and country level, as well as data on the healthcare capacity at a state and country level.
 
-## NPI
+[Jataware](https://www.jataware.com/) is a engineering company that provides consulting, software and data solutions for commercial and government organizations. It has curated datasets for response efforts by different communities to mitigate the spread of COVID-19.
 
-### Schema
-`city`, `state`, `publish_date`, `url`, `title`, `category`, `population`, `lat`, `lng`
+## Datasets
 
-The taxonomy below represent the possible values for the variable `category`.
+We found two datasets that contain data on:
 
-### Taxonomy
-* `state_of_emergency`: the geography has implemented a state of emergency
-* `shelter_in_place`: the geography has implemented a shelter in place or stay home order
-* `lockdown`: the geography has implemented a curfew or lockdown
-* `quarantine`: the geography has insituted some type of quarantine measure
-* `social_distance`: the geography has required social distancing measures
-* `disaster_declaration`: the geography has issued a disaster declaration
-* `school_business_closure`: the geography has ordered schools or businesses to close
-* `travel`: the geography has implemented travel restrictions
+- [**non-pharmaceutical interventions**](#non-pharmaceutical-interventions) at a city, county and country level
+- [**healthcare capacity**](#healthcare-capacity) at a state and country level
+
+**Note**: these datasets are automatically curated and not vetted by humans. They should not be relied on as accurate information.
+
+## Accessing Data 
+
+You can access Jataware's COVID-19 data at their [GitHub repository](https://github.com/jataware/covid-19-data), or in our [`dataset/`](dataset/) directory.
+
+## Non-pharmaceutical Interventions
+
+Jataware pulls NPI information from official releases and news articles online, then categorize each intervention into different types. It contains information such as:
+
+- city, state, latitude and longitude of the NPI jurisdiction
+- category of the intervention (shelter in place, social distance, etc.)
+- effective dates
+- title and source of the article
+
+### Structure
+
+Please visit Jataware's [official documentation](https://github.com/jataware/covid-19-data#npi-data).
 
 ## Healthcare Capacity
 
-### Schema
-* `state`
-* `publush_date`
-* `url`
-* `title`
-* `tests`: number of tests and/or test-kits
-* `ventilators`: number of ventilators or respirators
-* `beds`: number of hospital beds and/or ICU beds
-* `ppe`: number of n95 masks, surgical masks, PPE
+Jataware also pulls data from open source news articles to form a dataset on healthcare capacity. It contains information such as:
+
+- number of test kits available
+- number of ventilators or respirators available
+- number of hospital or ICU beds available
+- number of [personal protective equipment (PPEs)](https://www.osha.gov/personal-protective-equipment) available
+- title and souce of the article
+
+### Structure
+
+Please visit Jataware's [official documentation](https://github.com/jataware/covid-19-data#healthcare-capacity-data).
+
+## Attribution
+
+No attribution information is available on the [Jataware repository](https://github.com/jataware/covid-19-data).
