@@ -9,8 +9,8 @@ This directory contains dataset from the sources below. For more descriptions, c
 
 | Source | Description | Tags | Granularity | Compr-ness* | Source Type | First Updated | Last Updated |
 |-|-|-|-|-|-|-|-| 
-| [Jataware](https://github.com/jataware/covid-19-data) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level. | `NPI`, `Capacity` | County, State, Country | General | Aggregate | - | - |
-| [Oxford](https://github.com/OxCGRT/covid-policy-tracker) | Comprehensive dataset on the record of government policies enacted to limit COVID-19 spread at a country level, indexed in terms of overall response, containment measures, stringency and economic support. | `NPI`, `Index` | Country | Compr. | Official | - | - |
+| [Jataware](jataware/) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level. | `NPI`, `Capacity` | County, State, Country | General | Aggregate | - | - |
+| [Oxford](oxford/) | Comprehensive dataset on the record of government policies enacted to limit COVID-19 spread at a country level, indexed in terms of overall response, containment measures, stringency and economic support. | `NPI`, `Index` | Country | Compr. | Official | 01/01/2020 | - |
 
 ## Metadata Descriptions
 - Compr-ness*: Comprehensiveness
