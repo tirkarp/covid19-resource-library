@@ -32,6 +32,8 @@ This directory contains dataset from the sources below. For more descriptions, c
 
 Sources below have been included in this repository, but has not yet been described. Contributions are welcome.
 
+| Source | Description | Tags | Granularity | Compr-ness* | Source Type | First Updated | Last Updated |
+|-|-|-|-|-|-|-|-| 
 | [University of Washington](https://github.com/COVID19StatePolicy/SocialDistancing) | State-level responses to contain COVID-19 spread in the US. | `NPI` | State | Compr. | Official | - | - |
 | [UC Berkeley](https://covidvis.berkeley.edu/) | Dataset for visualizing the impact of NPIs, more comprehensive than Keystone's or Stanford's. | `NPI` | County, State, Country | Compr. | Aggregate | - | - |
 | [IOM Point-of-Entry Restriction](https://data.humdata.org/dataset/country-point-of-entry-mobility-restriction-covid-19-iom-dtm) | Dataset for restrictions on point-of-entry at a country level. | `NPI`, `Infra.` | City, Country | Compr. | Aggregate | - | 05/28/2020 |
