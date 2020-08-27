@@ -12,14 +12,8 @@ This directory contains dataset from the sources below. For more descriptions, c
 | [Jataware](jataware/) | Machine-curated data on NPI and healthcare capacity at city, county, state and country level. | `NPI`, `Capacity` | County, State, Country | General | Aggregate | - | - |
 | [Oxford](oxford/) | Comprehensive dataset on the record of government policies enacted to limit COVID-19 spread at a country level, indexed in terms of overall response, containment measures, stringency and economic support. | `NPI`, `Index` | Country | Compr. | Official | 01/01/2020 | - |
 
-## Metadata Descriptions
-- Compr-ness*: Comprehensiveness
-- `Official`: data officially reported by authorities
-- `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
-- `Comprehensive`: data reported is comprehensive and contains low-level details
-- `General`: data reported is not comprehensive and is meant for a high-level overview
+## Tag Description
 
-## Tag Descriptions
 - `Trends`: trends (% change) data
 - `Index`: contains indexing/ranking mechanism
 - `NPI`: related to [non-pharmaceutical interventions](https://www.cdc.gov/nonpharmaceutical-interventions/index.html) implemented
@@ -27,6 +21,14 @@ This directory contains dataset from the sources below. For more descriptions, c
 - `Cases`: contains information about positive cases and deaths
 - `Economic`: contains economic data, e.g. government spending, tax relief
 - `Infra.`: contains information about infrastructure that eases or restricts mobility
+
+## Field Description
+
+- Compr-ness*: Comprehensiveness
+- `Official`: data officially reported by authorities
+- `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
+- `Comprehensive`: data reported is comprehensive and contains low-level details
+- `General`: data reported is not comprehensive and is meant for a high-level overview
 
 ## Additional Sources
 
