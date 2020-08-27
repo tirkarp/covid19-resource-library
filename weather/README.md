@@ -9,14 +9,6 @@ For more descriptions, click on the link to each source.
 | Source | Description | Tags | Location | Frequency | Source Type | First Updated | Last Updated |
 |-|-|-|-|-|-|-|-|
 | [GHCN](ghcn/) | Daily summary of temperature, precipitation, wind, and general climate data worldwide. | `Basic`, `Compr.` | Worldwide | Daily | Official | 01/01/1849 | - |
-| [ClimaCell](climacell/) | API for minute-by-minute advanced weather information (paid addon for longer historical data)| `Basic`, `Extended`, `Hazard`, `API` |  Worldwide | Every minute | Aggregate | 4 weeks back | - |
-| [Aeris Weather](aeris/) | API for hourly advanced weather information complete with geographical weather mapping (paid addon for longer historical data) | `Basic`, `Extended`, `Hazard`, `Water` | Worldwide | Hourly | Aggregate | 1 month back | - | - |
-| [Weather Source](weathersource/) | API for long-range hyperlocal weather and climatology data | `Basic`, `Extended`, `API` | Worldwide | Hourly | Aggregate | 2000 | - |
-| [NCEI](ncei/) | API for comprehensive official weather information from the NOAA | `Basic`, `Extended`, `Compr.`, `API` | Worldwide | Vary | Official | 01/01/1849 | - |
-
-## Field Description
-- `Official`: data officially reported by authorities
-- `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
 
 ## Tag Description
 - `Basic`: Basic weather information, namely `Temperature`, `Precipitation`, `Humidity` and `Wind`.
@@ -25,7 +17,20 @@ For more descriptions, click on the link to each source.
 - `Trends`: trends (% change) data
 - `Index`: contains indexing/ranking mechanism
 
+## Field Description
+- `Official`: data officially reported by authorities
+- `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
+
 ## Additional Sources
+
+Sources below have not been included in this repository, but we would love if someone can contribute their descriptions.
+
+| Source | Description | Tags | Location | Frequency | Source Type | First Updated | Last Updated |
+|-|-|-|-|-|-|-|-|
+| [ClimaCell](climacell/) | API for minute-by-minute advanced weather information (paid addon for longer historical data)| `Basic`, `Extended`, `Hazard`, `API` |  Worldwide | Every minute | Aggregate | 4 weeks back | - |
+| [Aeris Weather](aeris/) | API for hourly advanced weather information complete with geographical weather mapping (paid addon for longer historical data) | `Basic`, `Extended`, `Hazard`, `Water` | Worldwide | Hourly | Aggregate | 1 month back | - | - |
+| [Weather Source](weathersource/) | API for long-range hyperlocal weather and climatology data | `Basic`, `Extended`, `API` | Worldwide | Hourly | Aggregate | 2000 | - |
+| [NCEI](ncei/) | API for comprehensive official weather information from the NOAA | `Basic`, `Extended`, `Compr.`, `API` | Worldwide | Vary | Official | 01/01/1849 | - |
 
 ### Free
 
