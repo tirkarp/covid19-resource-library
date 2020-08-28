@@ -15,16 +15,9 @@ For more descriptions, click on the link to each source.
 | [Descartes Labs](descartes/) | Dataset of the distance a typical member of a given population moves in a day. | `Distance` | County, State | General | Aggregate | 03/01/2020 | - |
 | [Streetlight Data](streetlight/) | Transportation metrics (which right now only includes VMT) that identify community activities and travel patterns during COVID-19 period. | `Distance` | County, State | General | Aggregate | 03/01/2020 | 06/04/2020 |
 | [Place IQ](placeiq/) | Indices describing exposure on the basis of smartphone movements. | `Index` | County, State | General | Aggregate | 01/20/2020 | - |
+| [Camber Systems](camber/) | Dataset on smartphone movements and social distancing | `Traffic` | Tract, County | General | Aggregate | - | 08/01/2020 |
 
-## Field description
-
-- Compr-ness*: Comprehensiveness
-- `Official`: data officially reported by authorities
-- `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
-- `Comprehensive`: data reported is comprehensive and contains low-level details
-- `General`: data reported is not comprehensive and is meant for a high-level overview
-
-## Tag description
+## Tag Description
 
 - `Trends`: trends (% change) data
 - `Index`: contains indexing/ranking mechanism
@@ -33,13 +26,22 @@ For more descriptions, click on the link to each source.
 - `Traffic`: related to large-scale vehicular or pedestrian traffic flow, e.g. volume or patterns
 - `Distance`: related to the travel distance of the population
 
-## Additional resources
+## Field Description
+
+- Compr-ness*: Comprehensiveness
+- `Official`: data officially reported by authorities
+- `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
+- `Comprehensive`: data reported is comprehensive and contains low-level details
+- `General`: data reported is not comprehensive and is meant for a high-level overview
+- Tract: [Census track](https://en.wikipedia.org/wiki/Census_tract)
+
+## Additional Resources
 
 - [Stanford's crowdsourced NPI data](http://hci.st/socialdistancing-dataset)
 - [Mapbox's telemetry data for COVID research](https://blog.mapbox.com/support-for-covid-19-apps-497de40fee9c)
 - [UCSF's library of COVID data, categorized by types](https://guides.ucsf.edu/COVID19/data)
 
-## Additional sources
+## Additional Sources
 
 Sources that have not yet been described, but whose data is already procured in this repository:
 
