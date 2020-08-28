@@ -11,7 +11,13 @@ For more descriptions, click on the link to each source.
 | [FEMA](fema/) | Distribution of personal protective equipments (PPEs) to different states | `PPE` | State | General | Official | 07/19/2020 | 07/19/2020 |
 | [HHS](hhs/) | Estimated patient impact and hospital capacity | `Capacity` | State | General | Official | 03/23/2020 | 08/12/2020 |
 
+## Tag Description
+
+- `PPE`: data related to [personal protective equipments (PPEs)](https://www.osha.gov/personal-protective-equipment)
+- `Capacity`: data related to hospital utilization and capacity
+
 ## Field Description
+
 - Compr-ness*: Comprehensiveness
 - `Official`: data officially reported by authorities
 - `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
