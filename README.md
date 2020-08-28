@@ -1,4 +1,20 @@
-# COVID-19 Datasets
+# COVID-19 Data Resource Library
+
+This repository is developed to **provide an overview of different COVID-19 datasets** available to researchers. It gives a quick run-through of what datasets are available in different areas, what each dataset contains, how to access each dataset, what the structure is, along with information on how to cite it if you ever decide to use the dataset. 
+
+This repository **does not host the actual datasets**, though the minority of the sources presented here will contain their respective actual datasets.
+
+## Usage
+
+COVID-19 datasets presented here are divided up into different categories. Each category is further divided up into different data sources who provide one or more datasets in the same category.
+
+Each folder in this directory represents the categories available. 
+
+**To get started, click on the category you wish to explore.** Look at the `README` to see a high-level overview of datasets in the category, or click on each source for more information about the datasets.
+
+This repository is by no means complete, nor does it contain the most accurate and up-to-date information. If you see any errors, missing information, areas of improvement, or have additional data sources to contribute, please do not hesitate to [**add your contribution**](#contributions). We require some amount of community involvement to keep this resource library regularly maintained and updated.
+
+### Cloning and Updating
 
 Run the following command to clone this repository
 ```
