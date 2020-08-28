@@ -15,8 +15,18 @@ For more descriptions, click on the link to each source.
 | [CDC](cdc/) | Weekly deaths and excess deaths | `Deaths`, `Excess` | State | Compr. | Official | 01/14/2020 | 08/01/2020 |
 | [European CDC](ecdc/) | Daily case counts, testing volumes and hospital admission rates | `Cases`, `Testing`, `Admission` | Country | General | Official | 01/01/2020 | 08/16/2020 |
 
+## Tag Description
+
+- `Cases`: data about case counts and death counts
+- `Excess`: data related to excess deaths
+- `Testing`: data related to testing results, capacity, testing rate, positivity rate, etc.
+- `Medical`: data related to underlying medical conditions, or medical conditions upon death
+- `Infra.`: data related to the facilities and infrastructure available, or utilized, for testing
+- `Economic`: data related to economic conditions of test takers, patients, or in each testing jurisdiction
+- `Demographics`: data related to demographics of test takers and petients, including race, age, healthcare behavior
 
 ## Field Description
+
 - Compr-ness*: Comprehensiveness
 - `Official`: data officially reported by authorities
 - `Aggregate`: data curated from various sources, which may not have been officially reported by authorities
