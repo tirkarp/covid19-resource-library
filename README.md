@@ -1,6 +1,6 @@
 # COVID-19 Data Resource Library
 
-This repository is developed to **provide an overview of different COVID-19 datasets** available to researchers. It gives a quick run-through of what datasets are available in different areas, what each dataset contains, how to access each dataset, what the structure is, along with information on how to cite it if you ever decide to use the dataset. 
+This repository **provides an overview of different COVID-19 datasets** available to researchers. It gives a quick run-through of what datasets are available in different areas, what each dataset contains, how to access each dataset, what the structure is, along with information on how to cite it if you ever decide to use the dataset. 
 
 This repository **does not host the actual datasets**, though the minority of the sources presented here will contain their respective actual datasets.
 
